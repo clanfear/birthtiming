@@ -1,0 +1,105 @@
+---
+title: "A Dynamic Intrafamily Model of Child Behavior Problems and Birth Timing"
+author:
+  - Charles C. Lanfear
+  - Ross L. Matsueda
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+    bookdown::html_document2:
+      fig_caption: yes
+      reference_docx: "../templates/template.docx" # Insert path for the DOCX file
+bibliography: references.bib
+csl: "../templates/american-sociological-association.csl" # Insert path for the bib-style
+abstract: |
+  Text of abstract
+keywords: |
+  keyword 1; keyword 2; keyword 3
+highlights: |
+  These are the highlights. 
+---
+
+
+<!-- This is the format for text comments that will be ignored during renderings. Do not put R code in these comments because it will not be ignored. -->
+
+```{r, setup, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  echo = FALSE,
+  comment = "#>",
+  fig.path = "../figures/"
+)
+
+# library(birthtiming) # Or use devtools::load_all('.', quiet = T) if your code is in script files, rather than as functions in the `/R` diretory
+```
+
+# Introduction
+
+Family conditions and parent characteristics are important determinants of child behavior problems which may be precursors to adult behavior problems and life-course instability [@caspi_moving_1987]. In the past researchers have found it difficult to disentangle teen mothering from parent and mother characteristics associated with teen parenting and child behavior problems, such as poverty and low education. @hao_family_2006 this problem using sibling fixed-effects models to remove all effects of unobserved time-invariant family characteristics on behavior problems. They found that children born to teen mothers were more likely to exhibit behavior problems in middle childhood independent of measured child characteristics and at-birth conditions of the mother. @phillips_sibship_1999 proposed earlier, however, that we “[s]uppose… that parents are more likely to have a second child if their first child is joyful. If this were the case, temperament differences between siblings would be correlated with differences in the number of siblings they ended up having.” Similarly, behavior problems of a child may impact the decision when to have a second child, resulting in systematic variation in the length of intervals between births. If this occurs, it would introduce bias into estimates of the effect of mother’s age at birth on child behavior problems found in sibling models such as that used by @hao_family_2006. To address this, we adopt the approach of @rosenzweig_sisters_1995 by augmenting the standard sibling model to permit correlation between the disturbance term for the behavior of the first child and the mother’s age at birth of the second child. This produces a model equivalent to an instrumental variables estimator for the relationship between differences in maternal age at birth and behavior problems using maternal age at first birth as an instrument (for derivation, see @rosenzweig_sisters_1995). This sibling fixed effects instrumental variable model can be used to test for—and correct bias introduced by—the dynamic relationship between child outcomes and subsequent fertility decisions.
+
+Before describing our method, we briefly review the literature on the relationships between mother’s age at birth, early childhood behavior problems, and important covariates related to both. Then we describe our sibling fixed effects instrumental variable model and interpret our results. Preliminary estimates from this model indicate a negative relationship between mother’s age at birth and early childhood behavior problems remains while controlling for effects on birth intervals. Additionally, results indicate the relationship between first child behavior problems in infancy and length of first birth interval is negative; on average a second birth occurs earlier when the first child exhibits greater difficulty in infancy.
+
+
+# Background
+
+## Infant Behavior Problems
+
+While @hao_family_2006 considered behavior problems of children between 6 and 14 years-old, we focus on infant or early childhood behavior problems which occur between birth and 12 months of age. This is necessary because we are interested in behavior problems of the first child occurring prior to fertility decisions regarding a second birth which may occur soon after the first birth. With regard to the prior study, it is reasonable to assume that if early childhood behavior problems influence birth timing, then later behavior problems may exert similar effects given sufficiently long birth intervals. Behavior problems in infancy, such as persistent crying, difficulty feeding, and interrupted sleep, have been found to predict subsequent behavior problems [@caspi_moving_1987; @wake_prevalence_2006] and cognitive deficits [@rao_long_2004]. Additionally, these behaviors may compromise the development of normal parent-child relationships and attachment [@papousek_persistent_1998; @raiha_excessively_2002], contribute to decreased parental mental health and confidence in parenting capabilities [@akman_mothers_2006; @beebe_association_1993], and elevate risks of physical abuse of the child [@carbaugh_understanding_2004; @talvik_inga_shaken_2008]. Beyond any effect on fertility decision-making, infant behavior problems are clearly consequential for both the immediate and long term wellbeing of parents and children. 
+
+## Mother’s Age and Infant Behavior Problems
+
+While @hao_family_2006 find that the relationship between teen childbearing and child behavior problems is largely spurious due to the association between the former and disadvantages such as exposure to poverty and low maternal education, an association remained for some behaviors; all estimates of these effects, however, could be biased due to reciprocal relationships with birth timing. Other authors have similarly found little evidence for a relationship between teen childbearing and child cognitive development—which is associated with behavior problems—net of parental background characteristics [@geronimus_does_1994]. @kalmijn_late_2005, however, found modest linear and positive influences of maternal age on children’s schooling, which suggests there may be too much focus on teen childbearing compared to maternal age at birth in general, a broader measure that we use in this study. More evidence exists for the direct relationship between teen childbearing and child behavior problems than cognitive and socioeconomic predictors of poor behavior, indicating behavior problems may be a unique negative outcome of young parenting [@levine_judith_a._academic_2004]. The mechanism behind this relationship, if it exists, has not been established, but some effect of teenage births on child behavior may be the result of a lack of maturity or preparation for assuming the role of motherhood [@furstenberg_adolescent_1987]. 
+
+## Other Covariates of Infant Behavior Problems
+
+While our model should produce accurate estimates of the effects of maternal age at birth on early child behavior problems absent controls, we include a number of characteristics related to infant behavior to examine their associations independent of mother’s age. Mother’s education at birth is consistently negatively associated with child and infant behavior problems [@canivet_infantile_2005; @crowcroft_social_1997; @hao_family_2006]. Mother’s smoking and drinking during pregnancy have been implicated in child behavior problems from infancy through middle childhood [@gaysina_maternal_2013] though @hao_family_2006 found no significant effect in middle-childhood; this may however operate through current child health status or birth-weight or premature birth which impact child behavior problems [@schmid_g_prospective_2010; @sondergaard_fetal_2000] as well as worse education and labor market outcomes later in life [@conley_is_2000; @oreopoulos_short-_2008]. To a substantial degree low birth weight appears to be inherited and thus the intergenerational component may be eliminated by family fixed effects [@conley_is_2000], therefore any association between birth weight and infant behavior problems in this study should be less biased by parental biological contributions. Child sex, birth order, and the presence of siblings are also known to impact behavior problems through differential treatment [@ernst_birth_2012], and the correlation between birth order and mother’s age may attenuate the effects of maternal age at birth in studies that do not disentangle these variables [@kalmijn_late_2005]. Mothers have also been found to report reduced levels of crying for children after the first [@canivet_infantile_2005; @crowcroft_social_1997]. Lastly, studies have also found associations between poverty and child behavior problems [@hao_family_2006] including in early childhood [@schmid_g_prospective_2010] though acute economic stress may not be related to infant crying [@canivet_infantile_2005]. Accordingly, we include measures of the above child-specific characteristics of the births, mothers, and family background to evaluate their effects net of time-invariant characteristics and maternal age at birth.
+
+## Birth Intervals
+
+While our mother fixed effects eliminate bias from all unobserved time-invariant characteristics of mothers and families, a number of time-varying characteristics of mothers, families, and children—beyond behavior problems—may impact birth intervals. For instance, young first-time mothers are more likely to experience a shorter first birth interval [@bumpass_age_1978; @kalmuss_subsequent_1994; @mott_pace_1986]. Marriage, whether initiated before the first birth or not, or remarriage tend to accelerate a second birth [@griffith_childbearing_1985], while separation and divorce lengthen birth intervals [@thornton_marital_1978]. Increases in educational attainment by mothers after a first birth has been found to delay subsequent births [@kalmuss_subsequent_1994]. The length of birth intervals may also have important consequences, as short birth spacing is associated with numerous health problems for both mothers and their children [@condeagudelo_agustin_effects_2012], including preterm delivery and low birth weight which may in turn be associated with child behavior problems [@schmid_g_prospective_2010; @sondergaard_fetal_2000]. Repeat childbearing at early ages also negatively impacts the ability of mothers to develop human capital and escape poverty [@furstenberg_adolescent_1987]. Through these relationships, an association between early births, child behavior problems, and subsequent birth timing could contribute to maternal and child disadvantage over the life course.
+
+
+
+
+
+
+
+
+
+Note: The below material is pre-existing and does not account for the covariates noted in the new introduction above, but I included it in case you are interested in the preliminary work.
+
+
+
+# Methods
+
+# Results
+
+```{r get-data, eval = FALSE}
+# Note the path that we need to use to access our data files when rendering this document
+my_data <- readr::read_csv("../data/raw_data/my_csv_file.csv")
+```
+
+# Discussion
+
+# Conclusion
+
+# Acknowledgements
+
+<!-- The following line inserts a page break when the output is MS Word. For page breaks in PDF, use \newpage on its own line.  -->
+##### pagebreak
+
+# References 
+<!-- The following line ensures the references appear here for the MS Word or HTML output files, rather than right at the end of the document (this will not work for PDF files):  -->
+<div id="refs"></div>
+
+##### pagebreak
+
+### Colophon
+
+This report was generated on `r Sys.time()` using the following computational environment and dependencies: 
+
+```{r colophon, cache = FALSE}
+# which R packages and versions?
+devtools::session_info()
+```
