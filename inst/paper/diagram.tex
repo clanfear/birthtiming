@@ -1,0 +1,110 @@
+\documentclass{standalone}\usepackage[]{graphicx}\usepackage[]{color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+\let\hlipl\hlkwb
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usetikzlibrary{positioning}
+\usetikzlibrary{arrows.meta}
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}
+
+
+
+\tikzstyle{decision} = [diamond, draw, fill=gray!20, text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=white!20, text width=6em, text centered, rounded corners, minimum height=3em]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse,fill=white!20, node distance=3cm, minimum height=2.5em]
+
+
+\begin{tikzpicture}[node distance = 2cm, auto]
+    % Place nodes
+     \node [cloud] (F) {$Shared\ Component_{i}$ (FE)};
+     \node [block, above left= 1cm and -1.5cm of F] (T1) {$Mother Age_{1i}$ (T1)};
+     \node [block, below left= 1cm and -1.5cm of F] (T2) {$Mother Age_{2i}$ (T2)};
+     \node [block, right of=T1, node distance=6cm] (BP1) {$Difficulty_{1i}$ (BP1)};
+     \node [block, right of=T2, node distance=6cm] (BP2) {$Difficulty_{2i}$ (BP2)};
+     \node [right of=BP1, node distance=3cm] (E1) {35.5};
+     \node [right of=BP2, node distance=3cm] (E2) {46.93};
+     \node [left of=T1, node distance=2cm] (pt1) {13.8};
+     \node [left of=T2, node distance=2cm] (pt2) {15.83};
+     \node [below of=pt1, node distance=1.85cm] (pf) {23.23};
+     \node [below right= 2.5cm and 5.3cm of F] (ee) {$ $};
+     \node [below right= 2.5cm and -2.5cm of F] (eek) {$ $};
+     \node [below = .72cm of E2] (eej) {$ $};
+     \node [below right= 0cm and 5.8cm of F, align=center] (ee2) {-5.98\\ (2.68)};
+     \node [left of=F, node distance=5.4cm, align=center] (stt) {11.94\\ (0.5)};
+     \node [above left= .2cm and 1.4cm of F, align=center] (st1f) {13.91\\ (6.23)};
+     \node [below left= .2cm and 1.4cm of F, align=center] (st2f) {18.26\\ (8.08)};
+     \node [above right= .7cm and -.1cm of F] (sfbp1) {$1$};
+     \node [below right= .2cm and -.1cm of F] (sfbp2) {$1$};
+     \node [above right= 1.5cm and -1.9cm of F, align=center] (stbp1) {-1.74\\ (0.48)};
+     \node [below right= .6cm and -1.9cm of F, align=center] (stbp1) {-1.74\\ (0.48)};
+    % Draw edges
+    \draw [->] (T1) to (BP1);
+    \draw [->] (T2) to (BP2);
+    \draw [->] (F) to (BP1);
+    \draw [->] (F) to (BP2);
+    \draw [->] (E1) to (BP1);
+    \draw [->] (E2) to (BP2);
+    \draw [->] (pt1) to (T1);
+    \draw [->] (pt2) to (T2);
+    \draw [->] (pf) to (F);
+    \path (pt1) edge [<->, bend right=90, looseness=1.5] node {$ $} (pt2);
+    \path (pt1) edge [<->, out=180,in=180] node {$ $} (pf);
+    \path (pt2) edge [<->, out=180,in=180] node {$ $} (pf);
+    \draw [-] (E1) to [out=0,in=90] (ee2);
+    \draw [->] (ee2) to [out=270,in=0] (eej)
+    to [out=180, in=0] (eek)
+    to [out=180,in=270, looseness=1] (T2);
+\end{tikzpicture}
+
+\end{document}

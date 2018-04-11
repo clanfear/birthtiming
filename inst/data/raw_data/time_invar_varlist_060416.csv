@@ -1,0 +1,16 @@
+Child ID,Mother ID,Race of Child,Sex of Child,Child DOB Month,Child DOB Year,Age of Mother at Birth of Child,Prenatal Care,Month of 1t care visit,Weight of Mother PreBirth,Weight of Mother PrePreg,Weight Change in Pregnancy,Loss or Gain,Gestation Length,Birth Weight Ounces,Birth Weight Under 5.5 lbs
+C00001.00,C00002.00,C00053.00,C00054.00,C00055.00,C00057.00,C00070.00,C03200.00,C03201.00,C03277.00,C03278.00,C03279.00,C03279.10,C03280.00,C03286.00,C03287.00
+CPUBID,MPUBID,CRACE,CSEX,CMOB,CYRB,MAGEBIR,PRE0008,PRE0009,PRE0084,PRE0085,PRE0086,PRE0089,PST0002,PST0009,PST0010
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,

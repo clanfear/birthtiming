@@ -1,0 +1,75 @@
+\documentclass{standalone}
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usetikzlibrary{positioning}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+
+<<setup, include=FALSE>>=
+load("./naive_tidy.RData")
+
+naive_tidy$est <- round(naive_tidy$est,2)
+naive_tidy$se <- round(naive_tidy$se,2)
+
+b_m_age_1_diff_1 <- naive_tidy$est[3]; se_b_m_age_1_diff_1 <- naive_tidy$se[3]
+b_m_age_2_diff_2 <- naive_tidy$est[4]; se_b_m_age_2_diff_2 <- naive_tidy$se[4]
+cov_m_age_1_fe   <- naive_tidy$est[5]; se_cov_m_age_1_fe   <- naive_tidy$se[5]
+cov_m_age_2_fe   <- naive_tidy$est[6]; se_cov_m_age_2_fe   <- naive_tidy$se[6]
+cov_m_age <- naive_tidy$est[7]; se_cov_m_age   <- naive_tidy$se[7]
+b_inst      <- naive_tidy$est[8];  se_inst     <- naive_tidy$se[8]
+diff_1_err  <- naive_tidy$est[9];  diff_2_err  <- naive_tidy$est[10]
+m_age_1_err <- naive_tidy$est[11]; m_age_2_err <- naive_tidy$est[12]
+fe_err      <- naive_tidy$est[13]
+# setwd("./paper")
+@
+
+\tikzstyle{decision} = [diamond, draw, fill=gray!20, text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=white!20, text width=6em, text centered, rounded corners, minimum height=3em]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse,fill=white!20, node distance=3cm, minimum height=2.5em]
+
+
+\begin{tikzpicture}[node distance = 2cm, auto]
+    % Place nodes
+     \node [cloud] (F) {$Shared\ Component_{i}$ (FE)};
+     \node [block, above left= 1cm and -1.5cm of F] (T1) {$Mother Age_{1i}$ (T1)};
+     \node [block, below left= 1cm and -1.5cm of F] (T2) {$Mother Age_{2i}$ (T2)};
+     \node [block, right of=T1, node distance=6cm] (BP1) {$Difficulty_{1i}$ (BP1)};
+     \node [block, right of=T2, node distance=6cm] (BP2) {$Difficulty_{2i}$ (BP2)};
+     \node [right of=BP1, node distance=3cm] (E1) {\Sexpr{diff_1_err}};
+     \node [right of=BP2, node distance=3cm] (E2) {\Sexpr{diff_2_err}};
+     \node [left of=T1, node distance=2cm] (pt1) {\Sexpr{m_age_1_err}};
+     \node [left of=T2, node distance=2cm] (pt2) {\Sexpr{m_age_2_err}};
+     \node [below of=pt1, node distance=1.85cm] (pf) {\Sexpr{fe_err}};
+     \node [below right= 2.5cm and 5.3cm of F] (ee) {$ $};
+     \node [below right= 2.5cm and -2.5cm of F] (eek) {$ $};
+     \node [below = .72cm of E2] (eej) {$ $};
+     \node [below right= 0cm and 5.8cm of F, align=center] (ee2) {\Sexpr{b_inst}\\ (\Sexpr{se_inst})};
+     \node [left of=F, node distance=5.4cm, align=center] (stt) {\Sexpr{cov_m_age}\\ (\Sexpr{se_cov_m_age})};
+     \node [above left= .2cm and 1.4cm of F, align=center] (st1f) {\Sexpr{cov_m_age_1_fe}\\ (\Sexpr{se_cov_m_age_1_fe})};
+     \node [below left= .2cm and 1.4cm of F, align=center] (st2f) {\Sexpr{cov_m_age_2_fe}\\ (\Sexpr{se_cov_m_age_2_fe})};
+     \node [above right= .7cm and -.1cm of F] (sfbp1) {$1$};
+     \node [below right= .2cm and -.1cm of F] (sfbp2) {$1$};
+     \node [above right= 1.5cm and -1.9cm of F, align=center] (stbp1) {\Sexpr{b_m_age_1_diff_1}\\ (\Sexpr{se_b_m_age_1_diff_1})};
+     \node [below right= .6cm and -1.9cm of F, align=center] (stbp1) {\Sexpr{b_m_age_2_diff_2}\\ (\Sexpr{se_b_m_age_2_diff_2})};
+    % Draw edges
+    \draw [->] (T1) to (BP1);
+    \draw [->] (T2) to (BP2);
+    \draw [->] (F) to (BP1);
+    \draw [->] (F) to (BP2);
+    \draw [->] (E1) to (BP1);
+    \draw [->] (E2) to (BP2);
+    \draw [->] (pt1) to (T1);
+    \draw [->] (pt2) to (T2);
+    \draw [->] (pf) to (F);
+    \path (pt1) edge [<->, bend right=90, looseness=1.5] node {$ $} (pt2);
+    \path (pt1) edge [<->, out=180,in=180] node {$ $} (pf);
+    \path (pt2) edge [<->, out=180,in=180] node {$ $} (pf);
+    \draw [-] (E1) to [out=0,in=90] (ee2);
+    \draw [->] (ee2) to [out=270,in=0] (eej)
+    to [out=180, in=0] (eek)
+    to [out=180,in=270, looseness=1] (T2);
+\end{tikzpicture}
+
+\end{document}

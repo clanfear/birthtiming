@@ -1,0 +1,49 @@
+\documentclass{standalone}
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usetikzlibrary{positioning}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+
+\tikzstyle{decision} = [diamond, draw, fill=gray!20, text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=white!20, text width=6em, text centered, rounded corners, minimum height=3em]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse,fill=white!20, node distance=3cm, minimum height=2.5em]
+
+
+\begin{tikzpicture}[node distance = 2cm, auto]
+    % Place nodes
+     \node [cloud] (F) {$Shared\ Component_{i}$ (FE)};
+     \node [block, above left= 1cm and -1.5cm of F] (T1) {$Mother Age_{1i}$ (T1)};
+     \node [block, below left= 1cm and -1.5cm of F] (T2) {$Mother Age_{2i}$ (T2)};
+     \node [block, right of=T1, node distance=6cm] (BP1) {$Difficulty_{1i}$ (BP1)};
+     \node [block, right of=T2, node distance=6cm] (BP2) {$Difficulty_{2i}$ (BP2)};
+     \node [right of=BP1, node distance=3cm] (E1) {$\epsilon_{1i}$};
+     \node [right of=BP2, node distance=3cm] (E2) {$\epsilon_{2i}$};
+     \node [below right= 2.5cm and 5.3cm of F] (ee) {$ $};
+     \node [below right= 2.5cm and -2.5cm of F] (eek) {$ $};
+     \node [below right= 0cm and 5.8cm of F] (ee2) {$\sigma_{\epsilon_{1i}T_{2i}}$};
+     \node [left of=F, node distance=3.9cm] (stt) {$\sigma_{T_{1i}T_{2i}}$};
+     \node [above left= .33cm and .1cm of F] (st1f) {$\sigma_{T_{1i}FE_{i}}$};
+     \node [below left= .33cm and .1cm of F] (st2f) {$\sigma_{T_{2i}FE_{i}}$};
+     \node [above right= .29cm and .4cm of F] (sfbp1) {$\gamma_{FE_{i}BP_{1i}} = 1$};
+     \node [below right= .3cm and .4cm of F] (sfbp2) {$\gamma_{FE_{i}BP_{2i}} = 1$};
+     \node [above right= 1.5cm and -1.4cm of F] (stbp1) {$\gamma_{T_{1i}BP_{1i}}$};
+     \node [below right= 1.55cm and -1.4cm of F] (stbp2) {$\gamma_{T_{2i}BP_{2i}}$};
+    % Draw edges
+    \path [line] (T1) -- (BP1);
+    \path [line] (T2) -- (BP2);
+    \path [line] (F) -- (BP1);
+    \path [line] (F) -- (BP2);
+    \path [line] (E1) -- (BP1);
+    \path [line] (E2) -- (BP2);
+    \path (T1) edge [<->, bend right=90, looseness=1.5] node {$ $} (T2);
+    \path (T1) edge [<->, out=180,in=180] node {$ $} (F);
+    \path (T2) edge [<->, out=180,in=180] node {$ $} (F);
+    \draw [->] (E1) to [out=0,in=0] (ee)
+    to [out=180,in=0, looseness=.35] (eek)
+    to [out=180,in=270, looseness=1] (T2);
+\end{tikzpicture}
+
+\end{document}
