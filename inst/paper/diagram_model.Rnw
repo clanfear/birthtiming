@@ -14,30 +14,30 @@
 
 \begin{tikzpicture}[node distance = 2cm, auto]
     % Place nodes
-     \node [cloud] (F) {$Shared\ Component_{i}$ (FE)};
-     \node [block, above left= 1cm and -1.5cm of F] (T1) {$Mother Age_{1i}$ (T1)};
-     \node [block, below left= 1cm and -1.5cm of F] (T2) {$Mother Age_{2i}$ (T2)};
-     \node [block, right of=T1, node distance=6cm] (BP1) {$Difficulty_{1i}$ (BP1)};
-     \node [block, right of=T2, node distance=6cm] (BP2) {$Difficulty_{2i}$ (BP2)};
-     \node [right of=BP1, node distance=3cm] (E1) {$\epsilon_{1i}$};
-     \node [right of=BP2, node distance=3cm] (E2) {$\epsilon_{2i}$};
+     \node [cloud] (F) {$Shared\ Component_{i}$ ($F_{i}$)};
+     \node [block, above left= 1cm and -1.5cm of F] (T1) {$Mother Age_{1i}$ ($T_{1i}$)};
+     \node [block, below left= 1cm and -1.5cm of F] (T2) {$Mother Age_{2i}$ ($T_{2i}$)};
+     \node [block, right of=T1, node distance=6cm] (D1) {$Difficulty_{1i}$ ($D_{1i}$)};
+     \node [block, right of=T2, node distance=6cm] (D2) {$Difficulty_{2i}$ ($D_{2i}$)};
+     \node [right of=D1, node distance=3cm] (E1) {$\epsilon_{1i}$};
+     \node [right of=D2, node distance=3cm] (E2) {$\epsilon_{2i}$};
      \node [below right= 2.5cm and 5.3cm of F] (ee) {$ $};
      \node [below right= 2.5cm and -2.5cm of F] (eek) {$ $};
      \node [below right= 0cm and 5.8cm of F] (ee2) {$\sigma_{\epsilon_{1i}T_{2i}}$};
      \node [left of=F, node distance=3.9cm] (stt) {$\sigma_{T_{1i}T_{2i}}$};
-     \node [above left= .33cm and .1cm of F] (st1f) {$\sigma_{T_{1i}FE_{i}}$};
-     \node [below left= .33cm and .1cm of F] (st2f) {$\sigma_{T_{2i}FE_{i}}$};
-     \node [above right= .29cm and .4cm of F] (sfbp1) {$\gamma_{FE_{i}BP_{1i}} = 1$};
-     \node [below right= .3cm and .4cm of F] (sfbp2) {$\gamma_{FE_{i}BP_{2i}} = 1$};
-     \node [above right= 1.5cm and -1.4cm of F] (stbp1) {$\gamma_{T_{1i}BP_{1i}}$};
-     \node [below right= 1.55cm and -1.4cm of F] (stbp2) {$\gamma_{T_{2i}BP_{2i}}$};
+     \node [above left= .33cm and .1cm of F] (st1f) {$\sigma_{T_{1i}F_{i}}$};
+     \node [below left= .33cm and .1cm of F] (st2f) {$\sigma_{T_{2i}F_{i}}$};
+     \node [above right= .29cm and .4cm of F] (sfD1) {$\gamma_{F_{i}D_{1i}} = 1$};
+     \node [below right= .3cm and .4cm of F] (sfD2) {$\gamma_{F_{i}D_{2i}} = 1$};
+     \node [above right= 1.5cm and -1.4cm of F] (stD1) {$\gamma_{T_{1i}D_{1i}}$};
+     \node [below right= 1.55cm and -1.4cm of F] (stD2) {$\gamma_{T_{2i}D_{2i}}$};
     % Draw edges
-    \path [line] (T1) -- (BP1);
-    \path [line] (T2) -- (BP2);
-    \path [line] (F) -- (BP1);
-    \path [line] (F) -- (BP2);
-    \path [line] (E1) -- (BP1);
-    \path [line] (E2) -- (BP2);
+    \draw [->] (T1) to (D1);
+    \draw [->] (T2) to (D2);
+    \draw [->] (F) to (D1);
+    \draw [->] (F) to (D2);
+    \draw [->] (E1) to (D1);
+    \draw [->] (E2) to (D2);
     \path (T1) edge [<->, bend right=90, looseness=1.5] node {$ $} (T2);
     \path (T1) edge [<->, out=180,in=180] node {$ $} (F);
     \path (T2) edge [<->, out=180,in=180] node {$ $} (F);
