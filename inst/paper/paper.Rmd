@@ -13,7 +13,7 @@ csl: "../templates/american-sociological-association.csl" # Insert path for the 
 abstract: |
   Text of abstract
 keywords: |
-  keyword 1; keyword 2; keyword 3
+  birth timing; family planning; child behavior
 highlights: |
   These are the highlights. 
 ---
