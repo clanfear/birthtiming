@@ -65,6 +65,9 @@ Note: The below material is pre-existing and does not account for the covariates
 # Methods
 
 ```{r resultsdata, include=FALSE}
+getwd()
+child_difficulty <- load_and_format_NLSY()
+naive_tidy <- run_naive_sem()
 load("../data/derived_data/naive_tidy.RData")
 load("../data/derived_data/child_difficulty.RData")
 ```
@@ -73,6 +76,11 @@ This study uses the National Longitudinal Survey of Youth 1979 (NLYS79), a proba
 
 The outcome variables in this analysis are the Difficulty Composite Raw Scores for both siblings which consists of the sum of ordinal (1 to 5) responses to 11 temperament questions capturing a range of child behaviors, such as “How often do you have trouble soothing or calming your infant when he/she is crying or upset?” and “During the average day, how often does your infant get fussy and irritable?” This scale has an observed range of `r min(child_difficulty$Difficulty_1)` to `r max(child_difficulty$Difficulty_1)` (out of possible 11 to 55) for first children and `r min(child_difficulty$Difficulty_2)` to `r max(child_difficulty$Difficulty_2)` for second children. The scale is treated as a continuous measure as it is approximately normally distributed, though there is evidence of mild departures from normality for difficulty of the second child (see appendix). The predictors are maternal age at birth for each child. Mothers in the analysis subsample were `r min(child_difficulty$m_age_at_birth_1)` to `r max(child_difficulty$m_age_at_birth_1)` years of age at birth of first child and `r min(child_difficulty$m_age_at_birth_2)` to `r max(child_difficulty$m_age_at_birth_2)` for the second child
 <br/><br/>
+```{r knitdiagrams, include=FALSE}
+knitr::knit("diagram_model.Rnw")
+knitr::knit("diagram_estimates.Rnw")
+```
+
 ```{r diagrammodel, eval = TRUE, warning=FALSE, message=FALSE, out.width='80%', fig.cap="Conceptual Model"}
 # This is a ridiculous hack: I convert the PDF to a PNG on the fly and display it
 invisible(pdftools::pdf_convert("diagram_model.pdf", filenames="diagram_model.png", dpi = 500, verbose=FALSE))
