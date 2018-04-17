@@ -15,4 +15,6 @@ Imports:
   lavaan,
   stringr,
   tidyr,
-  reshape2
+  reshape2,
+  devtools (>= 1.13.5),
+  pdftools (>= 1.6)
