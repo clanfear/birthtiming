@@ -19,7 +19,7 @@ Before we Begin
 This presentation will focus on resources for reproducible research, in particular
 [Ben Marwick's rrtools](https://github.com/benmarwick/rrtools).
 
-After this presentation, this will be demonstrated using an actual research project in progress: Lanfear, C. and R. Matsueda, "A Dynamic Intrafamily Model of Child Behavior Problems and Birth Timing".
+After presenting `rrtools`, it will be demonstrated using an actual research project in progress: Lanfear, C. and R. Matsueda, "A Dynamic Intrafamily Model of Child Behavior Problems and Birth Timing".
 
 The compendium for this project is available at [github.com/clanfear/birthtiming](http://github.com/clanfear/birthtiming) or can be
 installed and loaded as the R package `birthtiming` using the following code:
@@ -166,24 +166,158 @@ Bookdown
 
 If using your compendium to generate an article, thesis, or dissertation, `rrtools` makes formatting simple by integrating `bookdown`.
 
-`bookdown` provides an easily accessible alternative to manually writing LaTeX for typesetting and reference management.
+`bookdown` provides an easily accessible alternative to manually writing $\LaTeX$ for typesetting and reference management.
 
 You can integration citations from bibtex files simply by placing the `.bib` file (such as produced by Zotero) in `inst/paper/` then choosing an appropriate citation format in the header of the `paper.Rmd`.
 
-`bookdown` supports `.html` output for ease and speed and also renders `.pdf` files through LaTeX for publication-ready documents.
+`bookdown` supports `.html` output for ease and speed and also renders `.pdf` files through $\LaTeX$ for publication-ready documents.
+
+
+Summary
+========================================================
+incremental: true
+
+
+* `rrtools` provides a relatively simple framework for organizing reproducible projects.
+
+* A small upfront investment in organization pays large dividends.
+
+* It is **much** easier to *start* in a reproducible framework than move to one later.
+
+* In general, reproducible frameworks reduce mistakes, improve organization, and protect work.
+
+* There is evidence that reproducible and shared research may be more likely to be cited, and definitely contributes more to the discipline (see Marwick et al. 2017).
+
+
+
+-
+
+The Paper
+========================================================
+type: section
+
+Lanfear, C. and R. Matsueda, "A Dynamic Intrafamily Model of Child Behavior Problems and Birth Timing"
 
 
 Overview
 ========================================================
 incremental: true
 
-* `rrtools` provides a relatively simple framework for organizing reproducible projects.
+## Key Papers
 
-* In general, reproducible frameworks reduce mistakes, improve organization, and protect work.
+### Hao & Matsueda (2006)
+* Question: How does mother's age at birth impact child behavior problems?
+* Young mothers report more child behavior problems independent of measured child characteristics and at-birth family conditions.
+* Used a sibling fixed effects model to remove all time invariant effects
+* But what if child behavior impacts future fertility decisions, such as timing of second birth? (Phillips 1999)
 
-* There is evidence that reproducible and shared research may be more likely to be cited, and definitely contributes more to the discipline (see Marwick et al. 2017).
+### Rosenzweig & Wolpin (1995)
 
-* It is *much* easier to start in a reproducible framework than move to one later.
+* Question: How does teen childbearing impact birth outcomes (e.g. birth weight)
+* Used a fixed-effects instrumental variables sibling model:
+   * Fixed effects remove all time-invariant mother factors
+   * Error term for child one outcomes allowed to impact mother's age at second birth
+   * Accounts for active decisionmaking in fertility
+
+-
+
+Lanfear & Matsueda 2018
+========================================================
+
+Our work combines the question of Hao & Matsueda (2006) with the estimation technique of Rosenzweig & Wolpin (1995)
+
+### Our question:
+
+**How does mother's age at birth impact child behavior problems if we account for the possibility that child behavior impacts future fertility decisions?**
+
+Note: Focusing on mother's age in general, not teen births.
+
+National Longitudinal Survey of Youth 1979
+========================================================
+incremental: true
+
+### Sample
+* Combined mothers with child sample
+* Americans age 14--21 in 1979, surveyed biennially up through 2012.
+* Age of data means coverage of *full range* of fertility.
+   * Oldest first birth at 40, second at 42.
+   * Earliest first birth at 19, second at 20.
+* Restricted to mothers with 2+ children, only use first two.
+* 1453 mothers with 2906 children
+
+### Measures
+* Mother's age at birth in years
+* Perceived child difficulty scale, 11 items (0 to 23 months)
+* *Birth characteristics* (forthcoming)
+* *Changes in family social and economic conditions* (forthcoming)
+
+-
+
+Model
+========================================================
+incremental: true
+
+### Sibling Fixed-Effects Instrumental Variables Estimator
+
+* Mother's age at birth predicts child difficulty
+* Mother's age covaries with fixed effects, fixed effects predict child difficulty
+   * Purges all time-invariant effects
+* First child difficulty error term covaries with mother's age at second birth
+
+Key Feature:
+
+*Error term of first child's difficulty is an instrument for effect of mother's age on second child's difficulty.*
+
+-
+
+Model Graph
+========================================================
+
+<img src="../paper/diagram_model.png" title="Conceptual Model" alt="Conceptual Model" width="80%" />
+
+
+Preliminary Results 1
+========================================================
+
+Estimates obtained using `lavaan`
+
+<img src="../paper/diagram_estimates.png" title="Model Estimates" alt="Model Estimates" width="80%" />
+
+Discussion
+========================================================
+incremental: true
+
+### Key Preliminary Findings:
+
+* Mother's age at birth has a strong negative relationship with child difficulty
+* Evidence for a *negative* feedback effect of difficulty:
+   * Unusually high difficulty first children result in *earlier* second births
+   * "Making up for failures"
+* Tentatively, these effects appears to remain when introducing birth-time covariates
+
+### Planned Additions:
+
+* Introduce birth-time and time-variant mother characteristics
+* Examine how child difficulty predicts hazard or absence of subsequent births
+* Measurement model of child difficulty
+
+-
+
+Reproducibility
+========================================================
+incremental: true
+
+All data manipulation and estimation---including generation of the diagrams---occur on the fly when the `birthtiming` package compiles the paper.
+
+### Process when paper is rendered:
+
+1. Raw NLSY data is imported and variable names assigned
+2. Data cleaned and reshaped into mother observations (`dplyr`, `reshape2`)
+3. Structural equation models are fit with `lavaan` and estimates extracted.
+4. `sweave` calls generate the diagrams separately ($\LaTeX$ with `tikz`)
+   * PDF output from Sweave is converted on the fly to `.png` images (`pdftools`)
+   * $\LaTeX$ with in-line R code to insert estimates in second diagram
+5. Paper compiles via `bookdown` with bibtex references as either `.pdf` or `.html` (via Pandoc)
 
 -
 
@@ -194,3 +328,6 @@ Stodden, V. (2014), "What scientific idea is ready for retirement? Reproducibili
 
 Marwick, B., Boettiger, C. & L. Mullen (2017). "Packaging data analytical work reproducibly using R (and friends)." *PeerJ Preprints* 5:e3192v1 https://doi.org/10.7287/peerj.preprints.3192v1
 
+Hao, L. & R. Matsueda (2006). “Family Dynamics Through Childhood: A sibling model of behavior problems.” *Social Science Research 35*(2):500–524. http://www.sciencedirect.com/science/article/pii/S0049089X04001024
+
+Rosenzweig, M. & K. Wolpin (1995). “Sisters, Siblings, and Mothers: The effect of teen-age childbearing on birth outcomes in a dynamic family context.” *Econometrica 63*(2):303–26. http://www.jstor.org/stable/2951628

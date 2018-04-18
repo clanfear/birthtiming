@@ -81,9 +81,9 @@ knitr::knit("diagram_model.Rnw")
 knitr::knit("diagram_estimates.Rnw")
 ```
 
-```{r diagrammodel, eval = TRUE, warning=FALSE, message=FALSE, out.width='80%', fig.cap="Conceptual Model"}
+```{r diagrammodel, echo=FALSE, eval = TRUE, warning=FALSE, message=FALSE, out.width='80%', fig.cap="Conceptual Model"}
 # This is a ridiculous hack: I convert the PDF to a PNG on the fly and display it
-invisible(pdftools::pdf_convert("diagram_model.pdf", filenames="diagram_model.png", dpi = 500, verbose=FALSE))
+invisible(pdftools::pdf_convert("diagram_model.pdf", filenames="diagram_model.png", dpi = 1000, verbose=FALSE))
 knitr::include_graphics("diagram_model.png")
 ```
 
@@ -93,14 +93,14 @@ Figure \@ref(fig:diagrammodel) depicts the conceptual model of mother’s age at
 
   
   
-```{r diagramestimates, eval = TRUE, warning=FALSE, message=FALSE, out.width='80%', fig.cap="Model Estimates"}
-invisible(pdftools::pdf_convert("diagram_estimates.pdf", filenames="diagram_estimates.png", dpi = 500, verbose=FALSE))
+```{r diagramestimates, echo=FALSE, eval = TRUE, warning=FALSE, message=FALSE, out.width='80%', fig.cap="Model Estimates"}
+invisible(pdftools::pdf_convert("diagram_estimates.pdf", filenames="diagram_estimates.png", dpi = 1000, verbose=FALSE))
 knitr::include_graphics("diagram_estimates.png")
 ```
 
 
 
-Figure \@ref(fig:diagramestimates) depicts maximum likelihood estimates of the specified structural equations obtained with LISREL 9.2. A strong negative relationship is observed between mother’s age at birth of child and perceived difficulty in early childhood. Net of time-invariant mother and family characteristics, each additional year older at childbirth corresponds to almost two points lower on the difficulty composite or an approximately 1:1 relationship in standardized metrics ($B\*$=  `r round(naive_tidy$std.all[3],2)` and `r round(naive_tidy$std.all[4], 2)`). Additionally, we see a statistically significant (t=-2.275) relationship between the unaccounted for variation in first child difficulty and mother’s age at second birth, though this relationship is unexpectedly negative. Greater difficulty in early childhood, net of that associated with maternal age, appears associated with modestly earlier second births. As the model is just identified, tests of overall model fit cannot be conducted. For comparison the $D_{1}$ error to $T_{2}$ covariance was restricted to zero to provide fit statistics, though this restricted model is clearly misspecified given the significance of the parameter in the full model. In this model, the root mean square error of approximation is 0.0583 which indicates moderately good fit, though this may be inflated by the presence of a single degree of freedom. The restricted model chi-square is 5.731 (p=0.017), indicating worse fit than the full (saturated) model.
+Figure \@ref(fig:diagramestimates) depicts maximum likelihood estimates of the specified structural equations obtained with LISREL 9.2. A strong negative relationship is observed between mother’s age at birth of child and perceived difficulty in early childhood. Net of time-invariant mother and family characteristics, each additional year older at childbirth corresponds to almost two points lower on the difficulty composite or an approximately 1:1 relationship in standardized metrics ($\gamma^{*}$=  `r round(naive_tidy$std.all[3],2)` and `r round(naive_tidy$std.all[4], 2)`). Additionally, we see a statistically significant (t=-2.275) relationship between the unaccounted for variation in first child difficulty and mother’s age at second birth, though this relationship is unexpectedly negative. Greater difficulty in early childhood, net of that associated with maternal age, appears associated with modestly earlier second births. As the model is just identified, tests of overall model fit cannot be conducted. For comparison the $D_{1}$ error to $T_{2}$ covariance was restricted to zero to provide fit statistics, though this restricted model is clearly misspecified given the significance of the parameter in the full model. In this model, the root mean square error of approximation is 0.0583 which indicates moderately good fit, though this may be inflated by the presence of a single degree of freedom. The restricted model chi-square is 5.731 (p=0.017), indicating worse fit than the full (saturated) model.
 
 # Discussion
 

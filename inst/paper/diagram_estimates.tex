@@ -1,63 +1,30 @@
-\documentclass{standalone}\usepackage[]{graphicx}\usepackage[]{color}
-%% maxwidth is the original width if it is less than linewidth
-%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
-\makeatletter
-\def\maxwidth{ %
-  \ifdim\Gin@nat@width>\linewidth
-    \linewidth
-  \else
-    \Gin@nat@width
-  \fi
-}
-\makeatother
-
-\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
-\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
-\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
-\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
-\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
-\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
-\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
-\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
-\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
-\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
-\let\hlipl\hlkwb
-
-\usepackage{framed}
-\makeatletter
-\newenvironment{kframe}{%
- \def\at@end@of@kframe{}%
- \ifinner\ifhmode%
-  \def\at@end@of@kframe{\end{minipage}}%
-  \begin{minipage}{\columnwidth}%
- \fi\fi%
- \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
- \colorbox{shadecolor}{##1}\hskip-\fboxsep
-     % There is no \\@totalrightmargin, so:
-     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
- \MakeFramed {\advance\hsize-\width
-   \@totalleftmargin\z@ \linewidth\hsize
-   \@setminipage}}%
- {\par\unskip\endMakeFramed%
- \at@end@of@kframe}
-\makeatother
-
-\definecolor{shadecolor}{rgb}{.97, .97, .97}
-\definecolor{messagecolor}{rgb}{0, 0, 0}
-\definecolor{warningcolor}{rgb}{1, 0, 1}
-\definecolor{errorcolor}{rgb}{1, 0, 0}
-\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
-
-\usepackage{alltt}
+\documentclass{standalone}
 \usepackage[latin1]{inputenc}
 \usepackage{tikz}
 \usetikzlibrary{shapes,arrows}
 \usetikzlibrary{positioning}
 \usetikzlibrary{arrows.meta}
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \begin{document}
 
+<<setup, include=FALSE>>=
+load("../data/derived_data/naive_tidy.RData")
 
+# For ease, I have just extracted all relevant values and assigned them.
+
+naive_tidy$est <- round(naive_tidy$est,2)
+naive_tidy$se <- round(naive_tidy$se,2)
+
+b_m_age_1_diff_1 <- naive_tidy$est[3]; se_b_m_age_1_diff_1 <- naive_tidy$se[3]
+b_m_age_2_diff_2 <- naive_tidy$est[4]; se_b_m_age_2_diff_2 <- naive_tidy$se[4]
+cov_m_age_1_fe   <- naive_tidy$est[5]; se_cov_m_age_1_fe   <- naive_tidy$se[5]
+cov_m_age_2_fe   <- naive_tidy$est[6]; se_cov_m_age_2_fe   <- naive_tidy$se[6]
+cov_m_age <- naive_tidy$est[7]; se_cov_m_age   <- naive_tidy$se[7]
+b_inst      <- naive_tidy$est[8];  se_inst     <- naive_tidy$se[8]
+diff_1_err  <- naive_tidy$est[9];  diff_2_err  <- naive_tidy$est[10]
+m_age_1_err <- naive_tidy$est[11]; m_age_2_err <- naive_tidy$est[12]
+fe_err      <- naive_tidy$est[13]
+
+@
 
 \tikzstyle{decision} = [diamond, draw, fill=gray!20, text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
 \tikzstyle{block} = [rectangle, draw, fill=white!20, text width=6em, text centered, rounded corners, minimum height=3em]
@@ -72,21 +39,21 @@
      \node [block, below left= 1cm and -1.5cm of F] (T2) {$Mother Age_{2i}$ ($T_{2i}$)};
      \node [block, right of=T1, node distance=6cm] (D1) {$Difficulty_{1i}$ ($D_{1i}$)};
      \node [block, right of=T2, node distance=6cm] (D2) {$Difficulty_{2i}$ ($D_{2i}$)};
-     \node [right of=D1, node distance=3cm] (E1) {35.5};
-     \node [right of=D2, node distance=3cm] (E2) {46.93};
-     \node [left of=T1, node distance=2cm] (pt1) {13.8};
-     \node [left of=T2, node distance=2cm] (pt2) {15.83};
-     \node [below of=pt1, node distance=1.85cm] (pf) {23.23};
+     \node [right of=D1, node distance=3cm] (E1) {\Sexpr{diff_1_err}};
+     \node [right of=D2, node distance=3cm] (E2) {\Sexpr{diff_2_err}};
+     \node [left of=T1, node distance=2cm] (pt1) {\Sexpr{m_age_1_err}};
+     \node [left of=T2, node distance=2cm] (pt2) {\Sexpr{m_age_2_err}};
+     \node [below of=pt1, node distance=1.85cm] (pf) {\Sexpr{fe_err}};
      \node [below right= 2.5cm and 5.3cm of F] (ee) {$ $};
      \node [below right= 2.5cm and -2.5cm of F] (eek) {$ $};
-     \node [below right= 0cm and 5.8cm of F, align=center] (ee2) {-5.98\\ (2.68)};
-     \node [left of=F, node distance=5.4cm, align=center] (stt) {11.94\\ (0.5)};
-     \node [above left= .2cm and 1.4cm of F, align=center] (st1f) {13.91\\ (6.23)};
-     \node [below left= .2cm and 1.4cm of F, align=center] (st2f) {18.26\\ (8.08)};
+     \node [below right= 0cm and 5.8cm of F, align=center] (ee2) {\Sexpr{b_inst}\\ (\Sexpr{se_inst})};
+     \node [left of=F, node distance=5.4cm, align=center] (stt) {\Sexpr{cov_m_age}\\ (\Sexpr{se_cov_m_age})};
+     \node [above left= .2cm and 1.4cm of F, align=center] (st1f) {\Sexpr{cov_m_age_1_fe}\\ (\Sexpr{se_cov_m_age_1_fe})};
+     \node [below left= .2cm and 1.4cm of F, align=center] (st2f) {\Sexpr{cov_m_age_2_fe}\\ (\Sexpr{se_cov_m_age_2_fe})};
      \node [above right= .7cm and -.1cm of F] (sfbp1) {$1$};
      \node [below right= .2cm and -.1cm of F] (sfbp2) {$1$};
-     \node [above right= 1.5cm and -1.9cm of F, align=center] (stbp1) {-1.74\\ (0.48)};
-     \node [below right= .6cm and -1.9cm of F, align=center] (stbp1) {-1.74\\ (0.48)};
+     \node [above right= 1.5cm and -1.9cm of F, align=center] (stbp1) {\Sexpr{b_m_age_1_diff_1}\\ (\Sexpr{se_b_m_age_1_diff_1})};
+     \node [below right= .6cm and -1.9cm of F, align=center] (stbp1) {\Sexpr{b_m_age_2_diff_2}\\ (\Sexpr{se_b_m_age_2_diff_2})};
     % Draw edges
     \draw [->] (T1) to (D1);
     \draw [->] (T2) to (D2);
