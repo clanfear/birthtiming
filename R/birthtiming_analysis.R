@@ -1,5 +1,3 @@
-
-#-----------------------------------------------------------------------------------
 run_naive_sem <- function(){
   diff_model_naive <-
     '
@@ -19,9 +17,6 @@ run_naive_sem <- function(){
   naive_tidy <- lavaan::parameterEstimates(diff_model_naive_out, standardized = T)
   return(naive_tidy)
 }
-# summary(diff_model_naive_out)
-# semPaths(diff_model_naive_out, whatLabels = "std")
-
 
 run_full_sem <- function(){
   diff_model_full <-

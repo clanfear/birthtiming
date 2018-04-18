@@ -11,7 +11,7 @@ This repository contains the data and code for our paper:
 
 Please cite this compendium as:
 
-> Lanfear, Charles C. and Ross L. Matsueda. (2018). *Compendium of R code and data for 'A Dynamic Intrafamily Model of Child Behavior Problems and Birth Timing'*. Accessed 30 Mar 2018.
+> Lanfear, Charles C. and Ross L. Matsueda. (2018). *Compendium of R code and data for 'A Dynamic Intrafamily Model of Child Behavior Problems and Birth Timing'*. Accessed 17 Apr 2018.
 
 ### How to download or install
 
@@ -23,6 +23,17 @@ Or you can install this compendium as an R package, birthtiming, from GitHub wit
 # install.packages("devtools")
 devtools::install_github("clanfear/birthtiming")
 ```
+
+### The R Package
+
+This repository is organized as an R package. There are functions in this package, but they are only intended to be run within the `.Rmd` file that generates the article.
+
+To generate the article from the `birthtiming` library, you may either:
+
+1.  Open and knit the `.Rmd` file found at `birthtiming/paper/paper.Rmd/` in your R libraries.
+2.  Clone this github repository and load the `.Rproj` file in RStudio, then knit the paper fron in `inst/paper/paper.Rmd`
+
+In both cases, that directory will already contain a compiled version of the article current to the last commit to this repository.
 
 ### Licenses
 
