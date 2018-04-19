@@ -24,6 +24,12 @@ Please cite this compendium as:
 
 > Lanfear, Charles C. and Ross L. Matsueda. (`r format(Sys.Date(), "%Y")`). _Compendium of R code and data for 'A Dynamic Intrafamily Model of Child Behavior Problems and Birth Timing'_. Accessed `r format(Sys.Date(), "%d %b %Y")`.
 
+### Documents
+
+[To access the paper directly, follow this link.](https://clanfear.github.io/birthtiming/inst/paper/paper.html)
+
+[To access the related presentation, follow this link.](https://clanfear.github.io/birthtiming/inst/presentation/presentation.html)
+
 ### How to download or install
 
 You can download the compendium as a zip from from this URL: </archive/master.zip>
