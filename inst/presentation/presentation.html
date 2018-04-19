@@ -802,23 +802,30 @@ hljs.initHighlightingOnLoad();
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
-<h3>Before we Begin</h3>
+<h3>Before We Begin</h3>
 <div class="slideContent" >
-<p>This presentation will focus on resources for reproducible research, in particular
+<p>This presentation focuses on reproducible articles with R using
 <a href="https://github.com/benmarwick/rrtools">Ben Marwick&#39;s rrtools</a>.</p>
 
-<p>After presenting <code>rrtools</code>, it will be demonstrated using an actual research project in progress: Lanfear, C. and R. Matsueda, &ldquo;A Dynamic Intrafamily Model of Child Behavior Problems and Birth Timing&rdquo;.</p>
+<p>After presenting <code>rrtools</code>, it will be demonstrated using an actual research project in progress:</p>
 
-<p>The compendium for this project is available at <a href="http://github.com/clanfear/birthtiming">github.com/clanfear/birthtiming</a> or can be
+<p>Lanfear, C. and R. Matsueda, &ldquo;A Dynamic Intrafamily Model of Child Behavior Problems and Birth Timing&rdquo;.</p>
+
+<p>The compendium repository for this project is available at <a href="http://github.com/clanfear/birthtiming">github.com/clanfear/birthtiming</a> or can be
 installed and loaded as the R package <code>birthtiming</code> using the following code:</p>
 
 <pre><code>devtools::install_github(&quot;clanfear/birthtiming&quot;)
-library(birthtiming)
 </code></pre>
 
-<p>The current article draft itself may be viewed <a href="http://clanfear.github.io/birthtiming/inst/paper/paper.html">here</a> or from the link on the project github. The function <code>birthtiming::open_paper_dir()</code> <em>should</em> also automaticallly open the directory with the draft on your computer.</p>
+<p>The current article draft itself, as well as these slides, may be viewed from the links on the project repository.</p>
 
-<p>These slides are available at <a href="http://clanfear.github.io/birthtiming/inst/presentation/presentation.html">clanfear.github.io/birthtiming/inst/presentation/presentation.html</a>, and are embedded in the <code>birthtiming</code> package in <code>presentation/</code>.</p>
+<p><code>birthtiming</code> has convenience functions for opening these files:</p>
+
+<ul>
+<li><code>birthtiming::browse_paper()</code> opens the paper in a browser window.</li>
+<li><code>birthtiming::browse_presentation()</code> opens the slides in a browser window.</li>
+<li><code>birthtiming::open_paper_dir()</code> <em>should</em> open the local directory with the paper draft.</li>
+</ul>
 
 <h2></h2>
 

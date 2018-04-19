@@ -23,3 +23,15 @@ open_paper_dir <- function(){
     system2("open", paste0(.libPaths(), "/birthtiming/paper"))
   }
 }
+
+browse_paper <- function(){
+  browseURL("https://clanfear.github.io/birthtiming/inst/paper/paper.html")
+}
+
+browse_compendium <- function(){
+  browseURL("https://github.com/clanfear/birthtiming/")
+}
+
+browse_presentation <- function(){
+  browseURL("https://clanfear.github.io/birthtiming/inst/presentation/presentation.html")
+}

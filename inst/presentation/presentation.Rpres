@@ -13,25 +13,28 @@ width: 1600
 height: 900
 font-family: helvetica
 
-Before we Begin
+Before We Begin
 ========================================================
 
-This presentation will focus on resources for reproducible research, in particular
+This presentation focuses on reproducible articles with R using
 [Ben Marwick's rrtools](https://github.com/benmarwick/rrtools).
 
-After presenting `rrtools`, it will be demonstrated using an actual research project in progress: Lanfear, C. and R. Matsueda, "A Dynamic Intrafamily Model of Child Behavior Problems and Birth Timing".
+After presenting `rrtools`, it will be demonstrated using an actual research project in progress:
 
-The compendium for this project is available at [github.com/clanfear/birthtiming](http://github.com/clanfear/birthtiming) or can be
+Lanfear, C. and R. Matsueda, "A Dynamic Intrafamily Model of Child Behavior Problems and Birth Timing".
+
+The compendium repository for this project is available at [github.com/clanfear/birthtiming](http://github.com/clanfear/birthtiming) or can be
 installed and loaded as the R package `birthtiming` using the following code:
 
 ```
 devtools::install_github("clanfear/birthtiming")
-library(birthtiming)
 ```
+The current article draft itself, as well as these slides, may be viewed from the links on the project repository.
 
-The current article draft itself may be viewed [here](http://clanfear.github.io/birthtiming/inst/paper/paper.html) or from the link on the project github. The function `birthtiming::open_paper_dir()` *should* also automaticallly open the directory with the draft on your computer.
-
-These slides are available at [clanfear.github.io/birthtiming/inst/presentation/presentation.html](http://clanfear.github.io/birthtiming/inst/presentation/presentation.html), and are embedded in the `birthtiming` package in `presentation/`.
+`birthtiming` has convenience functions for opening these files:
+ * `birthtiming::browse_paper()` opens the paper in a browser window.
+ * `birthtiming::browse_presentation()` opens the slides in a browser window.
+ * `birthtiming::open_paper_dir()` *should* open the local directory with the paper draft.
 
 -
 
