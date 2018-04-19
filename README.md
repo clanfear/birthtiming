@@ -11,7 +11,13 @@ This repository contains the data and code for our paper:
 
 Please cite this compendium as:
 
-> Lanfear, Charles C. and Ross L. Matsueda. (2018). *Compendium of R code and data for 'A Dynamic Intrafamily Model of Child Behavior Problems and Birth Timing'*. Accessed 17 Apr 2018.
+> Lanfear, Charles C. and Ross L. Matsueda. (2018). *Compendium of R code and data for 'A Dynamic Intrafamily Model of Child Behavior Problems and Birth Timing'*. Accessed 19 Apr 2018.
+
+### Documents
+
+[To access the paper directly, follow this link.](https://clanfear.github.io/birthtiming/inst/paper/paper.html)
+
+[To access the related presentation, follow this link.](https://clanfear.github.io/birthtiming/inst/presentation/presentation.html)
 
 ### How to download or install
 
