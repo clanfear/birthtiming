@@ -19,9 +19,7 @@ Before We Begin
 This presentation focuses on reproducible articles with R using
 [Ben Marwick's rrtools](https://github.com/benmarwick/rrtools).
 
-After presenting `rrtools`, it will be demonstrated using an actual research project in progress:
-
-Lanfear, C. and R. Matsueda, "A Dynamic Intrafamily Model of Child Behavior Problems and Birth Timing".
+After presenting `rrtools`, it will be demonstrated using an actual research project in progress: Lanfear, C. and R. Matsueda, "A Dynamic Intrafamily Model of Child Behavior Problems and Birth Timing".
 
 The compendium repository for this project is available at [github.com/clanfear/birthtiming](http://github.com/clanfear/birthtiming) or can be
 installed and loaded as the R package `birthtiming` using the following code:
@@ -29,7 +27,7 @@ installed and loaded as the R package `birthtiming` using the following code:
 ```
 devtools::install_github("clanfear/birthtiming")
 ```
-The current article draft itself, as well as these slides, may be viewed from the links on the project repository.
+The current article draft and these slides may be viewed from the links on the project repository.
 
 `birthtiming` has convenience functions for opening these files:
  * `birthtiming::browse_paper()` opens the paper in a browser window.
