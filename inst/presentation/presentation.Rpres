@@ -29,9 +29,9 @@ devtools::install_github("clanfear/birthtiming")
 library(birthtiming)
 ```
 
-The current article draft itself may be viewed [here](http://clanfear.github.io/birthtiming/inst/paper/paper.html) or from the link on the project github. The function `birthtiming::open_paper_dir()` will also automaticallly open the directory with the draft on your computer.
+The current article draft itself may be viewed [here](http://clanfear.github.io/birthtiming/inst/paper/paper.html) or from the link on the project github. The function `birthtiming::open_paper_dir()` *should* also automaticallly open the directory with the draft on your computer.
 
-These slides are also available at [clanfear.github.io/birthtiming/inst/presentation/presentation.html](http://clanfear.github.io/birthtiming/inst/presentation/presentation.html), and are embedded in the `birthtiming` package.
+These slides are available at [clanfear.github.io/birthtiming/inst/presentation/presentation.html](http://clanfear.github.io/birthtiming/inst/presentation/presentation.html), and are embedded in the `birthtiming` package in `presentation/`.
 
 -
 
@@ -43,7 +43,7 @@ Reproducibility comes in three forms (Stodden 2014):
 
 1. Empirical: Repeatability in data collection.
 2. Statistical: Verification with alternate methods of inference.
-3. Computational: Reproducible methods of cleaning, organizing, and presention of data and results.
+3. Computational: Reproducibility in cleaning, organizing, and presenting data and results.
 
 R is particularly well suited to enabling **computational reproducibility**.
 
@@ -81,13 +81,13 @@ Research Compendia
 ========================================================
 incremental: true
 
-A research compendium is an R package used not to share statistical methods but to organize and share reproducible projects.
+A research compendium is an R package used not to share statistical or computational *methods* but to organize and share reproducible *projects*.
 
-Research compendia features:
+Research compendia feature:
 
 * Files organized in a recognizable structure (R packages)
 * Clear separation of data, method, and output. *Data are read only*.
-* A documented or even *preserved* computational environment
+* A well-documented or even *preserved* computational environment
 
 `rrtools` provides a simplified workflow to accomplish this.
 
@@ -157,7 +157,7 @@ Once the compendium has been created, you can
 * Produce figures and save them to the `inst/figures/` directory
 * Commit changes to github easily (so do it often)
 
-By loading the compendium library at the start of the article `.Rmd` file, all data and functions in the other directories become available.
+By loading the compendium library at the start of the paper's `.Rmd` file, all data and functions in the other directories become available.
 
 -
 
@@ -168,12 +168,13 @@ If using your compendium to generate an article, thesis, or dissertation, `rrtoo
 
 `bookdown` provides an easily accessible alternative to manually writing $\LaTeX$ for typesetting and reference management.
 
-You can integration citations from bibtex files simply by placing the `.bib` file (such as produced by Zotero) in `inst/paper/` then choosing an appropriate citation format in the header of the `paper.Rmd`.
+You can integratr citations from bibtex files simply by placing the `.bib` file (such as produced by Zotero) in `inst/paper/` then choosing an appropriate citation format in the `csl:` field of the header of `paper.Rmd`.
 
 `bookdown` supports `.html` output for ease and speed and also renders `.pdf` files through $\LaTeX$ for publication-ready documents.
 
+For University of Washington theses and dissertations, consider Ben Marwick's `huskydown` package which uses simple Markdown syntax but renders using a UW approved $\LaTeX$ template.
 
-Summary
+Final Notes on rrtools
 ========================================================
 incremental: true
 
@@ -213,18 +214,18 @@ incremental: true
 
 ### Rosenzweig & Wolpin (1995)
 
-* Question: How does teen childbearing impact birth outcomes (e.g. birth weight)
+* Question: How does teen childbearing impact birth outcomes (e.g. birth weight)?
 * Used a fixed-effects instrumental variables sibling model:
    * Fixed effects remove all time-invariant mother factors
-   * Error term for child one outcomes allowed to impact mother's age at second birth
-   * Accounts for active decisionmaking in fertility
+   * Error term for first child's outcomes allowed to impact mother's age at second birth
+   * Accounts for decisionmaking in fertility
 
 -
 
 Lanfear & Matsueda 2018
 ========================================================
 
-Our work combines the question of Hao & Matsueda (2006) with the estimation technique of Rosenzweig & Wolpin (1995)
+This project combines the question of Hao & Matsueda (2006) with the estimation technique of Rosenzweig & Wolpin (1995)
 
 ### Our question:
 
@@ -239,17 +240,17 @@ incremental: true
 ### Sample
 * Combined mothers with child sample
 * Americans age 14--21 in 1979, surveyed biennially up through 2012.
-* Age of data means coverage of *full range* of fertility.
-   * Oldest first birth at 40, second at 42.
-   * Earliest first birth at 19, second at 20.
 * Restricted to mothers with 2+ children, only use first two.
+* Age of data means coverage of nearly *full range* of fertility.
+   * Earliest first birth at 19, second at 20.
+   * Oldest first birth at 40, second at 42.
 * 1453 mothers with 2906 children
 
 ### Measures
 * Mother's age at birth in years
-* Perceived child difficulty scale, 11 items (0 to 23 months)
-* *Birth characteristics* (forthcoming)
-* *Changes in family social and economic conditions* (forthcoming)
+* Perceived child difficulty scale (0 to 23 months): 11 items.
+* *Birth characteristics* (in progress)
+* *Changes in family social and economic conditions* (in progress)
 
 -
 
@@ -264,9 +265,9 @@ incremental: true
    * Purges all time-invariant effects
 * First child difficulty error term covaries with mother's age at second birth
 
-Key Feature:
+#### Key Feature:
 
-*Error term of first child's difficulty is an instrument for effect of mother's age on second child's difficulty.*
+#### *Error term of first child difficulty is instrument for effect of mother's age on second child difficulty.*
 
 -
 
@@ -281,7 +282,7 @@ knitr::include_graphics("../paper/diagram_model.png")
 Preliminary Results 1
 ========================================================
 
-Estimates obtained using `lavaan`
+Estimates obtained using `lavaan`; unstandardized parameters with standard errors.
 
 ```{r diagramestimates, echo=FALSE, eval = TRUE, warning=FALSE, message=FALSE, out.width='80%', fig.cap="Model Estimates"}
 knitr::include_graphics("../paper/diagram_estimates.png")
@@ -302,8 +303,9 @@ incremental: true
 ### Planned Additions:
 
 * Introduce birth-time and time-variant mother characteristics
-* Examine how child difficulty predicts hazard or absence of subsequent births
-* Measurement model of child difficulty
+* Examine how child difficulty predicts hazard or censoring of subsequent births
+* Test random effects specification
+* Clean up code, introduce "on demand" specification tests
 
 -
 
@@ -320,7 +322,7 @@ All data manipulation and estimation---including generation of the diagrams---oc
 3. Structural equation models are fit with `lavaan` and estimates extracted.
 4. `sweave` calls generate the diagrams separately ($\LaTeX$ with `tikz`)
    * PDF output from Sweave is converted on the fly to `.png` images (`pdftools`)
-   * $\LaTeX$ with in-line R code to insert estimates in second diagram
+   * $\LaTeX$ with in-line R code is used to insert estimates into second diagram
 5. Paper compiles via `bookdown` with bibtex references as either `.pdf` or `.html` (via Pandoc)
 
 -
