@@ -831,7 +831,7 @@ installed and loaded as the R package <code>birthtiming</code> using the followi
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
-<h3>Reproducibility</h3>
+<h3>Reproducibility Definitions</h3>
 <div class="slideContent" >
 <p>Reproducibility comes in three forms (Stodden 2014):</p>
 
@@ -842,6 +842,8 @@ installed and loaded as the R package <code>birthtiming</code> using the followi
 </ol>
 
 <p class="fragment">R is particularly well suited to enabling <strong>computational reproducibility</strong>.</p>
+
+<p class="fragment">R will not fix flawed experimental methods or observations, nor offer a remedy for improper application of statistical methods.</p>
 
 <h2 class="fragment"></h2>
 
@@ -871,6 +873,8 @@ which are easily combined with tools like <code>git</code> for version control.<
 <section data-transition="linear" data-transition-speed="default">
 <h3>Levels of Reproducibility</h3>
 <div class="slideContent" >
+<p>For academic papers, degrees of reproducibility vary:</p>
+
 <ol>
 <li class="fragment">&ldquo;Read the article&rdquo;</li>
 <li class="fragment">Shared data with documentation</li>
@@ -956,9 +960,13 @@ which are easily combined with tools like <code>git</code> for version control.<
 
 <ul>
 <li class="fragment"><code>README.md</code> describing the project</li>
-<li class="fragment"><code>DESCRIPTION</code> documenting dependencies and metadata</li>
-<li class="fragment"><code>inst/data/</code> for raw data files</li>
-<li class="fragment"><code>inst/analysis/</code> or <code>inst/paper/</code> for scripts, reports, and makefiles</li>
+<li class="fragment"><code>DESCRIPTION</code> text file documenting dependencies and metadata</li>
+<li class="fragment"><code>inst/data/</code> directory for raw data files</li>
+<li class="fragment"><code>inst/analysis/</code> or <code>inst/paper/</code> for scripts, reports, and makefiles
+
+<ul>
+<li class="fragment"><code>paper.Rmd</code> pre-formatted article template</li>
+</ul></li>
 <li class="fragment"><code>R/</code> for scripts with reusable functions</li>
 <li class="fragment"><code>man/</code> for documentation of functions (<code>roxygen</code> suggested)</li>
 </ul>
@@ -993,13 +1001,13 @@ which are easily combined with tools like <code>git</code> for version control.<
 <div class="slideContent" >
 <p>If using your compendium to generate an article, thesis, or dissertation, <code>rrtools</code> makes formatting simple by integrating <code>bookdown</code>.</p>
 
-<p><code>bookdown</code> provides an easily accessible alternative to manually writing \( \LaTeX \) for typesetting and reference management.</p>
+<p><code>bookdown</code> provides an accessible alternative to manually writing \( \LaTeX \) for typesetting and reference management.</p>
 
-<p>You can integratr citations from bibtex files simply by placing the <code>.bib</code> file (such as produced by Zotero) in <code>inst/paper/</code> then choosing an appropriate citation format in the <code>csl:</code> field of the header of <code>paper.Rmd</code>.</p>
+<p>You can integrate citations and automate reference page generation using bibtex files simply by placing the <code>.bib</code> file (such as produced by Zotero) in <code>inst/paper/</code> then choosing an appropriate citation format in the <code>csl:</code> field of the header of <code>paper.Rmd</code>.</p>
 
 <p><code>bookdown</code> supports <code>.html</code> output for ease and speed and also renders <code>.pdf</code> files through \( \LaTeX \) for publication-ready documents.</p>
 
-<p>For University of Washington theses and dissertations, consider Ben Marwick&#39;s <code>huskydown</code> package which uses simple Markdown syntax but renders using a UW approved \( \LaTeX \) template.</p>
+<p>For University of Washington theses and dissertations, consider Ben Marwick&#39;s <code>huskydown</code> package which uses Markdown but renders via a UW approved \( \LaTeX \) template.</p>
 
 </div>
 
@@ -1113,11 +1121,7 @@ which are easily combined with tools like <code>git</code> for version control.<
 
 <ul>
 <li class="fragment">Mother&#39;s age at birth predicts child difficulty</li>
-<li class="fragment">Mother&#39;s age covaries with fixed effects, fixed effects predict child difficulty
-
-<ul>
-<li class="fragment">Purges all time-invariant effects</li>
-</ul></li>
+<li class="fragment">Mother-level fixed effects purge all time-invariant effects</li>
 <li class="fragment">First child difficulty error term covaries with mother&#39;s age at second birth</li>
 </ul>
 
@@ -1206,13 +1210,13 @@ which are easily combined with tools like <code>git</code> for version control.<
 <section data-transition="linear" data-transition-speed="default">
 <h3>References</h3>
 <div class="slideContent" >
-<p>Stodden, V. (2014), &ldquo;What scientific idea is ready for retirement? Reproducibility.&rdquo; <em>Edge</em>. URL: <a href="https://www.edge.org/response-detail/25340">https://www.edge.org/response-detail/25340</a></p>
+<p>Stodden, V. 2014. &ldquo;What scientific idea is ready for retirement? Reproducibility.&rdquo; <em>Edge</em>. URL: <a href="https://www.edge.org/response-detail/25340">https://www.edge.org/response-detail/25340</a></p>
 
-<p>Marwick, B., Boettiger, C. &amp; L. Mullen (2017). &ldquo;Packaging data analytical work reproducibly using R (and friends).&rdquo; <em>PeerJ Preprints</em> 5:e3192v1 <a href="https://doi.org/10.7287/peerj.preprints.3192v1">https://doi.org/10.7287/peerj.preprints.3192v1</a></p>
+<p>Marwick, B., C. Boettiger &amp; L. Mullen. 2017. &ldquo;Packaging data analytical work reproducibly using R (and friends).&rdquo; <em>PeerJ Preprints 5</em>:e3192v1 <a href="https://doi.org/10.7287/peerj.preprints.3192v1">https://doi.org/10.7287/peerj.preprints.3192v1</a></p>
 
-<p>Hao, L. &amp; R. Matsueda (2006). “Family Dynamics Through Childhood: A sibling model of behavior problems.” <em>Social Science Research 35</em>(2):500–524. <a href="http://www.sciencedirect.com/science/article/pii/S0049089X04001024">http://www.sciencedirect.com/science/article/pii/S0049089X04001024</a></p>
+<p>Hao, L. &amp; R. Matsueda. 2006. “Family Dynamics Through Childhood: A sibling model of behavior problems.” <em>Social Science Research 35</em>(2):500–524. <a href="http://www.sciencedirect.com/science/article/pii/S0049089X04001024">http://www.sciencedirect.com/science/article/pii/S0049089X04001024</a></p>
 
-<p>Rosenzweig, M. &amp; K. Wolpin (1995). “Sisters, Siblings, and Mothers: The effect of teen-age childbearing on birth outcomes in a dynamic family context.” <em>Econometrica 63</em>(2):303–26. <a href="http://www.jstor.org/stable/2951628">http://www.jstor.org/stable/2951628</a></p>
+<p>Rosenzweig, M. &amp; K. Wolpin. 1995. “Sisters, Siblings, and Mothers: The effect of teen-age childbearing on birth outcomes in a dynamic family context.” <em>Econometrica 63</em>(2):303–26. <a href="http://www.jstor.org/stable/2951628">http://www.jstor.org/stable/2951628</a></p>
 
 </div>
 
