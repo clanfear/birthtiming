@@ -95,7 +95,7 @@ load_and_format_NLSY <- function(){
       TRUE ~ as.integer(NA)
     )) %>%
     select(-race, -m_prebirth_weight, -m_prepreg_weight, -weight_loss_gain,
-           -Cries_0_11_1986, -Cries_12_23_1986, starts_with("prenatal")) %>%
+           -Cries_0_11_1986, -Cries_12_23_1986, -starts_with("prenatal")) %>%
     rename(Difficulty=Difficulty_1986,
            treatment=treatment_1986,
            medicine=medicine__1986,

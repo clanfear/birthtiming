@@ -29,11 +29,11 @@ run_full_sem <- function(){
     '
   f1 =~ 1*Difficulty_1 + 1*Difficulty_2
 
-  Difficulty_1 ~ bage*m_age_at_birth_1 + c_birth_weight_oz_1 + sex_1 + gestation_time_1 + treatment_1 + medicine_1 + equipment_1
-  Difficulty_2 ~ bage*m_age_at_birth_2 + c_birth_weight_oz_2 + sex_2 + gestation_time_2+ treatment_2 + medicine_2 + equipment_2
+  Difficulty_1 ~ bage*m_age_at_birth_1 + c_birth_weight_oz_1 + sex_1 + gestation_time_1
+  Difficulty_2 ~ bage*m_age_at_birth_2 + c_birth_weight_oz_2 + sex_2 + gestation_time_2
 
-  m_age_at_birth_1~~f1 + c_birth_weight_oz_1 + sex_1 + gestation_time_1 + treatment_1 + medicine_1 + equipment_1
-  m_age_at_birth_2~~f1 + c_birth_weight_oz_2 + sex_2 + gestation_time_2 + treatment_2 + medicine_2 + equipment_2
+  m_age_at_birth_1~~f1 + c_birth_weight_oz_1 + sex_1 + gestation_time_1
+  m_age_at_birth_2~~f1 + c_birth_weight_oz_2 + sex_2 + gestation_time_2
   m_age_at_birth_1~~m_age_at_birth_2
 
 
