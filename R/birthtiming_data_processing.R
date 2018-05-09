@@ -66,6 +66,13 @@ load_and_format_NLSY <- function(){
 
   names(data_subset) <- var_index$varname[match(names(data_subset), var_index$varcode)]
 
+  # Add child health data
+  load("../data/raw_data/bt_child_health.RData")
+  data_subset <- data_subset %>%
+    left_join(bt_child_health %>%
+                select(-race, -sex, -birth_year, -starts_with("VERSION")),
+              by=c("mother_id", "child_id"))
+  #
   # End goal is a dataframe that has only first two children of mothers, and difficulty
   # and cries variables are just the only observed values of either 0-11 or 12-23.
 
@@ -74,7 +81,10 @@ load_and_format_NLSY <- function(){
             varying=list(
               Difficulty  = str_subset(names(data_subset), "Difficulty"),
               Cries_0_11  = str_subset(names(data_subset), "Cries_0_11"),
-              Cries_12_23 = str_subset(names(data_subset), "Cries_12_23")),
+              Cries_12_23 = str_subset(names(data_subset), "Cries_12_23"),
+              treatment = str_subset(names(data_subset), "treatment"),
+              medicine = str_subset(names(data_subset), "medicine"),
+              equipment = str_subset(names(data_subset), "equipment")),
               times=seq(1986,2000, by=2),
               ids=data_subset$child_id,
             direction="long") %>%
@@ -86,7 +96,10 @@ load_and_format_NLSY <- function(){
     )) %>%
     select(-race, -m_prebirth_weight, -m_prepreg_weight, -weight_loss_gain,
            -Cries_0_11_1986, -Cries_12_23_1986, starts_with("prenatal")) %>%
-    rename(Difficulty=Difficulty_1986) %>%
+    rename(Difficulty=Difficulty_1986,
+           treatment=treatment_1986,
+           medicine=medicine__1986,
+           equipment=equipment_1986) %>%
     filter(!is.na(Difficulty)) %>%
     group_by(child_id) %>%
     arrange(child_id, time) %>%
@@ -99,6 +112,11 @@ load_and_format_NLSY <- function(){
     mutate(child_n=row_number()) %>%
     select(-birth_month, -birth_year, -time, -id, -child_id) %>%
     ungroup() %>%
+    mutate(health_issue=case_when(
+      treatment %in% 1 | medicine %in% 1 | equipment %in% 1 ~ as.numeric(1),
+      treatment %in% 0 | medicine %in% 0 | equipment %in% 0 ~ as.numeric(0),
+      TRUE ~ as.numeric(NA)
+    )) %>%
     melt(id.vars=c("child_n", "mother_id")) %>%
     dcast(mother_id ~ ...) %>%
     mutate_at(vars(contains("Cries")), funs(as.ordered)) %>%
@@ -116,7 +134,7 @@ load_and_format_NLSY <- function(){
 
 standardize_child_difficulty <- function(child_difficulty){
   child_difficulty_std <- child_difficulty %>%
-    mutate_at(vars(matches("(Difficulty|m_weight_change|c_birth_weight_oz)")),
+    mutate_at(vars(matches("(Difficulty|m_weight_change|c_birth_weight_oz|m_age_at_birth|gestation_time)")),
               funs(standardize))
   return(child_difficulty_std)
 }
