@@ -7,7 +7,7 @@ standardize <- function(x){
   return( (x-mean(x, na.rm=T))/sd(x, na.rm=T) )
 }
 
-load_and_format_NLSY <- function(){
+# load_and_format_NLSY <- function(){
   require(dplyr)
   require(stringr)
   require(tidyr)
@@ -62,22 +62,31 @@ load_and_format_NLSY <- function(){
   #---------------------------------------------------------------------------------
   # Assembling Mother-Level Data
   #---------------------------------------------------------------------------------
-  data_subset <- data %>% select(one_of(var_index$varcode))
+  data <- data %>% select(one_of(var_index$varcode))
 
-  names(data_subset) <- var_index$varname[match(names(data_subset), var_index$varcode)]
+  names(data) <- var_index$varname[match(names(data), var_index$varcode)]
 
   # Add child health data
   load("../data/raw_data/bt_child_health.RData")
-  data_subset <- data_subset %>%
+  data_subset <- data %>%
     left_join(bt_child_health %>%
                 select(-race, -sex, -birth_year, -starts_with("VERSION")),
-              by=c("mother_id", "child_id"))
-  #
+              by=c("mother_id", "child_id")) %>%
+    group_by(mother_id) %>%
+    filter(!is.na(birth_year) & !is.na(birth_month)) %>%
+    mutate(child_dob=ymd(paste(birth_year, birth_month, "1", sep="-"))) %>%
+    arrange(mother_id, child_dob) %>%
+    mutate(Parity=row_number(),
+           time_to_next_birth=(lead(child_dob)-child_dob)/365) %>%
+    mutate(time_to_next_birth=ifelse(is.na(time_to_next_birth), Inf, time_to_next_birth),
+           followed_by_birth=ifelse(!is.na(time_to_next_birth), 1, 0)) %>%
+    ungroup()
+
   # End goal is a dataframe that has only first two children of mothers, and difficulty
   # and cries variables are just the only observed values of either 0-11 or 12-23.
 
-  child_difficulty <-
-    reshape(data=data_subset,
+  long_data <-
+    reshape(data=as.data.frame(data_subset, stringsAsFactors=FALSE),
             varying=list(
               Difficulty  = str_subset(names(data_subset), "Difficulty"),
               Cries_0_11  = str_subset(names(data_subset), "Cries_0_11"),
@@ -88,7 +97,7 @@ load_and_format_NLSY <- function(){
               times=seq(1986,2000, by=2),
               ids=data_subset$child_id,
             direction="long") %>%
-    arrange(mother_id, birth_year, birth_month) %>%
+    arrange(mother_id, child_dob) %>%
     mutate(Cries=case_when(
       !is.na(Cries_0_11_1986) ~ Cries_0_11_1986,
       !is.na(Cries_12_23_1986) ~ Cries_12_23_1986,
@@ -100,17 +109,21 @@ load_and_format_NLSY <- function(){
            treatment=treatment_1986,
            medicine=medicine__1986,
            equipment=equipment_1986) %>%
+    ungroup()
+
+
+  child_difficulty <- long_data %>%
     filter(!is.na(Difficulty)) %>%
     group_by(child_id) %>%
     arrange(child_id, time) %>%
     slice(1L) %>%
     ungroup() %>%
     group_by(mother_id) %>%
-    arrange(birth_year) %>%
+    arrange(child_dob) %>%
     filter(n() > 1) %>%
     slice(1:2) %>%
     mutate(child_n=row_number()) %>%
-    select(-birth_month, -birth_year, -time, -id, -child_id) %>%
+    select(-birth_month, -birth_year, -time, -id, -child_id, -child_dob) %>%
     ungroup() %>%
     mutate(health_issue=case_when(
       treatment %in% 1 | medicine %in% 1 | equipment %in% 1 ~ as.numeric(1),
@@ -127,9 +140,13 @@ load_and_format_NLSY <- function(){
             paste0(str_sub(names(child_difficulty),3,-1),"_",
                    str_sub(names(child_difficulty),1,1) ),
            names(child_difficulty))
+#  names(child_difficulty) <-
+#    ifelse(str_sub(names(child_difficulty),1,1) %in% c(1,2,3),
+#           paste0(str_sub(names(child_difficulty),3,-1),"_",
+#                  str_sub(names(child_difficulty),1,1) ),
+#           names(child_difficulty))
 
   return(child_difficulty)
-}
 
 
 standardize_child_difficulty <- function(child_difficulty){
