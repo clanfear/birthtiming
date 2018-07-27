@@ -1,0 +1,606 @@
+C00001.00    [CPUBID]                                       Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             ID CODE OF CHILD
+ 
+PUBLIC IDENTIFICATION CODE OF CHILD
+ 
+UNIVERSE: All biological children of NLSY79 mothers, regardless of age.
+The following child cases have been deleted from the Child db as of the current 
+survey round:
+1226902 - Determined to be a nonbio child; Mother Supplement reports in 2006 & 
+2008; child not assessed.
+864903 - Spurious duplicate child case; no assessment data.
+265404 - Determined to be a nonbio child; 2000-2006 assessment history deleted 
+from record.
+591304 - Determined to be a nonbio child; never assessed.
+ 
+   11521           1 TO 9999999: See Min & Max values below for range as of this
+                          release
+  -------
+   11521
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:            201        Max:        1267501        Mean:           600866.53
+ 
+Lead In: None.
+Default Next Question: C00002.00
+--------------------------------------------------------------------------------
+C00002.00    [MPUBID]                                       Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             ID CODE OF MOTHER OF CHILD
+ 
+PUBLIC IDENTIFICATION CODE OF MOTHER OF CHILD
+ 
+UNIVERSE: All biological children of NLSY79 mothers, regardless of age.
+SEE YOUTH REFERENCE NUMBER R(    1.)
+ 
+   11521           1 TO 12686: NLSY79 Public ID
+  -------
+   11521
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:              2        Max:          12675        Mean:             6008.65
+ 
+Lead In: C00001.00[Default]
+Default Next Question: C00003.00
+--------------------------------------------------------------------------------
+C00066.00    [MSAGE1986]                                    Survey Year: 1986
+  PRIMARY VARIABLE
+
+ 
+             AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER 
+             SUPPLEMENT
+ 
+AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER SUPPLEMENT 86 INT
+ 
+ACTUAL MONTHS
+ 
+     574           0 TO 11: 0-11 MONTHS
+     622          12 TO 23: 12-23 MONTHS
+     584          24 TO 35: 24-35 MONTHS
+     594          36 TO 47: 36-47 MONTHS
+     587          48 TO 59: 48-59 MONTHS
+     476          60 TO 71: 60-71 MONTHS
+     445          72 TO 83: 72-83 MONTHS
+     327          84 TO 95: 84-95 MONTHS
+     270          96 TO 107: 96-107 MONTHS
+     198         108 TO 119: 108-119 MONTHS
+     154         120 TO 131: 120-131 MONTHS
+      81         132 TO 143: 132-143 MONTHS
+      36         144 TO 155: 144-155 MONTHS
+      18         156 TO 167: 156-167 MONTHS
+       4         168 TO 179: 168-179 MONTHS
+       1         180 TO 999: 180 + MONTHS
+  -------
+    4971
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    4971      MISSING(-7)    6550
+ 
+Min:              0        Max:            183        Mean:               54.58
+ 
+Lead In: C00065.00[Default]
+Default Next Question: C00067.00
+--------------------------------------------------------------------------------
+C00069.00    [MSAGE1988]                                    Survey Year: 1988
+  PRIMARY VARIABLE
+
+ 
+             AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER 
+             SUPPLEMENT
+ 
+AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER SUPPLEMENT  88 INT
+ 
+ACTUAL MONTHS
+ 
+     550           0 TO 11: 0-11 MONTHS
+     541          12 TO 23: 12-23 MONTHS
+     578          24 TO 35: 24-35 MONTHS
+     646          36 TO 47: 36-47 MONTHS
+     562          48 TO 59: 48-59 MONTHS
+     585          60 TO 71: 60-71 MONTHS
+     577          72 TO 83: 72-83 MONTHS
+     513          84 TO 95: 84-95 MONTHS
+     483          96 TO 107: 96-107 MONTHS
+     345         108 TO 119: 108-119 MONTHS
+     279         120 TO 131: 120-131 MONTHS
+     234         132 TO 143: 132-143 MONTHS
+     180         144 TO 155: 144-155 MONTHS
+     108         156 TO 167: 156-167 MONTHS
+      49         168 TO 179: 168-179 MONTHS
+      36         180 TO 999: 180 + MONTHS
+  -------
+    6266
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    6266      MISSING(-7)    5255
+ 
+Min:              0        Max:            224        Mean:               68.49
+ 
+Lead In: C00068.00[Default]
+Default Next Question: C00080.00
+--------------------------------------------------------------------------------
+C00070.20    [MSAGE1990]                                    Survey Year: 1990
+  PRIMARY VARIABLE
+
+ 
+             AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER 
+             SUPPLEMENT
+ 
+AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER SUPPLEMENT  90 INT
+ 
+     409           0 TO 11: 0-11 MONTHS
+     455          12 TO 23: 12-23 MONTHS
+     462          24 TO 35: 24-35 MONTHS
+     435          36 TO 47: 36-47 MONTHS
+     458          48 TO 59: 48-59 MONTHS
+     517          60 TO 71: 60-71 MONTHS
+     453          72 TO 83: 72-83 MONTHS
+     456          84 TO 95: 84-95 MONTHS
+     464          96 TO 107: 96-107 MONTHS
+     396         108 TO 119: 108-119 MONTHS
+     379         120 TO 131: 120-131 MONTHS
+     275         132 TO 143: 132-143 MONTHS
+     210         144 TO 155: 144-155 MONTHS
+     167         156 TO 167: 156-167 MONTHS
+     128         168 TO 179: 168-179 MONTHS
+     137         180 TO 999: 180 + MONTHS
+  -------
+    5801
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    5801      MISSING(-7)    5720
+ 
+Min:              0        Max:            232        Mean:               79.26
+ 
+Lead In: C00070.10[Default]
+Default Next Question: C00080.20
+--------------------------------------------------------------------------------
+C00070.40    [MSAGE1992]                                    Survey Year: 1992
+  PRIMARY VARIABLE
+
+ 
+             AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER 
+             SUPPLEMENT
+ 
+AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER SUPPLEMENT  92 INT
+ 
+     338           0 TO 11: 0-11 MONTHS
+     423          12 TO 23: 12-23 MONTHS
+     445          24 TO 35: 24-35 MONTHS
+     436          36 TO 47: 36-47 MONTHS
+     479          48 TO 59: 48-59 MONTHS
+     446          60 TO 71: 60-71 MONTHS
+     467          72 TO 83: 72-83 MONTHS
+     508          84 TO 95: 84-95 MONTHS
+     452          96 TO 107: 96-107 MONTHS
+     437         108 TO 119: 108-119 MONTHS
+     462         120 TO 131: 120-131 MONTHS
+     393         132 TO 143: 132-143 MONTHS
+     369         144 TO 155: 144-155 MONTHS
+     266         156 TO 167: 156-167 MONTHS
+     209         168 TO 179: 168-179 MONTHS
+     379         180 TO 999: 180 + MONTHS
+  -------
+    6509
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    6509      MISSING(-7)    5012
+ 
+Min:              0        Max:            259        Mean:               91.13
+ 
+Lead In: C00070.30[Default]
+Default Next Question: C00080.40
+--------------------------------------------------------------------------------
+C00070.42    [MSAGE1994]                                    Survey Year: 1994
+  PRIMARY VARIABLE
+
+ 
+             AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER 
+             SUPPLEMENT
+ 
+AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER SUPPLEMENT  94 INT
+ 
+     272           0 TO 11: 0-11 MONTHS
+     354          12 TO 23: 12-23 MONTHS
+     350          24 TO 35: 24-35 MONTHS
+     419          36 TO 47: 36-47 MONTHS
+     426          48 TO 59: 48-59 MONTHS
+     454          60 TO 71: 60-71 MONTHS
+     449          72 TO 83: 72-83 MONTHS
+     444          84 TO 95: 84-95 MONTHS
+     471          96 TO 107: 96-107 MONTHS
+     505         108 TO 119: 108-119 MONTHS
+     451         120 TO 131: 120-131 MONTHS
+     448         132 TO 143: 132-143 MONTHS
+     446         144 TO 155: 144-155 MONTHS
+     386         156 TO 167: 156-167 MONTHS
+     232         168 TO 179: 168-179 MONTHS
+  -------
+    6107
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    6107      MISSING(-7)    5414
+ 
+Min:              0        Max:            178        Mean:               90.83
+ 
+Lead In: C00070.41[Default]
+Default Next Question: C00080.42
+--------------------------------------------------------------------------------
+C00070.44    [MSAGE1996]                                    Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER 
+             SUPPLEMENT
+ 
+AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER SUPPLEMENT
+ 
+     207           0 TO 11: 0-11 MONTHS
+     236          12 TO 23: 12-23 MONTHS
+     300          24 TO 35: 24-35 MONTHS
+     326          36 TO 47: 36-47 MONTHS
+     327          48 TO 59: 48-59 MONTHS
+     398          60 TO 71: 60-71 MONTHS
+     415          72 TO 83: 72-83 MONTHS
+     415          84 TO 95: 84-95 MONTHS
+     418          96 TO 107: 96-107 MONTHS
+     436         108 TO 119: 108-119 MONTHS
+     450         120 TO 131: 120-131 MONTHS
+     468         132 TO 143: 132-143 MONTHS
+     405         144 TO 155: 144-155 MONTHS
+     430         156 TO 167: 156-167 MONTHS
+     199         168 TO 179: 168-179 MONTHS
+  -------
+    5430
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    5430      MISSING(-7)    6091
+ 
+Min:              0        Max:            176        Mean:               95.32
+ 
+Lead In: C00070.43[Default]
+Default Next Question: C00080.43
+--------------------------------------------------------------------------------
+C00070.46    [MSAGE1998]                                    Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER 
+             SUPPLEMENT
+ 
+AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER SUPPLEMENT
+ 
+     177           0 TO 11: 0-11 MONTHS
+     193          12 TO 23: 12-23 MONTHS
+     201          24 TO 35: 24-35 MONTHS
+     253          36 TO 47: 36-47 MONTHS
+     284          48 TO 59: 48-59 MONTHS
+     320          60 TO 71: 60-71 MONTHS
+     322          72 TO 83: 72-83 MONTHS
+     391          84 TO 95: 84-95 MONTHS
+     413          96 TO 107: 96-107 MONTHS
+     423         108 TO 119: 108-119 MONTHS
+     423         120 TO 131: 120-131 MONTHS
+     435         132 TO 143: 132-143 MONTHS
+     441         144 TO 155: 144-155 MONTHS
+     463         156 TO 167: 156-167 MONTHS
+     184         168 TO 179: 168-179 MONTHS
+  -------
+    4923
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    4923      MISSING(-7)    6598
+ 
+Min:              0        Max:            175        Mean:              100.01
+ 
+Lead In: C00070.45[Default]
+Default Next Question: C00080.44
+--------------------------------------------------------------------------------
+C00070.48    [MSAGE2000]                                    Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER 
+             SUPPLEMENT
+ 
+AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER SUPPLEMENT
+ 
+     105           0 TO 11: 0-11 MONTHS
+     116          12 TO 23: 12-23 MONTHS
+     159          24 TO 35: 24-35 MONTHS
+     160          36 TO 47: 36-47 MONTHS
+     170          48 TO 59: 48-59 MONTHS
+     195          60 TO 71: 60-71 MONTHS
+     198          72 TO 83: 72-83 MONTHS
+     270          84 TO 95: 84-95 MONTHS
+     230          96 TO 107: 96-107 MONTHS
+     302         108 TO 119: 108-119 MONTHS
+     334         120 TO 131: 120-131 MONTHS
+     316         132 TO 143: 132-143 MONTHS
+     313         144 TO 155: 144-155 MONTHS
+     317         156 TO 167: 156-167 MONTHS
+     206         168 TO 179: 168-179 MONTHS
+  -------
+    3391
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    3391      MISSING(-7)    8130
+ 
+Min:              0        Max:            177        Mean:               103.7
+ 
+Lead In: C00070.47[Default]
+Default Next Question: C00080.45
+--------------------------------------------------------------------------------
+C00070.50    [MSAGE2002]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER 
+             SUPPLEMENT
+ 
+AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER SUPPLEMENT
+ 
+      37           0 TO 11: MONTHS
+      72          12 TO 23: MONTHS
+     111          24 TO 35: MONTHS
+     110          36 TO 47: MONTHS
+     169          48 TO 59: MONTHS
+     178          60 TO 71: MONTHS
+     172          72 TO 83: MONTHS
+     212          84 TO 95: MONTHS
+     250          96 TO 107: MONTHS
+     302         108 TO 119: MONTHS
+     294         120 TO 131: MONTHS
+     348         132 TO 143: MONTHS
+     374         144 TO 155: MONTHS
+     374         156 TO 167: MONTHS
+     218         168 TO 179: MONTHS
+  -------
+    3221
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       7
+TOTAL =========>    3228      MISSING(-7)    8293
+ 
+Min:              0        Max:            178        Mean:                 112
+ 
+Lead In: C00070.49[Default]
+Default Next Question: C00070.51
+--------------------------------------------------------------------------------
+C00070.53    [MSAGE2004]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER 
+             SUPPLEMENT
+ 
+AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER SUPPLEMENT
+ 
+      16           0 TO 11: 0-11 MONTHS
+      43          12 TO 23: 12-23 MONTHS
+      42          24 TO 35: 24-35 MONTHS
+      72          36 TO 47: 36-47 MONTHS
+     109          48 TO 59: 48-59 MONTHS
+     111          60 TO 71: 60-71 MONTHS
+     159          72 TO 83: 72-83 MONTHS
+     172          84 TO 95: 84-95 MONTHS
+     185          96 TO 107: 96-107 MONTHS
+     209         108 TO 119: 108-119 MONTHS
+     251         120 TO 131: 120-131 MONTHS
+     302         132 TO 143: 132-143 MONTHS
+     298         144 TO 155: 144-155 MONTHS
+     349         156 TO 167: 156-167 MONTHS
+     186         168 TO 179: 168-179 MONTHS
+  -------
+    2504
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       9
+TOTAL =========>    2513      MISSING(-7)    9008
+ 
+Min:              0        Max:            177        Mean:              117.62
+ 
+Lead In: C00070.52[Default]
+Default Next Question: C00070.54
+--------------------------------------------------------------------------------
+C00070.56    [MSAGE2006]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER 
+             SUPPLEMENT
+ 
+AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER SUPPLEMENT
+ 
+      11           0 TO 11: 0-11 MONTHS
+      21          12 TO 23: 12-23 MONTHS
+      20          24 TO 35: 24-35 MONTHS
+      46          36 TO 47: 36-47 MONTHS
+      52          48 TO 59: 48-59 MONTHS
+      78          60 TO 71: 60-71 MONTHS
+     108          72 TO 83: 72-83 MONTHS
+     126          84 TO 95: 84-95 MONTHS
+     177          96 TO 107: 96-107 MONTHS
+     167         108 TO 119: 108-119 MONTHS
+     208         120 TO 131: 120-131 MONTHS
+     214         132 TO 143: 132-143 MONTHS
+     285         144 TO 155: 144-155 MONTHS
+     316         156 TO 167: 156-167 MONTHS
+     106         168 TO 179: 168-179 MONTHS
+  -------
+    1935
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      35
+TOTAL =========>    1970      MISSING(-7)    9551
+ 
+Min:              3        Max:            177        Mean:              121.57
+ 
+Lead In: C00070.55[Default]
+Default Next Question: C00112.12
+--------------------------------------------------------------------------------
+C36012.00    [MSAGE2008]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER 
+             SUPPLEMENT
+ 
+AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER SUPPLEMENT
+ 
+       5           0 TO 11: 0-11 MONTHS
+      10          12 TO 23: 12-23 MONTHS
+      12          24 TO 35: 24-35 MONTHS
+      20          36 TO 47: 36-47 MONTHS
+      24          48 TO 59: 48-59 MONTHS
+      43          60 TO 71: 60-71 MONTHS
+      60          72 TO 83: 72-83 MONTHS
+      80          84 TO 95: 84-95 MONTHS
+     109          96 TO 107: 96-107 MONTHS
+     122         108 TO 119: 108-119 MONTHS
+     180         120 TO 131: 120-131 MONTHS
+     163         132 TO 143: 132-143 MONTHS
+     213         144 TO 155: 144-155 MONTHS
+     213         156 TO 167: 156-167 MONTHS
+      81         168 TO 179: 168-179 MONTHS
+  -------
+    1335
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      13
+TOTAL =========>    1348      MISSING(-7)   10173
+ 
+Min:              2        Max:            178        Mean:              125.52
+ 
+Lead In: C36011.00[Default]
+Default Next Question: C36013.00
+--------------------------------------------------------------------------------
+C39812.00    [MSAGE2010]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER 
+             SUPPLEMENT
+ 
+AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER SUPPLEMENT
+ 
+       3           0 TO 11: 0-11 MONTHS
+       6          24 TO 35: 24-35 MONTHS
+      10          36 TO 47: 36-47 MONTHS
+      13          48 TO 59: 48-59 MONTHS
+      24          60 TO 71: 60-71 MONTHS
+      22          72 TO 83: 72-83 MONTHS
+      46          84 TO 95: 84-95 MONTHS
+      53          96 TO 107: 96-107 MONTHS
+      83         108 TO 119: 108-119 MONTHS
+     105         120 TO 131: 120-131 MONTHS
+     124         132 TO 143: 132-143 MONTHS
+     166         144 TO 155: 144-155 MONTHS
+     193         156 TO 167: 156-167 MONTHS
+      39         168 TO 179: 168-179 MONTHS
+  -------
+     887
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>     888      MISSING(-7)   10633
+ 
+Min:              3        Max:            177        Mean:              131.37
+ 
+Lead In: C39811.00[Default]
+Default Next Question: C39813.00
+--------------------------------------------------------------------------------
+C55249.00    [MSAGE2012]                                    Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER 
+             SUPPLEMENT
+ 
+AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER SUPPLEMENT
+ 
+       2          12 TO 23: 12-23 MONTHS
+       3          24 TO 35: 24-35 MONTHS
+       6          48 TO 59: 48-59 MONTHS
+       6          60 TO 71: 60-71 MONTHS
+       8          72 TO 83: 72-83 MONTHS
+      17          84 TO 95: 84-95 MONTHS
+      19          96 TO 107: 96-107 MONTHS
+      34         108 TO 119: 108-119 MONTHS
+      37         120 TO 131: 120-131 MONTHS
+      62         132 TO 143: 132-143 MONTHS
+      86         144 TO 155: 144-155 MONTHS
+     102         156 TO 167: 156-167 MONTHS
+     104         168 TO 179: 168-179 MONTHS
+      12         180 TO 191: 180-191 MONTHS
+  -------
+     498
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>     500      MISSING(-7)   11021
+ 
+Min:             12        Max:            185        Mean:              143.26
+ 
+Lead In: C55248.00[Default]
+Default Next Question: C55251.00
+--------------------------------------------------------------------------------
+C58012.00    [MSAGE2014]                                    Survey Year: 2014
+  PRIMARY VARIABLE
+
+ 
+             AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER 
+             SUPPLEMENT
+ 
+AGE OF CHILD (IN MONTHS) AT CHILD ASSESSMENT DATE, MOTHER SUPPLEMENT
+ 
+       2          36 TO 47: 36-47 MONTHS
+       2          48 TO 59: 48-59 MONTHS
+       1          60 TO 71: 60-71 MONTHS
+       2          72 TO 83: 72-83 MONTHS
+       5          84 TO 95: 84-95 MONTHS
+       9          96 TO 107: 96-107 MONTHS
+      13         108 TO 119: 108-119 MONTHS
+      23         120 TO 131: 120-131 MONTHS
+      27         132 TO 143: 132-143 MONTHS
+      39         144 TO 155: 144-155 MONTHS
+      58         156 TO 167: 156-167 MONTHS
+      77         168 TO 179: 168-179 MONTHS
+      14         180 TO 191: 180-191 MONTHS
+  -------
+     272
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>     273      MISSING(-7)   11248
+ 
+Min:             36        Max:            186        Mean:              150.86
+ 
+Lead In: C58011.00[Default]
+Default Next Question: C58014.00

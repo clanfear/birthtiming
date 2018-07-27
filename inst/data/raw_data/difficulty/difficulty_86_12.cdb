@@ -1,0 +1,489 @@
+C00001.00    [CPUBID]                                       Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             ID CODE OF CHILD
+ 
+PUBLIC IDENTIFICATION CODE OF CHILD
+ 
+UNIVERSE: All biological children of NLSY79 mothers, regardless of age.
+The following child cases have been deleted from the Child db as of the current 
+survey round:
+1226902 - Determined to be a nonbio child; Mother Supplement reports in 2006 & 
+2008; child not assessed.
+864903 - Spurious duplicate child case; no assessment data.
+265404 - Determined to be a nonbio child; 2000-2006 assessment history deleted 
+from record.
+591304 - Determined to be a nonbio child; never assessed.
+ 
+   11521           1 TO 9999999: See Min & Max values below for range as of this
+                          release
+  -------
+   11521
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:            201        Max:        1267501        Mean:           600866.53
+ 
+Lead In: None.
+Default Next Question: C00002.00
+--------------------------------------------------------------------------------
+C00002.00    [MPUBID]                                       Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             ID CODE OF MOTHER OF CHILD
+ 
+PUBLIC IDENTIFICATION CODE OF MOTHER OF CHILD
+ 
+UNIVERSE: All biological children of NLSY79 mothers, regardless of age.
+SEE YOUTH REFERENCE NUMBER R(    1.)
+ 
+   11521           1 TO 12686: NLSY79 Public ID
+  -------
+   11521
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:              2        Max:          12675        Mean:             6008.65
+ 
+Lead In: C00001.00[Default]
+Default Next Question: C00003.00
+--------------------------------------------------------------------------------
+C00053.00    [CRACE]                                        Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RACE OF CHILD (MOTHER'S RACIAL/ETHNIC COHORT FROM SCREENER)
+ 
+RACE OF CHILD (MOTHER'S RACIAL/ETHNIC COHORT FROM SCREENER)
+Child race/ethnicity is based on the report of the mother. See NLSY79 main Youth
+Reference Number R( 2147.)
+ 
+    2219       1 HISPANIC
+    3191       2 BLACK
+    6111       3 NON-BLACK, NON-HISPANIC
+  -------
+   11521
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Lead In: C00052.00[Default]
+Default Next Question: C00054.00
+--------------------------------------------------------------------------------
+C00054.00    [CSEX]                                         Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             SEX OF CHILD
+ 
+SEX OF CHILD
+ 
+    5882       1 MALE
+    5638       2 FEMALE
+  -------
+   11520
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Lead In: C00053.00[Default]
+Default Next Question: C00055.00
+--------------------------------------------------------------------------------
+C00057.00    [CYRB]                                         Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             DATE OF BIRTH OF CHILD - YEAR
+ 
+DATE OF BIRTH OF CHILD - YEAR
+ 
+    1222        1970 TO 1978: < before 1979
+     528        1979
+     607        1980
+     714        1981
+     703        1982
+     715        1983
+     656        1984
+     676        1985
+     617        1986
+     622        1987
+     583        1988
+     629        1989
+     495        1990
+     422        1991
+     400        1992
+     349        1993
+     296        1994
+     243        1995
+     229        1996
+     213        1997
+     155        1998
+     127        1999
+      98        2000
+      81        2001
+      45        2002
+      33        2003
+      23        2004
+      15        2005
+      11        2006
+       4        2007
+       3        2008
+       3        2009
+       2        2010
+       2        2011
+  -------
+   11521
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:           1970        Max:           2011        Mean:             1986.08
+ 
+Lead In: C00055.00[Default]
+Default Next Question: C00057.01
+--------------------------------------------------------------------------------
+C05725.10    [DIFFIC1986]                                   Survey Year: 1986
+  PRIMARY VARIABLE
+
+ 
+             HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW 
+             SCORE-ABBREV.
+ 
+HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW SCORE-ABBREV.  
+86 INT
+ 
+       2          10 TO 19
+     384          20 TO 29
+     665          30 TO 39
+      86          40 TO 49
+       2          50 TO 59
+  -------
+    1139
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      57
+TOTAL =========>    1196      MISSING(-7)   10325
+ 
+Min:             15        Max:             53        Mean:               31.87
+ 
+Lead In: C05725.00[Default]
+Default Next Question: C05726.00
+--------------------------------------------------------------------------------
+C07929.10    [DIFFIC1988]                                   Survey Year: 1988
+  PRIMARY VARIABLE
+
+ 
+             HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW 
+             SCORE-ABBREV.
+ 
+HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW SCORE-ABBREV.  
+88 INT
+ 
+     290          20 TO 29
+     620          30 TO 39
+      79          40 TO 49
+       8          50 TO 59
+  -------
+     997
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      94
+TOTAL =========>    1091      MISSING(-7)   10430
+ 
+Min:             20        Max:             54        Mean:                32.6
+ 
+Lead In: C07929.00[Default]
+Default Next Question: C07930.00
+--------------------------------------------------------------------------------
+C09929.00    [DIFFIC1990]                                   Survey Year: 1990
+  PRIMARY VARIABLE
+
+ 
+             HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW 
+             SCORE - ABBREV
+ 
+HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW 
+SCORE-ABBREVIATED 90 INT
+ 
+     217          10 TO 19
+     423          20 TO 29
+     150          30 TO 39
+      25          40 TO 49
+  -------
+     815
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      49
+TOTAL =========>     864      MISSING(-7)   10657
+ 
+Min:             11        Max:             48        Mean:               24.33
+ 
+Lead In: C09928.00[Default]
+Default Next Question: C09930.00
+--------------------------------------------------------------------------------
+C11932.00    [DIFFIC1992]                                   Survey Year: 1992
+  PRIMARY VARIABLE
+
+ 
+             HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW 
+             SCORE-ABBREV
+ 
+HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW SCORE-ABBREV 92 
+INT
+ 
+     192          10 TO 19
+     389          20 TO 29
+     123          30 TO 39
+      16          40 TO 49
+  -------
+     720
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      41
+TOTAL =========>     761      MISSING(-7)   10760
+ 
+Min:             11        Max:             47        Mean:                24.2
+ 
+Lead In: C11931.00[Default]
+Default Next Question: C11933.00
+--------------------------------------------------------------------------------
+C15010.00    [DIFFIC1994]                                   Survey Year: 1994
+  PRIMARY VARIABLE
+
+ 
+             HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW 
+             SCORE-ABBREV
+ 
+HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW SCORE-ABBREV  94
+INT
+ 
+     148          10 TO 19
+     307          20 TO 29
+     108          30 TO 39
+      10          40 TO 49
+       1          50 TO 59
+  -------
+     574
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      51
+TOTAL =========>     625      MISSING(-7)   10896
+ 
+Min:             11        Max:             52        Mean:               24.29
+ 
+Lead In: C15009.00[Default]
+Default Next Question: C15011.00
+--------------------------------------------------------------------------------
+C15579.00    [DIFFIC1996]                                   Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW 
+             SCORE - ABBREV
+ 
+HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW 
+SCORE-ABBREVIATED
+ 
+     124          10 TO 19
+     195          20 TO 29
+      76          30 TO 39
+       8          40 TO 49
+       1          50 TO 59
+  -------
+     404
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      39
+TOTAL =========>     443      MISSING(-7)   11078
+ 
+Min:             11        Max:             52        Mean:               24.02
+ 
+Lead In: C15578.00[Default]
+Default Next Question: C15580.00
+--------------------------------------------------------------------------------
+C17936.00    [DIFFIC1998]                                   Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW 
+             SCORE - ABBREV
+ 
+HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW SCORE-ABBREV
+ 
+      84          10 TO 19
+     181          20 TO 29
+      56          30 TO 39
+       1          40 TO 49
+  -------
+     322
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      48
+TOTAL =========>     370      MISSING(-7)   11151
+ 
+Min:             11        Max:             41        Mean:               23.55
+ 
+Lead In: C17935.00[Default]
+Default Next Question: C17937.00
+--------------------------------------------------------------------------------
+C25052.00    [DIFFIC2000]                                   Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW 
+             SCORE - ABBREV
+ 
+HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW SCORE-ABBREV
+ 
+      76          10 TO 19
+     105          20 TO 29
+      32          30 TO 39
+       1          40 TO 49
+  -------
+     214
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       7
+TOTAL =========>     221      MISSING(-7)   11300
+ 
+Min:             11        Max:             41        Mean:                22.7
+ 
+Lead In: C25051.00[Default]
+Default Next Question: C25053.00
+--------------------------------------------------------------------------------
+C25335.00    [DIFFIC2002]                                   Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW 
+             SCORE - ABBREV
+ 
+HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW SCORE-ABBREV
+ 
+       1          10 TO 19
+       4          20 TO 29
+  -------
+       5
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       5      MISSING(-7)   11516
+ 
+Min:             15        Max:             29        Mean:                23.4
+ 
+Lead In: C25334.00[Default]
+Default Next Question: C25336.00
+--------------------------------------------------------------------------------
+C36165.00    [DIFFIC2008]                                   Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW 
+             SCORE - ABBREV
+ 
+HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW SCORE-ABBREV
+ 
+       2          10 TO 19
+       9          20 TO 29
+       3          30 TO 39
+  -------
+      14
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>      15      MISSING(-7)   11506
+ 
+Min:             18        Max:             35        Mean:               25.86
+ 
+Lead In: C39535.00[Default]
+Default Next Question: C36166.00
+--------------------------------------------------------------------------------
+C39953.00    [DIFFIC2010]                                   Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW 
+             SCORE - ABBREV
+ 
+HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW SCORE-ABBREV
+ 
+       1          10 TO 19
+       1          30 TO 39
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       3      MISSING(-7)   11518
+ 
+Min:             18        Max:             33        Mean:                25.5
+ 
+Lead In: C39952.00[Default]
+Default Next Question: C39954.00
+--------------------------------------------------------------------------------
+C55391.00    [DIFFIC2012]                                   Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW 
+             SCORE - ABBREV
+ 
+HOW MY CHILD USUALLY ACTS/TEMPERAMENT: DIFFICULTY COMPOSITE RAW SCORE-ABBREV
+ 
+       1          20 TO 29
+       1          30 TO 39
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       2      MISSING(-7)   11519
+ 
+Min:             25        Max:             31        Mean:                  28
+ 
+Lead In: C55390.00[Default]
+Default Next Question: C55392.00
+--------------------------------------------------------------------------------
+Y22670.00    [VERSION_R26]                                  Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             VERSION_R26 CHILD/YOUNG ADULT
+ 
+This variable identifies the release version of the current NLSY79 Child/Young 
+Adult data set, This information allows User Services to identify the release 
+version used by a researcher who is asking a question and to access past 
+versions of the data if necessary.
+ 
+   11521         458
+  -------
+   11521
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:            458        Max:            458        Mean:                 458
+ 
+Lead In: Y12053.00[Default]
+Default Next Question: Y12054.00

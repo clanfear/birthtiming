@@ -1,0 +1,578 @@
+C00001.00    [CPUBID]                                       Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             ID CODE OF CHILD
+ 
+PUBLIC IDENTIFICATION CODE OF CHILD
+ 
+UNIVERSE: All biological children of NLSY79 mothers, regardless of age.
+The following child cases have been deleted from the Child db as of the current 
+survey round:
+1226902 - Determined to be a nonbio child; Mother Supplement reports in 2006 & 
+2008; child not assessed.
+864903 - Spurious duplicate child case; no assessment data.
+265404 - Determined to be a nonbio child; 2000-2006 assessment history deleted 
+from record.
+591304 - Determined to be a nonbio child; never assessed.
+ 
+   11521           1 TO 9999999: See Min & Max values below for range as of this
+                          release
+  -------
+   11521
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:            201        Max:        1267501        Mean:           600866.53
+ 
+Lead In: None.
+Default Next Question: C00002.00
+--------------------------------------------------------------------------------
+C00002.00    [MPUBID]                                       Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             ID CODE OF MOTHER OF CHILD
+ 
+PUBLIC IDENTIFICATION CODE OF MOTHER OF CHILD
+ 
+UNIVERSE: All biological children of NLSY79 mothers, regardless of age.
+SEE YOUTH REFERENCE NUMBER R(    1.)
+ 
+   11521           1 TO 12686: NLSY79 Public ID
+  -------
+   11521
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:              2        Max:          12675        Mean:             6008.65
+ 
+Lead In: C00001.00[Default]
+Default Next Question: C00003.00
+--------------------------------------------------------------------------------
+C05418.00    [MS860140]                                     Survey Year: 1986
+  PRIMARY VARIABLE
+
+ 
+             HOME PART A (0-2 YRS): DID MOTHER HAVE TO SPANK CHILD IN THE PAST 
+             WEEK?
+ 
+HOME: MS PART A (0-2.11) - DID MOTHER HAVE TO SPANK CHILD IN THE PAST WEEK?  86 
+INT
+ 
+     889       1 YES
+     854       0 NO
+  -------
+    1743
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    1743      MISSING(-7)    9778
+ 
+Lead In: C05417.00[Default]
+Default Next Question: C05419.00
+--------------------------------------------------------------------------------
+C05419.00    [MS860141]                                     Survey Year: 1986
+  PRIMARY VARIABLE
+
+ 
+             HOME PART A (0-2 YRS): HOW OFTEN MOTHER SPANKED CHILD IN PAST WEEK
+ 
+HOME: MS PART A (0-2.11) - HOW OFTEN WAS CHILD SPANKED IN THE PAST WEEK?  86 INT
+ 
+ACTUAL NUMBER
+ 
+       3           0
+     177           1
+     244           2
+     171           3
+      80           4
+      67           5
+      28           6
+      29           7
+       9           8
+       1           9
+      40          10
+       3          11
+       4          12
+       3          14
+       8          15
+      11          16 TO 99999: 16+
+  -------
+     878
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     878      MISSING(-7)   10643
+ 
+Min:              0        Max:             50        Mean:                3.71
+ 
+Lead In: C05418.00[Default]
+Default Next Question: C05420.00
+--------------------------------------------------------------------------------
+C07522.00    [MS880257]                                     Survey Year: 1988
+  PRIMARY VARIABLE
+
+ 
+             HOME PART A (0-2 YRS): DID MOTHER HAVE TO SPANK CHILD IN THE PAST 
+             WEEK?
+ 
+HOME: MS PART A (0-2.11) - DID MOTHER HAVE TO SPANK CHILD IN THE PAST WEEK?  88 
+INT
+ 
+     785       1 YES
+     863       0 NO
+  -------
+    1648
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    1648      MISSING(-7)    9873
+ 
+Lead In: C07521.00[Default]
+Default Next Question: C07523.00
+--------------------------------------------------------------------------------
+C07523.00    [MS880258]                                     Survey Year: 1988
+  PRIMARY VARIABLE
+
+ 
+             HOME PART A (0-2 YRS): HOW OFTEN MOTHER SPANKED CHILD IN PAST WEEK
+ 
+HOME: MS PART A (0-2.11) - HOW OFTEN CHILD WAS SPANKED IN THE PAST WEEK  88 INT
+ 
+     110           0: < 1
+     189           1
+     228           2
+     137           3
+      64           4
+      67           5
+      12           6
+      25           7
+       8           8
+       2           9
+      31          10
+       2          12
+       1          13
+       1          14
+       4          15
+       1          16
+       7          17 TO 99999: 17+
+  -------
+     889
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     889      MISSING(-7)   10632
+ 
+Min:              0        Max:             35        Mean:                2.91
+ 
+Lead In: C07522.00[Default]
+Default Next Question: C07524.00
+--------------------------------------------------------------------------------
+C09539.00    [MS900321]                                     Survey Year: 1990
+  PRIMARY VARIABLE
+
+ 
+             HOME PART A (0-2 YRS): HOW OFTEN MOTHER SPANKED CHILD IN PAST WEEK
+ 
+HOME: MS PART A (0-2.11) - DID MOTHER HAVE TO SPANK CHILD IN THE PAST WEEK?  90 
+INT
+ 
+     720           0: < 1
+     154           1
+     144           2
+     109           3
+      49           4
+      52           5
+      16           6
+      21           7
+       2           8
+       2           9
+      14          10
+       4          14
+       4          15
+      11          17 TO 99999: 17+
+  -------
+    1302
+ 
+Refusal(-1)            1
+Don't Know(-2)         0
+TOTAL =========>    1303      MISSING(-7)   10218
+ 
+Min:              0        Max:             50        Mean:                1.55
+ 
+Lead In: C09538.00[Default]
+Default Next Question: C09540.00
+--------------------------------------------------------------------------------
+C11520.00    [MS920321]                                     Survey Year: 1992
+  PRIMARY VARIABLE
+
+ 
+             HOME PART A (0-2 YRS): HOW OFTEN MOTHER SPANKED CHILD IN PAST WEEK
+ 
+HOME PART A (0-2 YRS): # OF TIMES MOTHER HAD TO SPANK CHILD IN THE PAST WEEK  92
+INT
+ 
+     722           0: < 1
+     135           1
+     148           2
+      83           3
+      41           4
+      46           5
+      16           6
+      18           7
+       2           8
+       1           9
+      17          10
+       1          12
+       1          14
+       2          15
+       8          17 TO 99999: 17+
+  -------
+    1241
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    1241      MISSING(-7)   10280
+ 
+Min:              0        Max:             95        Mean:                1.46
+ 
+Lead In: C11519.00[Default]
+Default Next Question: C11521.00
+--------------------------------------------------------------------------------
+C14032.00    [MS940329]                                     Survey Year: 1994
+  PRIMARY VARIABLE
+
+ 
+             HOME PART A (0-2 YRS): HOW OFTEN MOTHER SPANKED CHILD IN PAST WEEK
+ 
+HOME PART A (0-2 YRS): # OF TIMES MOTHER HAD TO SPANK CHILD IN THE PAST WEEK  94
+INT
+ 
+     647           0
+      97           1
+     101           2
+      47           3
+      28           4
+      21           5
+       5           6
+       6           7
+       4           8
+      10          10
+       1          14
+       2          15
+       2          16 TO 99999: 16+
+  -------
+     971
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     971      MISSING(-7)   10550
+ 
+Min:              0        Max:             20        Mean:                 .97
+ 
+Lead In: C14031.00[Default]
+Default Next Question: C14033.00
+--------------------------------------------------------------------------------
+C16048.00    [MS960327]                                     Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             HOME PART A (0-2 YRS): HOW OFTEN MOTHER SPANKED CHILD IN PAST WEEK
+ 
+17.Sometimes kids mind pretty well and sometimes they don't.  About how many 
+times, if any, have you had to spank your child in the past week?
+ 
+     498           0
+      80           1
+      67           2
+      42           3
+      20           4
+      14           5
+      22           6 TO 9999: > 5
+  -------
+     743
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     743      MISSING(-7)   10778
+ 
+Min:              0        Max:             30        Mean:                1.01
+ 
+Lead In: C16047.00[Default]
+Default Next Question: C16049.00
+--------------------------------------------------------------------------------
+C19454.00    [MS981A18]                                     Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             HOME PART A (0-2 YRS): NUMBER OF TIMES MOTHER HAD TO SPANK CHILD IN
+             THE PAST WEEK
+ 
+18.     Sometimes kids mind pretty well and sometimes they don't.  About how 
+many times, if any, have you had to spank your child in the past week?
+ 
+     396           0
+      46           1
+      40           2
+      24           3
+       8           4
+      12           5
+      18           6 TO 9999
+  -------
+     544
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     544      MISSING(-7)   10977
+ 
+Min:              0        Max:             15        Mean:                 .82
+ 
+Lead In: C19453.00[Default]
+Default Next Question: C19455.00
+--------------------------------------------------------------------------------
+C22665.00    [HOME-A18]                                     Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             HOME PART A (0-2 YRS): HOW OFTEN MOTHER SPANKED CHILD IN PAST WEEK
+ 
+Sometimes kids mind pretty well and sometimes they don't.
+About how many times, if any, have you had to spank [Child First Name] in the 
+past week?
+This item was moved from paper Mother Supplement to CAPI Child Supplement for 
+2000. The item may have been modified to accommodate CAPI vs. 
+self-administration format.  For comparison see Mother Supplement, Section 1A, 
+Q.18, and codebook item MS981A18.
+ 
+     255           0
+      40           1
+      43           2
+      10           3
+       9           4
+       9           5
+      14           6 TO 9999
+  -------
+     380
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     380      MISSING(-7)   11141
+ 
+Min:              0        Max:             40        Mean:                1.06
+ 
+Lead In: C22664.00[Default]  C22661.00[0:0] C22663.00[1:1]
+Default Next Question: C22696.00
+--------------------------------------------------------------------------------
+C27113.00    [HOME-A18]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             HOME PART A (0-2 YRS): HOW OFTEN MOTHER SPANKED CHILD IN PAST WEEK
+ 
+Sometimes kids mind pretty well and sometimes they don't.
+About how many times, if any, have you had to spank [Child First Name] in the 
+past week?
+ 
+     150           0
+      25           1
+      21           2
+       9           3
+       7           4
+       2           5
+       6           6 TO 9999
+  -------
+     220
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     220      MISSING(-7)   11301
+ 
+Min:              0        Max:             25        Mean:                 .92
+ 
+Lead In: C27112.00[Default]  C27109.00[0:0] C27111.00[1:1]
+Default Next Question: C27250.00
+--------------------------------------------------------------------------------
+C29877.00    [HOME-A18]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             HOME PART A (0-2 YRS): HOW OFTEN MOTHER SPANKED CHILD IN PAST WEEK
+ 
+Sometimes kids mind pretty well and sometimes they don't.
+About how many times, if any, have you had to spank [Child First Name] in the 
+past week?
+ 
+      73           0
+      14           1
+       8           2
+       2           3
+       2           5
+       2           6 TO 9999
+  -------
+     101
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     101      MISSING(-7)   11420
+ 
+Min:              0        Max:              7        Mean:                 .59
+ 
+Lead In: C29876.00[Default]  C29874.00[0:0]
+Default Next Question: C30009.00
+--------------------------------------------------------------------------------
+C33902.00    [MS-HOME-A18]                                  Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             HOME PART A (0-2 YRS): HOW OFTEN MOTHER SPANKED CHILD IN PAST WEEK
+ 
+Sometimes kids mind pretty well and sometimes they don't.
+About how many times, if any, have you had to spank [Child First Name] in the 
+past week?
+In R22-2006, the Mother Supplement was fully integrated into the main Youth 
+questionnaire. Mothers completed an MS for each age-eligible child.  MS 
+assessment items in the Child db are child-based versions of the direct pick-ups
+from the mothers' record. A cross-walk that contains the Main Youth MS reference
+numbers and question names corresponding to the Child db items is available from
+NLS user services.
+ 
+      39           0
+       6           1
+       2           2
+       1           3
+       2           4
+       1           5
+       1           6 TO 9999
+  -------
+      52
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      52      MISSING(-7)   11469
+ 
+Min:              0        Max:              6        Mean:                 .62
+ 
+Lead In: C33901.00[Default]  C33899.00[0:0]
+Default Next Question: C34034.00
+--------------------------------------------------------------------------------
+C39161.00    [MS-HOME-A18]                                  Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             HOME PART A (0-2 YRS): HOW OFTEN MOTHER SPANKED CHILD IN PAST WEEK
+ 
+Sometimes kids mind pretty well and sometimes they don't.
+About how many times, if any, have you had to spank [Child First Name] in the 
+past week?
+In R22-2006, the Mother Supplement was fully integrated into the main Youth 
+questionnaire. Mothers completed an MS for each age-eligible child.  MS 
+assessment items in the Child db are child-based versions of the direct pick-ups
+from the mothers' record. A cross-walk that contains the Main Youth MS reference
+numbers and question names corresponding to the Child db items is available from
+NLS user services.
+ 
+      19           0
+       3           1
+       2           2
+       1           5
+       2           6 TO 9999
+  -------
+      27
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      27      MISSING(-7)   11494
+ 
+Min:              0        Max:              7        Mean:                 .96
+ 
+Lead In: C39159.00[Default]  C39157.00[0:0]
+Default Next Question: C39293.00
+--------------------------------------------------------------------------------
+C51673.00    [MS-HOME-A18]                                  Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             HOME PART A (0-2 YRS): HOW OFTEN MOTHER SPANKED CHILD IN PAST WEEK
+ 
+Sometimes kids mind pretty well and sometimes they don't.
+About how many times, if any, have you had to spank [Child First Name] in the 
+past week?
+In R22-2006, the Mother Supplement was fully integrated into the main Youth 
+questionnaire. Mothers completed an MS for each age-eligible child.  MS 
+assessment items in the Child db are child-based versions of the direct pick-ups
+from the mothers' record. A cross-walk that contains the Main Youth MS reference
+numbers and question names corresponding to the Child db items is available from
+NLS user services.
+ 
+       7           0
+       2           1
+  -------
+       9
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       9      MISSING(-7)   11512
+ 
+Min:              0        Max:              1        Mean:                 .22
+ 
+Lead In: C51672.00[Default]  C51670.00[0:0]
+Default Next Question: C51805.00
+--------------------------------------------------------------------------------
+C57438.00    [MS-HOME-A18]                                  Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             HOME PART A (0-2 YRS): HOW OFTEN MOTHER SPANKED CHILD IN PAST WEEK
+ 
+Sometimes kids mind pretty well and sometimes they don't.
+About how many times, if any, have you had to spank [Child First Name] in the 
+past week?
+In R22-2006, the Mother Supplement was fully integrated into the main Youth 
+questionnaire. Mothers completed an MS for each age-eligible child.  MS 
+assessment items in the Child db are child-based versions of the direct pick-ups
+from the mothers' record. A cross-walk that contains the Main Youth MS reference
+numbers and question names corresponding to the Child db items is available from
+NLS user services.
+ 
+       4           0
+       1           1
+  -------
+       5
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       5      MISSING(-7)   11516
+ 
+Min:              0        Max:              1        Mean:                  .2
+ 
+Lead In: C57436.00[Default]
+Default Next Question: C57570.00
+--------------------------------------------------------------------------------
+Y22670.00    [VERSION_R26]                                  Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             VERSION_R26 CHILD/YOUNG ADULT
+ 
+This variable identifies the release version of the current NLSY79 Child/Young 
+Adult data set, This information allows User Services to identify the release 
+version used by a researcher who is asking a question and to access past 
+versions of the data if necessary.
+ 
+   11521         458
+  -------
+   11521
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:            458        Max:            458        Mean:                 458
+ 
+Lead In: Y12053.00[Default]
+Default Next Question: Y12054.00

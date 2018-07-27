@@ -1,0 +1,19 @@
+
+
+Reference
+Number     Year  Variable Description                                                   Question Name  
+---------------------------------------------------------------------------------------------------------
+C00001.00  XRND  ID CODE OF CHILD                                                       CPUBID         
+C00002.00  XRND  ID CODE OF MOTHER OF CHILD                                             MPUBID         
+C00054.00  XRND  SEX OF CHILD                                                           CSEX           
+C00055.00  XRND  DATE OF BIRTH OF CHILD - MONTH                                         CMOB           
+C00057.00  XRND  DATE OF BIRTH OF CHILD - YEAR                                          CYRB           
+C00057.01  XRND  DATE OF DEATH OF CHILD - MONTH                                         CMODEATH       
+C00057.02  XRND  DATE OF DEATH OF CHILD - YEAR                                          CYRDEATH       
+C00058.00  XRND  BIRTH ORDER OF CHILD                                                   BTHORDR        
+C00070.00  XRND  AGE OF MOTHER AT BIRTH OF CHILD                                        MAGEBIR        
+C03280.00  XRND  LENGTH OF GESTATION OF CHILD IN WEEKS                                  PST0002        
+C03286.00  XRND  WEIGHT OF CHILD AT BIRTH IN OUNCES                                     PST0009        
+C03385.00  XRND  CHILD BREASTFED?                                                       PST0121        
+C03564.00  XRND  CHILD IN REGULAR CHILD CARE DURING 1ST YEAR?                           CCR0001        
+C03572.00  XRND  TOTAL MONTHS USED CHILD CARE 10 HOURS+ PER WEEK FOR CHILD IN 1ST YEAR  CCR0009        

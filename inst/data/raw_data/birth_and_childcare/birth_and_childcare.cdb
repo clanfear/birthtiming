@@ -1,0 +1,488 @@
+C00001.00    [CPUBID]                                       Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             ID CODE OF CHILD
+ 
+PUBLIC IDENTIFICATION CODE OF CHILD
+ 
+UNIVERSE: All biological children of NLSY79 mothers, regardless of age.
+The following child cases have been deleted from the Child db as of the current 
+survey round:
+1226902 - Determined to be a nonbio child; Mother Supplement reports in 2006 & 
+2008; child not assessed.
+864903 - Spurious duplicate child case; no assessment data.
+265404 - Determined to be a nonbio child; 2000-2006 assessment history deleted 
+from record.
+591304 - Determined to be a nonbio child; never assessed.
+ 
+   11521           1 TO 9999999: See Min & Max values below for range as of this
+                          release
+  -------
+   11521
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:            201        Max:        1267501        Mean:           600866.53
+ 
+Lead In: None.
+Default Next Question: C00002.00
+--------------------------------------------------------------------------------
+C00002.00    [MPUBID]                                       Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             ID CODE OF MOTHER OF CHILD
+ 
+PUBLIC IDENTIFICATION CODE OF MOTHER OF CHILD
+ 
+UNIVERSE: All biological children of NLSY79 mothers, regardless of age.
+SEE YOUTH REFERENCE NUMBER R(    1.)
+ 
+   11521           1 TO 12686: NLSY79 Public ID
+  -------
+   11521
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:              2        Max:          12675        Mean:             6008.65
+ 
+Lead In: C00001.00[Default]
+Default Next Question: C00003.00
+--------------------------------------------------------------------------------
+C00054.00    [CSEX]                                         Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             SEX OF CHILD
+ 
+SEX OF CHILD
+ 
+    5882       1 MALE
+    5638       2 FEMALE
+  -------
+   11520
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Lead In: C00053.00[Default]
+Default Next Question: C00055.00
+--------------------------------------------------------------------------------
+C00055.00    [CMOB]                                         Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             DATE OF BIRTH OF CHILD - MONTH
+ 
+DATE OF BIRTH OF CHILD - MONTH
+ 
+     927           1: JANUARY
+     835           2: FEBRUARY
+     932           3: MARCH
+     879           4: APRIL
+     969           5: MAY
+     980           6: JUNE
+    1033           7: JULY
+    1070           8: AUGUST
+     982           9: SEPTEMBER
+     950          10: OCTOBER
+     967          11: NOVEMBER
+     994          12: DECEMBER
+  -------
+   11518
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       3
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:              1        Max:             12        Mean:                6.63
+ 
+Lead In: C00054.00[Default]
+Default Next Question: C00057.00
+--------------------------------------------------------------------------------
+C00057.00    [CYRB]                                         Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             DATE OF BIRTH OF CHILD - YEAR
+ 
+DATE OF BIRTH OF CHILD - YEAR
+ 
+    1222        1970 TO 1978: < before 1979
+     528        1979
+     607        1980
+     714        1981
+     703        1982
+     715        1983
+     656        1984
+     676        1985
+     617        1986
+     622        1987
+     583        1988
+     629        1989
+     495        1990
+     422        1991
+     400        1992
+     349        1993
+     296        1994
+     243        1995
+     229        1996
+     213        1997
+     155        1998
+     127        1999
+      98        2000
+      81        2001
+      45        2002
+      33        2003
+      23        2004
+      15        2005
+      11        2006
+       4        2007
+       3        2008
+       3        2009
+       2        2010
+       2        2011
+  -------
+   11521
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:           1970        Max:           2011        Mean:             1986.08
+ 
+Lead In: C00055.00[Default]
+Default Next Question: C00057.01
+--------------------------------------------------------------------------------
+C00057.01    [CMODEATH]                                     Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             DATE OF DEATH OF CHILD - MONTH
+ 
+DATE OF DEATH OF CHILD - MONTH
+Child month of death is a child-based version of the following constructed 
+NLSY79 main Youth items from the mother's FERTILITY AND RELATIONSHIP 
+HISTORY/CREATED area of interest: C1DOD~M - C9DOD~M
+ 
+      33           1: JANUARY
+      31           2: FEBRUARY
+      22           3: MARCH
+      25           4: APRIL
+      22           5: MAY
+      30           6: JUNE
+      22           7: JULY
+      13           8: AUGUST
+      25           9: SEPTEMBER
+      19          10: OCTOBER
+      22          11: NOVEMBER
+      31          12: DECEMBER
+  -------
+     295
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       3
+TOTAL =========>     298      MISSING(-7)   11223
+ 
+Min:              1        Max:             12        Mean:                6.23
+ 
+Lead In: C00057.00[Default]
+Default Next Question: C00057.02
+--------------------------------------------------------------------------------
+C00057.02    [CYRDEATH]                                     Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             DATE OF DEATH OF CHILD - YEAR
+ 
+DATE OF DEATH OF CHILD - YEAR
+Child year of death is a child-based version of the following constructed NLSY79
+main Youth items from the mother's FERTILITY AND RELATIONSHIP HISTORY/CREATED 
+area of interest: C1DOD~Y - C9DOD~Y
+ 
+      23        1970 TO 1978: < before 1979
+      11        1979
+      15        1980
+      13        1981
+      11        1982
+      10        1983
+       7        1984
+      10        1985
+       4        1986
+       4        1987
+      10        1988
+       8        1989
+       5        1990
+       5        1991
+       6        1992
+       8        1993
+       6        1994
+       4        1995
+       5        1996
+       7        1997
+       6        1998
+       5        1999
+       3        2000
+       6        2001
+       5        2002
+       2        2003
+       4        2004
+       7        2005
+       8        2006
+      14        2007
+       8        2008
+       9        2009
+       5        2010
+      10        2011
+      12        2012
+      15        2013
+       3        2014
+       1        2015
+  -------
+     295
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       3
+TOTAL =========>     298      MISSING(-7)   11223
+ 
+Min:           1974        Max:           2015        Mean:             1994.36
+ 
+Lead In: C00057.01[Default]
+Default Next Question: C00058.00
+--------------------------------------------------------------------------------
+C00058.00    [BTHORDR]                                      Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             BIRTH ORDER OF CHILD
+ 
+BIRTH ORDER OF CHILD
+ 
+    4930           1
+    3757           2
+    1792           3
+     660           4
+     225           5
+      87           6
+      38           7
+      16           8
+       8           9
+       4          10
+       2          11
+  -------
+   11519
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:              1        Max:             11        Mean:                1.97
+ 
+Lead In: C00057.02[Default]
+Default Next Question: C00070.00
+--------------------------------------------------------------------------------
+C00070.00    [MAGEBIR]                                      Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             AGE OF MOTHER AT BIRTH OF CHILD
+ 
+AGE OF MOTHER AT BIRTH OF CHILD
+Case ID 341601: YRB was determined to be 2001, not 2002 as previously reported.
+Case ID 638301: YRB was determined to be 1974, not 1973 as previously reported.
+Case ID 641702: YRB was determined to be 1997, not 1998 as previously reported.
+Case ID 812101: YRB was determined to be 1992, not 1993 as previously reported.
+ 
+      38          10 TO 14
+    2070          15 TO 19
+    3643          20 TO 24
+    3042          25 TO 29
+    1809          30 TO 34
+     762          35 TO 39
+     135          40 TO 44
+      13          45 TO 49
+       4          50 TO 52
+  -------
+   11516
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       5
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:             10        Max:             50        Mean:               25.22
+ 
+Lead In: C00058.00[Default]
+Default Next Question: C02700.00
+--------------------------------------------------------------------------------
+C03280.00    [PST0002]                                      Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             LENGTH OF GESTATION OF CHILD IN WEEKS
+ 
+LENGTH OF GESTATION OF CHILD IN WEEKS
+ 
+      81           0 TO 29: < 30
+      17          30
+     125          31
+      46          32
+     112          33
+      80          34
+     360          35
+     460          36
+     843          37
+     186          38
+    5982          39
+     308          40
+     990          41
+     311          42
+     149          43
+      22          44
+      18          45
+      13          46 TO 99999: 46+
+  -------
+   10103
+ 
+Refusal(-1)            1
+Don't Know(-2)         3
+Invalid Skip(-3)    1252
+TOTAL =========>   11359      MISSING(-7)     162
+ 
+Min:              3        Max:             51        Mean:               38.59
+ 
+Lead In: C03279.10[Default]
+Default Next Question: C03281.00
+--------------------------------------------------------------------------------
+C03286.00    [PST0009]                                      Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             WEIGHT OF CHILD AT BIRTH IN OUNCES
+ 
+WEIGHT OF CHILD AT BIRTH IN OUNCES
+SEE  R13668.
+ 
+      68           0 TO 39
+      46          40 TO 49
+      79          50 TO 59
+     131          60 TO 69
+     199          70 TO 79
+     477          80 TO 89
+     833          90 TO 99
+    1655         100 TO 109
+    2180         110 TO 119
+    2108         120 TO 129
+    1368         130 TO 139
+     720         140 TO 149
+     479         150 TO 999: 150 +
+  -------
+   10343
+ 
+Refusal(-1)            8
+Don't Know(-2)        90
+Invalid Skip(-3)     981
+TOTAL =========>   11422      MISSING(-7)      99
+ 
+Min:              0        Max:            768        Mean:              116.04
+ 
+Lead In: C03285.00[Default]
+Default Next Question: C03287.00
+--------------------------------------------------------------------------------
+C03385.00    [PST0121]                                      Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             CHILD BREASTFED?
+ 
+CHILD BREASTFED?
+SEE  R13670.
+ 
+    4940       1 YES
+    5895       0 NO
+  -------
+   10835
+ 
+Refusal(-1)            5
+Don't Know(-2)         2
+Invalid Skip(-3)     675
+TOTAL =========>   11517      MISSING(-7)       4
+ 
+Lead In: C03384.00[Default]
+Default Next Question: C03386.00
+--------------------------------------------------------------------------------
+C03564.00    [CCR0001]                                      Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             CHILD IN REGULAR CHILD CARE DURING 1ST YEAR?
+ 
+CHILD IN REGULAR CHILD CARE DURING 1ST YEAR?
+NO RETROSPECTIVE CHILD CARE INFORMATION WAS COLLECTED FROM THE MOTHER IN THE 
+1990 DATE OF INTERVIEW.  A FOUR YEAR 1988-1992 UPDATE WAS DONE AT THE 1992 
+INTERVIEW DATE.
+ 
+    3892       1 YES
+    6060       0 NO
+  -------
+    9952
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9952      MISSING(-7)    1569
+ 
+Lead In: C03392.10[Default]
+Default Next Question: C03565.00
+--------------------------------------------------------------------------------
+C03572.00    [CCR0009]                                      Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             TOTAL MONTHS USED CHILD CARE 10 HOURS+ PER WEEK FOR CHILD IN 1ST 
+             YEAR
+ 
+TOTAL MONTHS USED CHILD CARE 10 HOURS+ PER WEEK FOR CHILD IN 1ST YEAR
+SEE NOTE ON C03564.
+THE QUESTIONS USED TO CONSTRUCT THIS VARIABLE WERE NOT ASKED AFTER 1988.  
+THEREFORE THIS VARIABLE WAS NOT UPDATED AFTER 1988, AND CHILDREN BORN SINCE THEN
+HAVE BEEN ASSIGNED -7.
+ 
+The following case has an out of range value, but reflects original NLSY79 Youth
+interview data:  CPUBID 494301 (NLSY79 1988, R2683700).
+ 
+       2           0: < 1
+      24           1
+      26           2
+      25           3
+      19           4
+      20           5
+      48           6
+      18           7
+      25           8
+      62           9
+      69          10
+      43          11
+     179          12
+       1          17 TO 99999: 17+
+  -------
+     561
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     561      MISSING(-7)   10960
+ 
+Min:              0        Max:             19        Mean:                8.61
+ 
+Lead In: C03571.00[Default]
+Default Next Question: C03573.00

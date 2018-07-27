@@ -1,0 +1,1161 @@
+C00001.00    [CPUBID]                                       Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             ID CODE OF CHILD
+ 
+PUBLIC IDENTIFICATION CODE OF CHILD
+ 
+UNIVERSE: All biological children of NLSY79 mothers, regardless of age.
+The following child cases have been deleted from the Child db as of the current 
+survey round:
+1226902 - Determined to be a nonbio child; Mother Supplement reports in 2006 & 
+2008; child not assessed.
+864903 - Spurious duplicate child case; no assessment data.
+265404 - Determined to be a nonbio child; 2000-2006 assessment history deleted 
+from record.
+591304 - Determined to be a nonbio child; never assessed.
+ 
+   11521           1 TO 9999999: See Min & Max values below for range as of this
+                          release
+  -------
+   11521
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:            201        Max:        1267501        Mean:           600866.53
+ 
+Lead In: None.
+Default Next Question: C00002.00
+--------------------------------------------------------------------------------
+C00002.00    [MPUBID]                                       Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             ID CODE OF MOTHER OF CHILD
+ 
+PUBLIC IDENTIFICATION CODE OF MOTHER OF CHILD
+ 
+UNIVERSE: All biological children of NLSY79 mothers, regardless of age.
+SEE YOUTH REFERENCE NUMBER R(    1.)
+ 
+   11521           1 TO 12686: NLSY79 Public ID
+  -------
+   11521
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:              2        Max:          12675        Mean:             6008.65
+ 
+Lead In: C00001.00[Default]
+Default Next Question: C00003.00
+--------------------------------------------------------------------------------
+C00904.00    [MOMHH1979]                                    Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER? 79 INT
+ 
+    7576       1 YES
+    3884       0 NO
+  -------
+   11460
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      61
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Lead In: C00903.00[Default]
+Default Next Question: C00905.00
+--------------------------------------------------------------------------------
+C00905.00    [DADHH1979]                                    Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER? 79 INT
+ 
+    5461       1 YES
+    5988       0 NO
+  -------
+   11449
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      72
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Lead In: C00904.00[Default]
+Default Next Question: C00906.00
+--------------------------------------------------------------------------------
+C00935.00    [MOMHH1980]                                    Survey Year: 1980
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?  80 INT
+ 
+    6715       1 YES
+    4406       0 NO
+  -------
+   11121
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11121      MISSING(-7)     400
+ 
+Lead In: C00934.00[Default]
+Default Next Question: C00936.00
+--------------------------------------------------------------------------------
+C00936.00    [DADHH1980]                                    Survey Year: 1980
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?  80 INT
+ 
+    4812       1 YES
+    6309       0 NO
+  -------
+   11121
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11121      MISSING(-7)     400
+ 
+Lead In: C00935.00[Default]
+Default Next Question: C00937.00
+--------------------------------------------------------------------------------
+C00966.00    [MOMHH1981]                                    Survey Year: 1981
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?  81 INT
+ 
+    5681       1 YES
+    5525       0 NO
+  -------
+   11206
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       4
+TOTAL =========>   11210      MISSING(-7)     311
+ 
+Lead In: C00965.00[Default]
+Default Next Question: C00967.00
+--------------------------------------------------------------------------------
+C00967.00    [DADHH1981]                                    Survey Year: 1981
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?  81 INT
+ 
+    4028       1 YES
+    7173       0 NO
+  -------
+   11201
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       9
+TOTAL =========>   11210      MISSING(-7)     311
+ 
+Lead In: C00966.00[Default]
+Default Next Question: C00968.00
+--------------------------------------------------------------------------------
+C00997.00    [MOMHH1982]                                    Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?  82 INT
+ 
+    4775       1 YES
+    6358       0 NO
+  -------
+   11133
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      22
+TOTAL =========>   11155      MISSING(-7)     366
+ 
+Lead In: C00996.00[Default]
+Default Next Question: C00998.00
+--------------------------------------------------------------------------------
+C00998.00    [DADHH1982]                                    Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?  82 INT
+ 
+    3361       1 YES
+    7771       0 NO
+  -------
+   11132
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      23
+TOTAL =========>   11155      MISSING(-7)     366
+ 
+Lead In: C00997.00[Default]
+Default Next Question: C00999.00
+--------------------------------------------------------------------------------
+C01028.00    [MOMHH1983]                                    Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?  83 INT
+ 
+    4027       1 YES
+    7231       0 NO
+  -------
+   11258
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       3
+TOTAL =========>   11261      MISSING(-7)     260
+ 
+Lead In: C01027.00[Default]
+Default Next Question: C01029.00
+--------------------------------------------------------------------------------
+C01029.00    [DADHH1983]                                    Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?  83 INT
+ 
+    2888       1 YES
+    8370       0 NO
+  -------
+   11258
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       3
+TOTAL =========>   11261      MISSING(-7)     260
+ 
+Lead In: C01028.00[Default]
+Default Next Question: C01030.00
+--------------------------------------------------------------------------------
+C01059.00    [MOMHH1984]                                    Survey Year: 1984
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?  84 INT
+ 
+    3227       1 YES
+    7956       0 NO
+  -------
+   11183
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      12
+TOTAL =========>   11195      MISSING(-7)     326
+ 
+Lead In: C01058.00[Default]
+Default Next Question: C01060.00
+--------------------------------------------------------------------------------
+C01060.00    [DADHH1984]                                    Survey Year: 1984
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?  84 INT
+ 
+    2168       1 YES
+    9012       0 NO
+  -------
+   11180
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      15
+TOTAL =========>   11195      MISSING(-7)     326
+ 
+Lead In: C01059.00[Default]
+Default Next Question: C01061.00
+--------------------------------------------------------------------------------
+C01090.00    [MOMHH1985]                                    Survey Year: 1985
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?  85 INT
+ 
+    2492       1 YES
+    8200       0 NO
+  -------
+   10692
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      15
+TOTAL =========>   10707      MISSING(-7)     814
+ 
+Lead In: C01089.00[Default]
+Default Next Question: C01091.00
+--------------------------------------------------------------------------------
+C01091.00    [DADHH1985]                                    Survey Year: 1985
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?  85 INT
+ 
+    1616       1 YES
+    9076       0 NO
+  -------
+   10692
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      15
+TOTAL =========>   10707      MISSING(-7)     814
+ 
+Lead In: C01090.00[Default]
+Default Next Question: C01092.00
+--------------------------------------------------------------------------------
+C01121.00    [MOMHH1986]                                    Survey Year: 1986
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?  86 INT
+ 
+    1944       1 YES
+    8608       0 NO
+  -------
+   10552
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10552      MISSING(-7)     969
+ 
+Lead In: C01120.00[Default]
+Default Next Question: C01122.00
+--------------------------------------------------------------------------------
+C01122.00    [DADHH1986]                                    Survey Year: 1986
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?  86 INT
+ 
+    1181       1 YES
+    9369       0 NO
+  -------
+   10550
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>   10552      MISSING(-7)     969
+ 
+Lead In: C01121.00[Default]
+Default Next Question: C01123.00
+--------------------------------------------------------------------------------
+C01173.00    [MOMHH1987]                                    Survey Year: 1987
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?  87 INT
+ 
+    1543       1 YES
+    8904       0 NO
+  -------
+   10447
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>   10448      MISSING(-7)    1073
+ 
+Lead In: C01172.00[Default]
+Default Next Question: C01174.00
+--------------------------------------------------------------------------------
+C01174.00    [DADHH1987]                                    Survey Year: 1987
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?  87 INT
+ 
+     877       1 YES
+    9569       0 NO
+  -------
+   10446
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>   10448      MISSING(-7)    1073
+ 
+Lead In: C01173.00[Default]
+Default Next Question: C01175.00
+--------------------------------------------------------------------------------
+C01204.00    [MOMHH1988]                                    Survey Year: 1988
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?  88 INT
+ 
+    1210       1 YES
+    9121       0 NO
+  -------
+   10331
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      26
+TOTAL =========>   10357      MISSING(-7)    1164
+ 
+Lead In: C01203.00[Default]
+Default Next Question: C01205.00
+--------------------------------------------------------------------------------
+C01205.00    [DADHH1988]                                    Survey Year: 1988
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?  88 INT
+ 
+     674       1 YES
+    9652       0 NO
+  -------
+   10326
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      31
+TOTAL =========>   10357      MISSING(-7)    1164
+ 
+Lead In: C01204.00[Default]
+Default Next Question: C01206.00
+--------------------------------------------------------------------------------
+C01238.00    [MOMHH1989]                                    Survey Year: 1989
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?  89 INT
+ 
+    1088       1 YES
+    9510       0 NO
+  -------
+   10598
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       9
+TOTAL =========>   10607      MISSING(-7)     914
+ 
+Lead In: C01237.00[Default]
+Default Next Question: C01239.00
+--------------------------------------------------------------------------------
+C01239.00    [DADHH1989]                                    Survey Year: 1989
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?  89 INT
+ 
+     558       1 YES
+   10031       0 NO
+  -------
+   10589
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      18
+TOTAL =========>   10607      MISSING(-7)     914
+ 
+Lead In: C01238.00[Default]
+Default Next Question: C01240.00
+--------------------------------------------------------------------------------
+C01270.00    [MOMHH1990]                                    Survey Year: 1990
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HH OF MOTHER?  90 INT
+ 
+     959       1 YES
+    9472       0 NO
+  -------
+   10431
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       8
+TOTAL =========>   10439      MISSING(-7)    1082
+ 
+Lead In: C01269.00[Default]
+Default Next Question: C01271.00
+--------------------------------------------------------------------------------
+C01271.00    [DADHH1990]                                    Survey Year: 1990
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HH OF MOTHER?  90 INT
+ 
+     496       1 YES
+    9938       0 NO
+  -------
+   10434
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       5
+TOTAL =========>   10439      MISSING(-7)    1082
+ 
+Lead In: C01270.00[Default]
+Default Next Question: C01272.00
+--------------------------------------------------------------------------------
+C01274.29    [MOMHH1991]                                    Survey Year: 1991
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?  91 INT
+ 
+     743       1 YES
+    8558       0 NO
+  -------
+    9301
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9301      MISSING(-7)    2220
+ 
+Lead In: C01274.28[Default]
+Default Next Question: C01274.30
+--------------------------------------------------------------------------------
+C01274.30    [DADHH1991]                                    Survey Year: 1991
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?  91 INT
+ 
+     415       1 YES
+    8886       0 NO
+  -------
+    9301
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9301      MISSING(-7)    2220
+ 
+Lead In: C01274.29[Default]
+Default Next Question: C01274.31
+--------------------------------------------------------------------------------
+C01276.29    [MOMHH1992]                                    Survey Year: 1992
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?  92 INT
+ 
+     760       1 YES
+    8528       0 NO
+  -------
+    9288
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9288      MISSING(-7)    2233
+ 
+Lead In: C01276.28[Default]
+Default Next Question: C01276.30
+--------------------------------------------------------------------------------
+C01276.30    [DADHH1992]                                    Survey Year: 1992
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?  92 INT
+ 
+     355       1 YES
+    8933       0 NO
+  -------
+    9288
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9288      MISSING(-7)    2233
+ 
+Lead In: C01276.29[Default]
+Default Next Question: C01276.31
+--------------------------------------------------------------------------------
+C01278.29    [MOMHH1993]                                    Survey Year: 1993
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?  93 INT
+ 
+     692       1 YES
+    8642       0 NO
+  -------
+    9334
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9334      MISSING(-7)    2187
+ 
+Lead In: C01278.28[Default]
+Default Next Question: C01278.30
+--------------------------------------------------------------------------------
+C01278.30    [DADHH1993]                                    Survey Year: 1993
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?  93 INT
+ 
+     324       1 YES
+    9010       0 NO
+  -------
+    9334
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9334      MISSING(-7)    2187
+ 
+Lead In: C01278.29[Default]
+Default Next Question: C01278.31
+--------------------------------------------------------------------------------
+C01279.29    [MOMHH1994]                                    Survey Year: 1994
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?  94 INT
+ 
+     601       1 YES
+    8626       0 NO
+  -------
+    9227
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9227      MISSING(-7)    2294
+ 
+Lead In: C01279.28[Default]
+Default Next Question: C01279.30
+--------------------------------------------------------------------------------
+C01279.30    [DADHH1994]                                    Survey Year: 1994
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?  94 INT
+ 
+     286       1 YES
+    8941       0 NO
+  -------
+    9227
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9227      MISSING(-7)    2294
+ 
+Lead In: C01279.29[Default]
+Default Next Question: C01279.31
+--------------------------------------------------------------------------------
+C01280.29    [MOMHH1996]                                    Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?
+ 
+     561       1 Yes
+    8456       0 No
+  -------
+    9017
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9017      MISSING(-7)    2504
+ 
+Lead In: C01280.28[Default]
+Default Next Question: C01280.30
+--------------------------------------------------------------------------------
+C01280.30    [DADHH1996]                                    Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?
+ 
+     266       1 Yes
+    8751       0 No
+  -------
+    9017
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9017      MISSING(-7)    2504
+ 
+Lead In: C01280.29[Default]
+Default Next Question: C01280.31
+--------------------------------------------------------------------------------
+C19891.00    [MOMHH1998]                                    Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?
+ 
+     462       1 Yes
+    8443       0 No
+  -------
+    8905
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>    8906      MISSING(-7)    2615
+ 
+Lead In: C19890.00[Default]
+Default Next Question: C19892.00
+--------------------------------------------------------------------------------
+C19892.00    [DADHH1998]                                    Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?
+ 
+     203       1 Yes
+    8702       0 No
+  -------
+    8905
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>    8906      MISSING(-7)    2615
+ 
+Lead In: C19891.00[Default]
+Default Next Question: C19893.00
+--------------------------------------------------------------------------------
+C24951.00    [MOMHH2000]                                    Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?
+ 
+     416       1 Yes
+    8126       0 No
+  -------
+    8542
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      11
+TOTAL =========>    8553      MISSING(-7)    2968
+ 
+Lead In: C24950.00[Default]
+Default Next Question: C24952.00
+--------------------------------------------------------------------------------
+C24952.00    [DADHH2000]                                    Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?
+ 
+     172       1 Yes
+    8370       0 No
+  -------
+    8542
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      11
+TOTAL =========>    8553      MISSING(-7)    2968
+ 
+Lead In: C24951.00[Default]
+Default Next Question: C24953.00
+--------------------------------------------------------------------------------
+C25229.00    [MOMHH2002]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?
+ 
+     343       1 Yes
+    7865       0 No
+  -------
+    8208
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>    8210      MISSING(-7)    3311
+ 
+Lead In: C25228.00[Default]
+Default Next Question: C25230.00
+--------------------------------------------------------------------------------
+C25230.00    [DADHH2002]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?
+ 
+     126       1 Yes
+    8082       0 No
+  -------
+    8208
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>    8210      MISSING(-7)    3311
+ 
+Lead In: C25229.00[Default]
+Default Next Question: C25231.00
+--------------------------------------------------------------------------------
+C27934.00    [MOMHH2004]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?
+ 
+     351       1 Yes
+    7958       0 No
+  -------
+    8309
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      11
+TOTAL =========>    8320      MISSING(-7)    3201
+ 
+Lead In: C27933.00[Default]
+Default Next Question: C27935.00
+--------------------------------------------------------------------------------
+C27935.00    [DADHH2004]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?
+ 
+     127       1 Yes
+    8180       0 No
+  -------
+    8307
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      13
+TOTAL =========>    8320      MISSING(-7)    3201
+ 
+Lead In: C27934.00[Default]
+Default Next Question: C27936.00
+--------------------------------------------------------------------------------
+C31029.00    [MOMHH2006]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?
+ 
+     330       1 Yes
+    7827       0 No
+  -------
+    8157
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8157      MISSING(-7)    3364
+ 
+Lead In: C31028.00[Default]
+Default Next Question: C31030.00
+--------------------------------------------------------------------------------
+C31030.00    [DADHH2006]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?
+ 
+     113       1 Yes
+    8042       0 No
+  -------
+    8155
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>    8157      MISSING(-7)    3364
+ 
+Lead In: C31029.00[Default]
+Default Next Question: C31031.00
+--------------------------------------------------------------------------------
+C36052.00    [MOMHH2008]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?
+ 
+     323       1 Yes
+    7948       0 No
+  -------
+    8271
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       3
+TOTAL =========>    8274      MISSING(-7)    3247
+ 
+Lead In: C36051.00[Default]
+Default Next Question: C36053.00
+--------------------------------------------------------------------------------
+C36053.00    [DADHH2008]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?
+ 
+     109       1 Yes
+    8162       0 No
+  -------
+    8271
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       3
+TOTAL =========>    8274      MISSING(-7)    3247
+ 
+Lead In: C36052.00[Default]
+Default Next Question: C36054.00
+--------------------------------------------------------------------------------
+C39852.00    [MOMHH2010]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?
+ 
+     348       1 Yes
+    7755       0 No
+  -------
+    8103
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       3
+TOTAL =========>    8106      MISSING(-7)    3415
+ 
+Lead In: C39851.00[Default]
+Default Next Question: C39853.00
+--------------------------------------------------------------------------------
+C39853.00    [DADHH2010]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?
+ 
+     109       1 Yes
+    7994       0 No
+  -------
+    8103
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       3
+TOTAL =========>    8106      MISSING(-7)    3415
+ 
+Lead In: C39852.00[Default]
+Default Next Question: C39854.00
+--------------------------------------------------------------------------------
+C55291.00    [MOMHH2012]                                    Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?
+ 
+     335       1 Yes
+    7555       0 No
+  -------
+    7890
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       3
+TOTAL =========>    7893      MISSING(-7)    3628
+ 
+Lead In: C55290.00[Default]
+Default Next Question: C55292.00
+--------------------------------------------------------------------------------
+C55292.00    [DADHH2012]                                    Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?
+ 
+     105       1 Yes
+    7785       0 No
+  -------
+    7890
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       3
+TOTAL =========>    7893      MISSING(-7)    3628
+ 
+Lead In: C55291.00[Default]
+Default Next Question: C55293.00
+--------------------------------------------------------------------------------
+C58054.00    [MOMHH2014]                                    Survey Year: 2014
+  PRIMARY VARIABLE
+
+ 
+             IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS MOTHER/STEP/GRANDMOTHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?
+ 
+     253       1 Yes
+    7365       0 No
+  -------
+    7618
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       8
+TOTAL =========>    7626      MISSING(-7)    3895
+ 
+Lead In: C58053.00[Default]
+Default Next Question: C58055.00
+--------------------------------------------------------------------------------
+C58055.00    [DADHH2014]                                    Survey Year: 2014
+  PRIMARY VARIABLE
+
+ 
+             IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF 
+             MOTHER?
+ 
+IS FATHER/STEP/GRANDFATHER OF MOTHER PRESENT IN HOUSEHOLD OF MOTHER?
+ 
+      66       1 Yes
+    7552       0 No
+  -------
+    7618
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       8
+TOTAL =========>    7626      MISSING(-7)    3895
+ 
+Lead In: C58054.00[Default]
+Default Next Question: C58056.00

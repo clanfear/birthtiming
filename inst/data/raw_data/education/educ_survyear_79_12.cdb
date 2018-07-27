@@ -1,0 +1,1284 @@
+C00001.00    [CPUBID]                                       Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             ID CODE OF CHILD
+ 
+PUBLIC IDENTIFICATION CODE OF CHILD
+ 
+UNIVERSE: All biological children of NLSY79 mothers, regardless of age.
+The following child cases have been deleted from the Child db as of the current 
+survey round:
+1226902 - Determined to be a nonbio child; Mother Supplement reports in 2006 & 
+2008; child not assessed.
+864903 - Spurious duplicate child case; no assessment data.
+265404 - Determined to be a nonbio child; 2000-2006 assessment history deleted 
+from record.
+591304 - Determined to be a nonbio child; never assessed.
+ 
+   11521           1 TO 9999999: See Min & Max values below for range as of this
+                          release
+  -------
+   11521
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:            201        Max:        1267501        Mean:           600866.53
+ 
+Lead In: None.
+Default Next Question: C00002.00
+--------------------------------------------------------------------------------
+C00002.00    [MPUBID]                                       Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             ID CODE OF MOTHER OF CHILD
+ 
+PUBLIC IDENTIFICATION CODE OF MOTHER OF CHILD
+ 
+UNIVERSE: All biological children of NLSY79 mothers, regardless of age.
+SEE YOUTH REFERENCE NUMBER R(    1.)
+ 
+   11521           1 TO 12686: NLSY79 Public ID
+  -------
+   11521
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:              2        Max:          12675        Mean:             6008.65
+ 
+Lead In: C00001.00[Default]
+Default Next Question: C00003.00
+--------------------------------------------------------------------------------
+C00053.00    [CRACE]                                        Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RACE OF CHILD (MOTHER'S RACIAL/ETHNIC COHORT FROM SCREENER)
+ 
+RACE OF CHILD (MOTHER'S RACIAL/ETHNIC COHORT FROM SCREENER)
+Child race/ethnicity is based on the report of the mother. See NLSY79 main Youth
+Reference Number R( 2147.)
+ 
+    2219       1 HISPANIC
+    3191       2 BLACK
+    6111       3 NON-BLACK, NON-HISPANIC
+  -------
+   11521
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Lead In: C00052.00[Default]
+Default Next Question: C00054.00
+--------------------------------------------------------------------------------
+C00054.00    [CSEX]                                         Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             SEX OF CHILD
+ 
+SEX OF CHILD
+ 
+    5882       1 MALE
+    5638       2 FEMALE
+  -------
+   11520
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Lead In: C00053.00[Default]
+Default Next Question: C00055.00
+--------------------------------------------------------------------------------
+C00057.00    [CYRB]                                         Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             DATE OF BIRTH OF CHILD - YEAR
+ 
+DATE OF BIRTH OF CHILD - YEAR
+ 
+    1222        1970 TO 1978: < before 1979
+     528        1979
+     607        1980
+     714        1981
+     703        1982
+     715        1983
+     656        1984
+     676        1985
+     617        1986
+     622        1987
+     583        1988
+     629        1989
+     495        1990
+     422        1991
+     400        1992
+     349        1993
+     296        1994
+     243        1995
+     229        1996
+     213        1997
+     155        1998
+     127        1999
+      98        2000
+      81        2001
+      45        2002
+      33        2003
+      23        2004
+      15        2005
+      11        2006
+       4        2007
+       3        2008
+       3        2009
+       2        2010
+       2        2011
+  -------
+   11521
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:           1970        Max:           2011        Mean:             1986.08
+ 
+Lead In: C00055.00[Default]
+Default Next Question: C00057.01
+--------------------------------------------------------------------------------
+C00535.02    [HGCREV1979]                                   Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR 79 INT
+ 
+COMMENT: Child-based version of HGCREV79 from main Youth (R02167.01)
+ 
+       7       0 NONE
+       6       1 1ST GRADE
+       0       2 2ND GRADE
+      38       3 3RD GRADE
+      21       4 4TH GRADE
+      50       5 5TH GRADE
+     136       6 6TH GRADE
+     463       7 7TH GRADE
+    1626       8 8TH GRADE
+    1788       9 9TH GRADE
+    1836      10 10TH GRADE
+    1332      11 11TH GRADE
+    3056      12 12TH GRADE
+     603      13 1ST YR COL
+     344      14 2ND YR COL
+     171      15 3RD YR COL
+      35      16 4TH YR COL
+       1      17 5TH YR COL
+       0      18 6TH YR COL
+       0      19 7TH YR COL
+       0      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+   11513
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       8
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Lead In: C00535.00[Default]
+Default Next Question: C00900.00
+--------------------------------------------------------------------------------
+C00541.01    [HGCREV1980]                                   Survey Year: 1980
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR 80 INT
+ 
+COMMENT: Child-based version of HGCREV80 from main Youth (R04064.01)
+ 
+       6       0 NONE
+       6       1 1ST GRADE
+       1       2 2ND GRADE
+      34       3 3RD GRADE
+      11       4 4TH GRADE
+      26       5 5TH GRADE
+      96       6 6TH GRADE
+     195       7 7TH GRADE
+     615       8 8TH GRADE
+    1795       9 9TH GRADE
+    1648      10 10TH GRADE
+    1585      11 11TH GRADE
+    3514      12 12TH GRADE
+     777      13 1ST YR COL
+     425      14 2ND YR COL
+     218      15 3RD YR COL
+     168      16 4TH YR COL
+       0      17 5TH YR COL
+       1      18 6TH YR COL
+       0      19 7TH YR COL
+       0      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+   11121
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11121      MISSING(-7)     400
+ 
+Lead In: C00541.00[Default]
+Default Next Question: C00931.00
+--------------------------------------------------------------------------------
+C00551.01    [HGCREV1981]                                   Survey Year: 1981
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR 81 INT
+ 
+COMMENT: Child-based version of HGCREV81 from main Youth (R06189.01)
+ 
+       6       0 NONE
+       6       1 1ST GRADE
+       0       2 2ND GRADE
+      34       3 3RD GRADE
+       7       4 4TH GRADE
+      23       5 5TH GRADE
+      97       6 6TH GRADE
+     163       7 7TH GRADE
+     370       8 8TH GRADE
+     933       9 9TH GRADE
+    1770      10 10TH GRADE
+    1417      11 11TH GRADE
+    4329      12 12TH GRADE
+     895      13 1ST YR COL
+     588      14 2ND YR COL
+     286      15 3RD YR COL
+     259      16 4TH YR COL
+      21      17 5TH YR COL
+       0      18 6TH YR COL
+       0      19 7TH YR COL
+       0      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+   11204
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       6
+TOTAL =========>   11210      MISSING(-7)     311
+ 
+Lead In: C00551.00[Default]
+Default Next Question: C00962.00
+--------------------------------------------------------------------------------
+C00575.01    [HGCREV1982]                                   Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR 82 INT
+ 
+COMMENT: Child-based version of HGCREV82 from main Youth (R08982.01)
+ 
+       6       0 NONE
+       6       1 1ST GRADE
+       0       2 2ND GRADE
+      30       3 3RD GRADE
+      11       4 4TH GRADE
+      18       5 5TH GRADE
+     101       6 6TH GRADE
+     152       7 7TH GRADE
+     343       8 8TH GRADE
+     696       9 9TH GRADE
+     982      10 10TH GRADE
+    1514      11 11TH GRADE
+    4719      12 12TH GRADE
+    1059      13 1ST YR COL
+     687      14 2ND YR COL
+     356      15 3RD YR COL
+     392      16 4TH YR COL
+      33      17 5TH YR COL
+      13      18 6TH YR COL
+       1      19 7TH YR COL
+       0      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+   11119
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      36
+TOTAL =========>   11155      MISSING(-7)     366
+ 
+Lead In: C00575.00[Default]
+Default Next Question: C00993.00
+--------------------------------------------------------------------------------
+C00581.01    [HGCREV1983]                                   Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR 83 INT
+ 
+COMMENT: Child-based version of HGCREV83 from main Youth (R11450.01)
+ 
+       6       0 NONE
+       6       1 1ST GRADE
+       0       2 2ND GRADE
+      27       3 3RD GRADE
+      11       4 4TH GRADE
+      21       5 5TH GRADE
+     100       6 6TH GRADE
+     158       7 7TH GRADE
+     338       8 8TH GRADE
+     645       9 9TH GRADE
+     813      10 10TH GRADE
+     887      11 11TH GRADE
+    5290      12 12TH GRADE
+    1099      13 1ST YR COL
+     805      14 2ND YR COL
+     398      15 3RD YR COL
+     538      16 4TH YR COL
+      51      17 5TH YR COL
+      19      18 6TH YR COL
+       7      19 7TH YR COL
+       1      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+   11220
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      41
+TOTAL =========>   11261      MISSING(-7)     260
+ 
+Lead In: C00581.00[Default]
+Default Next Question: C01024.00
+--------------------------------------------------------------------------------
+C00587.01    [HGCREV1984]                                   Survey Year: 1984
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR 84 INT
+ 
+COMMENT: Child-based version of HGCREV84 from main Youth (R15202.01)
+ 
+       6       0 NONE
+       6       1 1ST GRADE
+       0       2 2ND GRADE
+      27       3 3RD GRADE
+      11       4 4TH GRADE
+      21       5 5TH GRADE
+     100       6 6TH GRADE
+     158       7 7TH GRADE
+     336       8 8TH GRADE
+     621       9 9TH GRADE
+     753      10 10TH GRADE
+     717      11 11TH GRADE
+    5104      12 12TH GRADE
+    1202      13 1ST YR COL
+     877      14 2ND YR COL
+     460      15 3RD YR COL
+     682      16 4TH YR COL
+      56      17 5TH YR COL
+      37      18 6TH YR COL
+       9      19 7TH YR COL
+       1      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+   11184
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      11
+TOTAL =========>   11195      MISSING(-7)     326
+ 
+Lead In: C00587.00[Default]
+Default Next Question: C01055.00
+--------------------------------------------------------------------------------
+C00593.01    [HGCREV1985]                                   Survey Year: 1985
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR 85 INT
+ 
+COMMENT: Child-based version of HGCREV85 from main Youth (R18909.01)
+ 
+       6       0 NONE
+       6       1 1ST GRADE
+       0       2 2ND GRADE
+      25       3 3RD GRADE
+      11       4 4TH GRADE
+      21       5 5TH GRADE
+      96       6 6TH GRADE
+     155       7 7TH GRADE
+     325       8 8TH GRADE
+     610       9 9TH GRADE
+     702      10 10TH GRADE
+     662      11 11TH GRADE
+    4775      12 12TH GRADE
+     919      13 1ST YR COL
+     954      14 2ND YR COL
+     458      15 3RD YR COL
+     826      16 4TH YR COL
+      80      17 5TH YR COL
+      38      18 6TH YR COL
+      18      19 7TH YR COL
+       4      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+   10691
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      16
+TOTAL =========>   10707      MISSING(-7)     814
+ 
+Lead In: C00593.00[Default]
+Default Next Question: C01086.00
+--------------------------------------------------------------------------------
+C00599.01    [HGCREV1986]                                   Survey Year: 1986
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR 86 INT
+ 
+COMMENT: Child-based version of HGCREV86 from main Youth (R22580.01)
+ 
+       6       0 NONE
+       6       1 1ST GRADE
+       0       2 2ND GRADE
+      29       3 3RD GRADE
+      11       4 4TH GRADE
+      15       5 5TH GRADE
+      98       6 6TH GRADE
+     152       7 7TH GRADE
+     306       8 8TH GRADE
+     570       9 9TH GRADE
+     674      10 10TH GRADE
+     621      11 11TH GRADE
+    4724      12 12TH GRADE
+     850      13 1ST YR COL
+     838      14 2ND YR COL
+     528      15 3RD YR COL
+     904      16 4TH YR COL
+     106      17 5TH YR COL
+      59      18 6TH YR COL
+      22      19 7TH YR COL
+       6      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+   10525
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      27
+TOTAL =========>   10552      MISSING(-7)     969
+ 
+Lead In: C00599.00[Default]
+Default Next Question: C01117.00
+--------------------------------------------------------------------------------
+C00611.33    [HGCREV1987]                                   Survey Year: 1987
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR 87 INT
+ 
+COMMENT: Child-based version of HGCREV87 from main Youth (R24454.01)
+ 
+       2       0 NONE
+       6       1 1ST GRADE
+       0       2 2ND GRADE
+      21       3 3RD GRADE
+      11       4 4TH GRADE
+      18       5 5TH GRADE
+      86       6 6TH GRADE
+     157       7 7TH GRADE
+     292       8 8TH GRADE
+     514       9 9TH GRADE
+     625      10 10TH GRADE
+     584      11 11TH GRADE
+    4708      12 12TH GRADE
+     900      13 1ST YR COL
+     778      14 2ND YR COL
+     444      15 3RD YR COL
+    1011      16 4TH YR COL
+     148      17 5TH YR COL
+      77      18 6TH YR COL
+      20      19 7TH YR COL
+      14      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+   10416
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      32
+TOTAL =========>   10448      MISSING(-7)    1073
+ 
+Lead In: C00605.00[Default]
+Default Next Question: C01146.00
+--------------------------------------------------------------------------------
+C00611.34    [HGCREV1988]                                   Survey Year: 1988
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR 88 INT
+ 
+COMMENT: Child-based version of HGCREV88 from main Youth (R28711.01)
+ 
+       6       0 NONE
+       6       1 1ST GRADE
+       0       2 2ND GRADE
+      25       3 3RD GRADE
+       7       4 4TH GRADE
+      13       5 5TH GRADE
+      74       6 6TH GRADE
+     146       7 7TH GRADE
+     273       8 8TH GRADE
+     528       9 9TH GRADE
+     581      10 10TH GRADE
+     542      11 11TH GRADE
+    4696      12 12TH GRADE
+     873      13 1ST YR COL
+     780      14 2ND YR COL
+     433      15 3RD YR COL
+    1007      16 4TH YR COL
+     173      17 5TH YR COL
+      94      18 6TH YR COL
+      42      19 7TH YR COL
+      15      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+   10314
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      43
+TOTAL =========>   10357      MISSING(-7)    1164
+ 
+Lead In: C00611.00[Default]
+Default Next Question: C01177.00
+--------------------------------------------------------------------------------
+C00611.35    [HGCREV1989]                                   Survey Year: 1989
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR 89 INT
+ 
+COMMENT: Child-based version of HGCREV89 from main Youth (R30748.01)
+ 
+       6       0 NONE
+       6       1 1ST GRADE
+       0       2 2ND GRADE
+      25       3 3RD GRADE
+      11       4 4TH GRADE
+      13       5 5TH GRADE
+      92       6 6TH GRADE
+     148       7 7TH GRADE
+     278       8 8TH GRADE
+     519       9 9TH GRADE
+     576      10 10TH GRADE
+     569      11 11TH GRADE
+    4753      12 12TH GRADE
+     914      13 1ST YR COL
+     834      14 2ND YR COL
+     432      15 3RD YR COL
+    1032      16 4TH YR COL
+     187      17 5TH YR COL
+     112      18 6TH YR COL
+      57      19 7TH YR COL
+      18      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+   10582
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      25
+TOTAL =========>   10607      MISSING(-7)     914
+ 
+Lead In: C00611.06[Default]
+Default Next Question: C01210.00
+--------------------------------------------------------------------------------
+C00611.36    [HGCREV1990]                                   Survey Year: 1990
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR 90 INT
+ 
+COMMENT: Child-based version of HGCREV90 from main Youth (R34015.01)
+ 
+       6       0 NONE
+       6       1 1ST GRADE
+       0       2 2ND GRADE
+      25       3 3RD GRADE
+       9       4 4TH GRADE
+      13       5 5TH GRADE
+      90       6 6TH GRADE
+     134       7 7TH GRADE
+     264       8 8TH GRADE
+     497       9 9TH GRADE
+     566      10 10TH GRADE
+     556      11 11TH GRADE
+    4622      12 12TH GRADE
+     930      13 1ST YR COL
+     825      14 2ND YR COL
+     455      15 3RD YR COL
+     994      16 4TH YR COL
+     204      17 5TH YR COL
+     130      18 6TH YR COL
+      53      19 7TH YR COL
+      23      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+   10402
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      32
+TOTAL =========>   10434      MISSING(-7)    1087
+ 
+Lead In: C00611.12[Default]
+Default Next Question: C01242.00
+--------------------------------------------------------------------------------
+C00611.37    [HGCREV1991]                                   Survey Year: 1991
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR 91 INT
+ 
+COMMENT: Child-based version of HGCREV91 from main Youth (R36569.01)
+ 
+       6       0 NONE
+       6       1 1ST GRADE
+       0       2 2ND GRADE
+      23       3 3RD GRADE
+       9       4 4TH GRADE
+      15       5 5TH GRADE
+      84       6 6TH GRADE
+      96       7 7TH GRADE
+     205       8 8TH GRADE
+     376       9 9TH GRADE
+     471      10 10TH GRADE
+     479      11 11TH GRADE
+    4072      12 12TH GRADE
+     913      13 1ST YR COL
+     782      14 2ND YR COL
+     430      15 3RD YR COL
+     918      16 4TH YR COL
+     178      17 5TH YR COL
+     128      18 6TH YR COL
+      57      19 7TH YR COL
+      33      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+    9281
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      20
+TOTAL =========>    9301      MISSING(-7)    2220
+ 
+Lead In: C00611.14[Default]
+Default Next Question: C01274.01
+--------------------------------------------------------------------------------
+C00611.38    [HGCREV1992]                                   Survey Year: 1992
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR 92 INT
+ 
+COMMENT: Child-based version of HGCREV92 from main Youth (R40074.01)
+ 
+       6       0 NONE
+       6       1 1ST GRADE
+       0       2 2ND GRADE
+      23       3 3RD GRADE
+       9       4 4TH GRADE
+      15       5 5TH GRADE
+      84       6 6TH GRADE
+      91       7 7TH GRADE
+     199       8 8TH GRADE
+     363       9 9TH GRADE
+     471      10 10TH GRADE
+     456      11 11TH GRADE
+    4044      12 12TH GRADE
+     930      13 1ST YR COL
+     808      14 2ND YR COL
+     422      15 3RD YR COL
+     913      16 4TH YR COL
+     190      17 5TH YR COL
+     152      18 6TH YR COL
+      61      19 7TH YR COL
+      37      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+    9280
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       8
+TOTAL =========>    9288      MISSING(-7)    2233
+ 
+Lead In: C00611.16[Default]
+Default Next Question: C01276.01
+--------------------------------------------------------------------------------
+C00611.39    [HGCREV1993]                                   Survey Year: 1993
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR 93 INT
+ 
+COMMENT: Child-based version of HGCREV93 from main Youth (R44185.01)
+ 
+       6       0 NONE
+       6       1 1ST GRADE
+       0       2 2ND GRADE
+      23       3 3RD GRADE
+       9       4 4TH GRADE
+      15       5 5TH GRADE
+      84       6 6TH GRADE
+      95       7 7TH GRADE
+     193       8 8TH GRADE
+     351       9 9TH GRADE
+     452      10 10TH GRADE
+     440      11 11TH GRADE
+    4086      12 12TH GRADE
+     940      13 1ST YR COL
+     816      14 2ND YR COL
+     414      15 3RD YR COL
+     933      16 4TH YR COL
+     207      17 5TH YR COL
+     154      18 6TH YR COL
+      68      19 7TH YR COL
+      40      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+    9332
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>    9334      MISSING(-7)    2187
+ 
+Lead In: C00611.18[Default]
+Default Next Question: C01278.01
+--------------------------------------------------------------------------------
+C00611.40    [HGCREV1994]                                   Survey Year: 1994
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR 94 INT
+ 
+COMMENT: Child-based version of HGCREV94 from main Youth (R51039.00)
+ 
+       6       0 NONE
+       6       1 1ST GRADE
+       0       2 2ND GRADE
+      23       3 3RD GRADE
+       9       4 4TH GRADE
+      15       5 5TH GRADE
+      84       6 6TH GRADE
+      92       7 7TH GRADE
+     183       8 8TH GRADE
+     336       9 9TH GRADE
+     428      10 10TH GRADE
+     416      11 11TH GRADE
+    4003      12 12TH GRADE
+     957      13 1ST YR COL
+     824      14 2ND YR COL
+     431      15 3RD YR COL
+     928      16 4TH YR COL
+     214      17 5TH YR COL
+     159      18 6TH YR COL
+      63      19 7TH YR COL
+      45      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+    9222
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       5
+TOTAL =========>    9227      MISSING(-7)    2294
+ 
+Lead In: C00611.20[Default]
+Default Next Question: C01279.01
+--------------------------------------------------------------------------------
+C00611.41    [HGCREV1996]                                   Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR 96 INT
+ 
+COMMENT: Child-based version of HGCREV96 from main Youth (R51669.01)
+ 
+       6       0 NONE
+       6       1 1ST GRADE
+       0       2 2ND GRADE
+      25       3 3RD GRADE
+       9       4 4TH GRADE
+      15       5 5TH GRADE
+      68       6 6TH GRADE
+      84       7 7TH GRADE
+     170       8 8TH GRADE
+     308       9 9TH GRADE
+     390      10 10TH GRADE
+     384      11 11TH GRADE
+    3875      12 12TH GRADE
+     965      13 1ST YR COL
+     888      14 2ND YR COL
+     412      15 3RD YR COL
+     898      16 4TH YR COL
+     206      17 5TH YR COL
+     177      18 6TH YR COL
+      82      19 7TH YR COL
+      49      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+    9017
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9017      MISSING(-7)    2504
+ 
+Lead In: C00611.22[Default]
+Default Next Question: C01280.01
+--------------------------------------------------------------------------------
+C00611.42    [HGCREV1998]                                   Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR
+ 
+COMMENT: Child-based version of HGCREV98 from main Youth (R64796.00)
+ 
+       6       0 NONE
+       4       1 1ST GRADE
+       0       2 2ND GRADE
+      22       3 3RD GRADE
+      12       4 4TH GRADE
+      15       5 5TH GRADE
+      80       6 6TH GRADE
+      91       7 7TH GRADE
+     150       8 8TH GRADE
+     254       9 9TH GRADE
+     356      10 10TH GRADE
+     367      11 11TH GRADE
+    3817      12 12TH GRADE
+     941      13 1ST YR COL
+     915      14 2ND YR COL
+     437      15 3RD YR COL
+     910      16 4TH YR COL
+     214      17 5TH YR COL
+     184      18 6TH YR COL
+      80      19 7TH YR COL
+      51      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+    8906
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8906      MISSING(-7)    2615
+ 
+Lead In: C00611.24[Default]
+Default Next Question: C19864.00
+--------------------------------------------------------------------------------
+C00611.43    [HGCREV2000]                                   Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR
+ 
+COMMENT: Child-based version of HGCREV00 from main Youth (R70073.00)
+ 
+       4       0 NONE
+       2       1 1ST GRADE
+       0       2 2ND GRADE
+      21       3 3RD GRADE
+      14       4 4TH GRADE
+       7       5 5TH GRADE
+      63       6 6TH GRADE
+      80       7 7TH GRADE
+     156       8 8TH GRADE
+     228       9 9TH GRADE
+     319      10 10TH GRADE
+     323      11 11TH GRADE
+    3696      12 12TH GRADE
+     867      13 1ST YR COL
+     908      14 2ND YR COL
+     466      15 3RD YR COL
+     847      16 4TH YR COL
+     204      17 5TH YR COL
+     205      18 6TH YR COL
+     100      19 7TH YR COL
+      43      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+    8553
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8553      MISSING(-7)    2968
+ 
+Lead In: C00611.26[Default]
+Default Next Question: C24924.00
+--------------------------------------------------------------------------------
+C00611.44    [HGCREV2002]                                   Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR
+ 
+COMMENT: Child-based version of HGCREV02 from main Youth (R77046.00)
+ 
+       4       0 NONE
+       2       1 1ST GRADE
+       0       2 2ND GRADE
+      21       3 3RD GRADE
+      12       4 4TH GRADE
+       7       5 5TH GRADE
+      68       6 6TH GRADE
+      84       7 7TH GRADE
+     145       8 8TH GRADE
+     217       9 9TH GRADE
+     285      10 10TH GRADE
+     288      11 11TH GRADE
+    3559      12 12TH GRADE
+     805      13 1ST YR COL
+     848      14 2ND YR COL
+     441      15 3RD YR COL
+     858      16 4TH YR COL
+     193      17 5TH YR COL
+     235      18 6TH YR COL
+      90      19 7TH YR COL
+      48      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+    8210
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8210      MISSING(-7)    3311
+ 
+Lead In: C00611.28[Default]
+Default Next Question: C25202.00
+--------------------------------------------------------------------------------
+C00611.45    [HGCREV2004]                                   Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR
+ 
+COMMENT: Child-based version of HGCREV04 from main Youth (R84970.00)
+ 
+       6       0 NONE
+       2       1 1ST GRADE
+       0       2 2ND GRADE
+      16       3 3RD GRADE
+      12       4 4TH GRADE
+       7       5 5TH GRADE
+      72       6 6TH GRADE
+      79       7 7TH GRADE
+     128       8 8TH GRADE
+     223       9 9TH GRADE
+     244      10 10TH GRADE
+     282      11 11TH GRADE
+    3607      12 12TH GRADE
+     845      13 1ST YR COL
+     899      14 2ND YR COL
+     440      15 3RD YR COL
+     848      16 4TH YR COL
+     204      17 5TH YR COL
+     242      18 6TH YR COL
+     112      19 7TH YR COL
+      52      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+    8320
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8320      MISSING(-7)    3201
+ 
+Lead In: C00611.30[Default]
+Default Next Question: C27907.00
+--------------------------------------------------------------------------------
+C00611.46    [HGCREV2006]                                   Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR
+ 
+COMMENT: Child-based version of HGCREV06 from main Youth (T09888.00)
+ 
+       6       0 NONE
+       2       1 1ST GRADE
+       0       2 2ND GRADE
+      22       3 3RD GRADE
+       7       4 4TH GRADE
+       7       5 5TH GRADE
+      65       6 6TH GRADE
+      71       7 7TH GRADE
+     143       8 8TH GRADE
+     207       9 9TH GRADE
+     235      10 10TH GRADE
+     262      11 11TH GRADE
+    3506      12 12TH GRADE
+     797      13 1ST YR COL
+     909      14 2ND YR COL
+     453      15 3RD YR COL
+     813      16 4TH YR COL
+     193      17 5TH YR COL
+     257      18 6TH YR COL
+     114      19 7TH YR COL
+      88      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+    8157
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8157      MISSING(-7)    3364
+ 
+Lead In: C00611.32[Default]
+Default Next Question: C31002.00
+--------------------------------------------------------------------------------
+C36024.01    [HGCREV2008]                                   Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR
+ 
+COMMENT: Child-based version of HGCREV08 from main Youth (T22107.00)
+ 
+       6       0 NONE
+       2       1 1ST GRADE
+       0       2 2ND GRADE
+      22       3 3RD GRADE
+       7       4 4TH GRADE
+      10       5 5TH GRADE
+      69       6 6TH GRADE
+      71       7 7TH GRADE
+     140       8 8TH GRADE
+     213       9 9TH GRADE
+     237      10 10TH GRADE
+     267      11 11TH GRADE
+    3502      12 12TH GRADE
+     804      13 1ST YR COL
+     907      14 2ND YR COL
+     477      15 3RD YR COL
+     849      16 4TH YR COL
+     214      17 5TH YR COL
+     263      18 6TH YR COL
+     125      19 7TH YR COL
+      89      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+    8274
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8274      MISSING(-7)    3247
+ 
+Lead In: C36024.00[Default]
+Default Next Question: C36025.00
+--------------------------------------------------------------------------------
+C39824.01    [HGCREV2010]                                   Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR
+ 
+COMMENT: Child-based version of HGCREV10 from main Youth (T31086.00)
+ 
+       6       0 NONE
+       2       1 1ST GRADE
+       0       2 2ND GRADE
+      22       3 3RD GRADE
+       7       4 4TH GRADE
+      10       5 5TH GRADE
+      75       6 6TH GRADE
+      75       7 7TH GRADE
+     129       8 8TH GRADE
+     196       9 9TH GRADE
+     219      10 10TH GRADE
+     240      11 11TH GRADE
+    3441      12 12TH GRADE
+     795      13 1ST YR COL
+     904      14 2ND YR COL
+     452      15 3RD YR COL
+     858      16 4TH YR COL
+     194      17 5TH YR COL
+     253      18 6TH YR COL
+     121      19 7TH YR COL
+     107      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+    8106
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8106      MISSING(-7)    3415
+ 
+Lead In: C39824.00[Default]
+Default Next Question: C39825.00
+--------------------------------------------------------------------------------
+C55263.00    [HGCREV2012]                                   Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR
+ 
+COMMENT: Child-based version of HGCREV12 from main Youth (T41131.00)
+ 
+       6       0 NONE
+       0       1 1ST GRADE
+       0       2 2ND GRADE
+      22       3 3RD GRADE
+       7       4 4TH GRADE
+       8       5 5TH GRADE
+      75       6 6TH GRADE
+      69       7 7TH GRADE
+     122       8 8TH GRADE
+     190       9 9TH GRADE
+     205      10 10TH GRADE
+     224      11 11TH GRADE
+    3366      12 12TH GRADE
+     752      13 1ST YR COL
+     861      14 2ND YR COL
+     464      15 3RD YR COL
+     812      16 4TH YR COL
+     216      17 5TH YR COL
+     258      18 6TH YR COL
+     125      19 7TH YR COL
+     111      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+    7893
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7893      MISSING(-7)    3628
+ 
+Lead In: C55262.00[Default]
+Default Next Question: C55264.00
+--------------------------------------------------------------------------------
+C58026.00    [HGCREV2014]                                   Survey Year: 2014
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+HIGHEST GRADE COMPLETED BY MOTHER AS OF MAY 1 OF SURVEY YEAR
+ 
+COMMENT: Child-based version of HGCREV14 from main Youth
+ 
+       6       0 NONE
+       2       1 1ST GRADE
+       0       2 2ND GRADE
+      22       3 3RD GRADE
+       4       4 4TH GRADE
+       8       5 5TH GRADE
+      75       6 6TH GRADE
+      61       7 7TH GRADE
+     119       8 8TH GRADE
+     165       9 9TH GRADE
+     190      10 10TH GRADE
+     217      11 11TH GRADE
+    3196      12 12TH GRADE
+     751      13 1ST YR COL
+     823      14 2ND YR COL
+     429      15 3RD YR COL
+     829      16 4TH YR COL
+     217      17 5TH YR COL
+     264      18 6TH YR COL
+     130      19 7TH YR COL
+     118      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+    7626
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7626      MISSING(-7)    3895
+ 
+Lead In: C58025.00[Default]
+Default Next Question: C58027.00
+--------------------------------------------------------------------------------
+Y22670.00    [VERSION_R26]                                  Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             VERSION_R26 CHILD/YOUNG ADULT
+ 
+This variable identifies the release version of the current NLSY79 Child/Young 
+Adult data set, This information allows User Services to identify the release 
+version used by a researcher who is asking a question and to access past 
+versions of the data if necessary.
+ 
+   11521         458
+  -------
+   11521
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11521      MISSING(-7)       0
+ 
+Min:            458        Max:            458        Mean:                 458
+ 
+Lead In: Y12053.00[Default]
+Default Next Question: Y12054.00

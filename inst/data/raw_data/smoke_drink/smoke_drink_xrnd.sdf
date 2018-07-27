@@ -1,0 +1,14 @@
+
+
+Reference
+Number     Year  Variable Description                                          Question Name  
+------------------------------------------------------------------------------------------------
+C00001.00  XRND  ID CODE OF CHILD                                              CPUBID         
+C00002.00  XRND  ID CODE OF MOTHER OF CHILD                                    MPUBID         
+C00053.00  XRND  RACE OF CHILD (MOTHER'S RACIAL/ETHNIC COHORT FROM SCREENER)   CRACE          
+C00054.00  XRND  SEX OF CHILD                                                  CSEX           
+C00057.00  XRND  DATE OF BIRTH OF CHILD - YEAR                                 CYRB           
+C03202.00  XRND  MOTHER DRINK ALCOHOL DURING 12 MONTHS BEFORE BIRTH OF CHILD?  PRE0010        
+C03204.00  XRND  MOTHER SMOKE DURING 12 MONTHS BEFORE BIRTH OF CHILD?          PRE0012        
+C03205.00  XRND  # OF CIGARETTES SMOKED BY MOTHER DURING PREGNANCY             PRE0013        
+Y22670.00  XRND  VERSION_R26 CHILD/YOUNG ADULT                                 VERSION_R26    

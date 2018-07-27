@@ -1,0 +1,1218 @@
+R00001.00    [CASEID]                                       Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             IDENTIFICATION CODE
+ 
+ORIGINAL QUESTION NAME: CASEID
+ 
+NOTE: THIS NUMBER WAS ASSIGNED ACCORDING TO THE RECORD NUMBER OF EACH RESPONDENT
+ON THE TAPE. THE FIRST RESPONDENT WAS ASSIGNED ID#1, THE SECOND WAS ASSIGNED 
+ID#2, ETC.
+ 
+ACTUAL NUMBER
+ 
+UNIVERSE: All
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:          12686        Mean:              6343.5
+ 
+Lead In: None.
+Default Next Question: R00001.49
+--------------------------------------------------------------------------------
+R02179.00    [TNFI_TRUNC]                                   Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME
+ 
+ACTUAL NUMBER
+ 
+UNIVERSE: All
+ 
+      49           0
+     113           1 TO 999
+     207        1000 TO 1999
+     362        2000 TO 2999
+     509        3000 TO 3999
+     548        4000 TO 4999
+     794        5000 TO 5999
+     755        6000 TO 6999
+     517        7000 TO 7999
+     456        8000 TO 8999
+     394        9000 TO 9999
+    1552       10000 TO 14999
+    1108       15000 TO 19999
+     978       20000 TO 24999
+    1595       25000 TO 49999
+     258       50000 TO 9999999: 50000+
+  -------
+   10195
+ 
+Refusal(-1)          585
+Don't Know(-2)      1194
+Invalid Skip(-3)     712
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:          75001        Mean:            14706.87
+ 
+Lead In: R02175.02[Default]
+Default Next Question: R02179.10
+--------------------------------------------------------------------------------
+R04060.10    [TNFI_TRUNC]                                   Survey Year: 1980
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME
+ 
+ACTUAL DOLLARS
+ 
+UNIVERSE: All
+ 
+      49           0
+     117           1 TO 999
+     173        1000 TO 1999
+     276        2000 TO 2999
+     334        3000 TO 3999
+     370        4000 TO 4999
+     591        5000 TO 5999
+     648        6000 TO 6999
+     481        7000 TO 7999
+     466        8000 TO 8999
+     305        9000 TO 9999
+    1655       10000 TO 14999
+    1172       15000 TO 19999
+     949       20000 TO 24999
+    1921       25000 TO 49999
+     384       50000 TO 9999999: 50000+
+  -------
+    9891
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)    2250
+TOTAL =========>   12141   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     545
+ 
+Min:              0        Max:          75001        Mean:            16939.44
+ 
+Lead In: R04057.00[Default]
+Default Next Question: R04061.00
+--------------------------------------------------------------------------------
+R06184.10    [TNFI_TRUNC]                                   Survey Year: 1981
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME
+ 
+ACTUAL DOLLARS
+ 
+UNIVERSE: All
+ 
+      74           0
+     141           1 TO 999
+     190        1000 TO 1999
+     241        2000 TO 2999
+     309        3000 TO 3999
+     337        4000 TO 4999
+     381        5000 TO 5999
+     478        6000 TO 6999
+     517        7000 TO 7999
+     455        8000 TO 8999
+     384        9000 TO 9999
+    1610       10000 TO 14999
+    1177       15000 TO 19999
+     973       20000 TO 24999
+    2045       25000 TO 49999
+     472       50000 TO 9999999: 50000+
+  -------
+    9784
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)    2411
+TOTAL =========>   12195   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     491
+ 
+Min:              0        Max:          75001        Mean:            18086.68
+ 
+Lead In: R06183.00[Default] R06183.01[Default]
+Default Next Question: R06185.00
+--------------------------------------------------------------------------------
+R08986.00    [TNFI_TRUNC]                                   Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME
+ 
+ACTUAL DOLLARS
+ 
+UNIVERSE: All
+ 
+      56           0
+     123           1 TO 999
+     173        1000 TO 1999
+     218        2000 TO 2999
+     286        3000 TO 3999
+     289        4000 TO 4999
+     327        5000 TO 5999
+     377        6000 TO 6999
+     393        7000 TO 7999
+     435        8000 TO 8999
+     397        9000 TO 9999
+    1621       10000 TO 14999
+    1196       15000 TO 19999
+    1030       20000 TO 24999
+    2190       25000 TO 49999
+     644       50000 TO 9999999: 50000+
+  -------
+    9755
+ 
+Refusal(-1)          176
+Don't Know(-2)      2039
+Invalid Skip(-3)     153
+TOTAL =========>   12123   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     563
+ 
+Min:              0        Max:          75001        Mean:            19761.91
+ 
+Lead In: R08985.10[Default]
+Default Next Question: R08987.00
+--------------------------------------------------------------------------------
+R11445.00    [TNFI_TRUNC]                                   Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME
+ 
+ACTUAL DOLLARS
+ 
+      82           0
+     113           1 TO 999
+     181        1000 TO 1999
+     228        2000 TO 2999
+     287        3000 TO 3999
+     275        4000 TO 4999
+     347        5000 TO 5999
+     384        6000 TO 6999
+     363        7000 TO 7999
+     390        8000 TO 8999
+     358        9000 TO 9999
+    1704       10000 TO 14999
+    1249       15000 TO 19999
+    1009       20000 TO 24999
+    2287       25000 TO 49999
+     620       50000 TO 9999999: 50000+
+  -------
+    9877
+ 
+Refusal(-1)          159
+Don't Know(-2)      2085
+Invalid Skip(-3)     100
+TOTAL =========>   12221   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     465
+ 
+Min:              0        Max:          75001        Mean:            19788.13
+ 
+Lead In: R11444.10[Default]
+Default Next Question: R11446.00
+--------------------------------------------------------------------------------
+R15197.00    [TNFI_TRUNC]                                   Survey Year: 1984
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME
+ 
+ACTUAL DOLLARS
+ 
+      77           0
+      98           1 TO 999
+     166        1000 TO 1999
+     209        2000 TO 2999
+     245        3000 TO 3999
+     270        4000 TO 4999
+     372        5000 TO 5999
+     345        6000 TO 6999
+     296        7000 TO 7999
+     409        8000 TO 8999
+     322        9000 TO 9999
+    1681       10000 TO 14999
+    1248       15000 TO 19999
+    1044       20000 TO 24999
+    2405       25000 TO 49999
+     643       50000 TO 9999999: 50000+
+  -------
+    9830
+ 
+Refusal(-1)          134
+Don't Know(-2)      2064
+Invalid Skip(-3)      41
+TOTAL =========>   12069   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     617
+ 
+Min:              0        Max:          75001        Mean:            20513.03
+ 
+Lead In: R15196.10[Default]
+Default Next Question: R15198.00
+--------------------------------------------------------------------------------
+R18904.00    [TNFI_TRUNC]                                   Survey Year: 1985
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME
+ 
+ACTUAL DOLLARS
+ 
+      64           0
+      96           1 TO 999
+     140        1000 TO 1999
+     165        2000 TO 2999
+     214        3000 TO 3999
+     252        4000 TO 4999
+     299        5000 TO 5999
+     287        6000 TO 6999
+     278        7000 TO 7999
+     310        8000 TO 8999
+     298        9000 TO 9999
+    1406       10000 TO 14999
+    1169       15000 TO 19999
+     971       20000 TO 24999
+    2344       25000 TO 49999
+     717       50000 TO 9999999: 50000+
+  -------
+    9010
+ 
+Refusal(-1)          109
+Don't Know(-2)      1715
+Invalid Skip(-3)      60
+TOTAL =========>   10894   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1792
+ 
+Min:              0        Max:         100001        Mean:            22065.23
+ 
+Lead In: R18903.00[Default]
+Default Next Question: R18905.00
+--------------------------------------------------------------------------------
+R22575.00    [TNFI_TRUNC]                                   Survey Year: 1986
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME
+ 
+ACTUAL DOLLARS
+ 
+      59           0
+      72           1 TO 999
+     121        1000 TO 1999
+     146        2000 TO 2999
+     191        3000 TO 3999
+     177        4000 TO 4999
+     200        5000 TO 5999
+     299        6000 TO 6999
+     262        7000 TO 7999
+     292        8000 TO 8999
+     242        9000 TO 9999
+    1379       10000 TO 14999
+    1155       15000 TO 19999
+    1017       20000 TO 24999
+    2562       25000 TO 49999
+     824       50000 TO 9999999: 50000+
+  -------
+    8998
+ 
+Refusal(-1)           83
+Don't Know(-2)      1544
+Invalid Skip(-3)      30
+TOTAL =========>   10655   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2031
+ 
+Min:              0        Max:         100001        Mean:            23708.16
+ 
+Lead In: R22574.10[Default]
+Default Next Question: R22576.00
+--------------------------------------------------------------------------------
+R24447.00    [TNFI_TRUNC]                                   Survey Year: 1987
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME
+ 
+ACTUAL DOLLARS
+ 
+     127           0
+      78           1 TO 999
+     122        1000 TO 1999
+     118        2000 TO 2999
+     134        3000 TO 3999
+     176        4000 TO 4999
+     188        5000 TO 5999
+     261        6000 TO 6999
+     193        7000 TO 7999
+     213        8000 TO 8999
+     199        9000 TO 9999
+    1190       10000 TO 14999
+    1087       15000 TO 19999
+     975       20000 TO 24999
+    2683       25000 TO 49999
+     894       50000 TO 9999999: 50000+
+  -------
+    8638
+ 
+Refusal(-1)           85
+Don't Know(-2)      1701
+Invalid Skip(-3)      61
+TOTAL =========>   10485   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2201
+ 
+Min:              0        Max:         100001        Mean:            25227.69
+ 
+Lead In: R24446.10[Default]
+Default Next Question: R24448.00
+--------------------------------------------------------------------------------
+R28702.00    [TNFI_TRUNC]                                   Survey Year: 1988
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME
+ 
+ACTUAL DOLLARS
+ 
+     148           0
+      75           1 TO 999
+     100        1000 TO 1999
+      95        2000 TO 2999
+      96        3000 TO 3999
+     146        4000 TO 4999
+     164        5000 TO 5999
+     175        6000 TO 6999
+     214        7000 TO 7999
+     190        8000 TO 8999
+     191        9000 TO 9999
+    1044       10000 TO 14999
+    1104       15000 TO 19999
+     944       20000 TO 24999
+    2901       25000 TO 49999
+     974       50000 TO 9999999: 50000+
+  -------
+    8561
+ 
+Refusal(-1)           73
+Don't Know(-2)      1677
+Invalid Skip(-3)     154
+TOTAL =========>   10465   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2221
+ 
+Min:              0        Max:         100001        Mean:            26539.45
+ 
+Lead In: R28701.10[Default]
+Default Next Question: R28704.00
+--------------------------------------------------------------------------------
+R30740.00    [TNFI_TRUNC]                                   Survey Year: 1989
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME
+TRUNCATED VALUES ARE EQUAL TO THE AVERAGE VALUE OF ALL RESPONDENTS WHO
+ARE U.S. RESIDENTS AND WHO HAVE VALUES EXCEEDING THE TRADITIONAL
+TRUNCATION LEVEL OF 100,001 FOR THIS ITEM. PERSONS WITH OUT-OF-RANGE
+CODE 999,996 WERE ASSIGNED THIS VALUE AS AN APPROXIMATION. SINCE
+PERSONS WITH OUT-OF-RANGE CODES HAVE VALUES GREATER THAN THIS CODE, OUR
+AVERAGE TOP-CODED RESPONDENTS WILL BE TOO LOW TO THE EXTENT THAT OUT-OF-
+RANGE CODES ARE PRESENT IN THE RAW DATA. OVERSEAS RESPONDENTS WHOSE
+DOLLAR INCOME COULD NOT BE DETERMINED ARE CODED -3.
+ 
+ACTUAL DOLLARS
+ 
+     131           0
+      83           1 TO 999
+      64        1000 TO 1999
+      79        2000 TO 2999
+     103        3000 TO 3999
+     140        4000 TO 4999
+     156        5000 TO 5999
+     168        6000 TO 6999
+     178        7000 TO 7999
+     169        8000 TO 8999
+     186        9000 TO 9999
+     932       10000 TO 14999
+    1032       15000 TO 19999
+     940       20000 TO 24999
+    3098       25000 TO 49999
+    1264       50000 TO 9999999: 50000+
+  -------
+    8723
+ 
+Refusal(-1)          126
+Don't Know(-2)      1682
+Invalid Skip(-3)      74
+TOTAL =========>   10605   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2081
+ 
+Min:              0        Max:        1057448        Mean:            47279.06
+ 
+Lead In: R30739.10[Default]
+Default Next Question: R30741.00
+--------------------------------------------------------------------------------
+R34007.00    [TNFI_TRUNC]                                   Survey Year: 1990
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME TRUNCATED 
+VALUES ARE EQUAL TO THE AVERAGE VALUE OF ALL RESPONDENTS WHO ARE U.S. RESIDENTS 
+AND WHO HAVE VALUES EXCEEDING THE TRADITIONAL TRUNCATION LEVEL OF 100,001 FOR 
+THIS ITEM. PERSONS WITH OUT-OF-RANGE CODE 999,996 WERE ASSIGNED THIS VALUE AS AN
+APPROXIMATION. SINCE PERSONS WITH OUT-OF-RANGE CODES HAVE VALUES GREATER THAN 
+THIS CODE, OUR AVERAGE TOP-CODED RESPONDENTS WILL BE TOO LOW TO THE EXTENT THAT 
+OUT-OF-RANGE CODES ARE PRESENT IN THE RAW DATA. OVERSEAS RESPONDENTS WHOSE 
+DOLLAR INCOME COULD NOT BE DETERMINED ARE CODED -3.
+ 
+ACTUAL DOLLARS
+ 
+     139           0
+      72           1 TO 999
+      64        1000 TO 1999
+      58        2000 TO 2999
+      86        3000 TO 3999
+     106        4000 TO 4999
+     131        5000 TO 5999
+     144        6000 TO 6999
+     164        7000 TO 7999
+     161        8000 TO 8999
+     139        9000 TO 9999
+     855       10000 TO 14999
+     955       15000 TO 19999
+     821       20000 TO 24999
+    3286       25000 TO 49999
+    1507       50000 TO 9999999: 50000+
+  -------
+    8688
+ 
+Refusal(-1)          125
+Don't Know(-2)      1435
+Invalid Skip(-3)     188
+TOTAL =========>   10436   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2250
+ 
+Min:              0        Max:         146942        Mean:            32131.18
+ 
+Lead In: R34006.00[Default]
+Default Next Question: R34008.00
+--------------------------------------------------------------------------------
+R36561.00    [TNFI_TRUNC]                                   Survey Year: 1991
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME
+TRUNCATED VALUES ARE EQUAL TO THE AVERAGE VALUE OF ALL RESPONDENTS WHO
+ARE U.S. RESIDENTS AND WHO HAVE VALUES EXCEEDING THE TRADITIONAL
+TRUNCATION LEVEL OF 100,001 FOR THIS ITEM. PERSONS WITH OUT-OF-RANGE
+CODE 999,996 WERE ASSIGNED THIS VALUE AS AN APPROXIMATION. SINCE
+PERSONS WITH OUT-OF-RANGE CODES HAVE VALUES GREATER THAN THIS CODE, OUR
+AVERAGE TOP-CODED RESPONDENTS WILL BE TOO LOW TO THE EXTENT THAT OUT-OF-
+RANGE CODES ARE PRESENT IN THE RAW DATA. OVERSEAS RESPONDENTS WHOSE
+DOLLAR INCOME COULD NOT BE DETERMINED ARE CODED -3.
+ 
+ACTUAL DOLLARS
+ 
+     138           0
+      67           1 TO 999
+      64        1000 TO 1999
+      69        2000 TO 2999
+      60        3000 TO 3999
+      71        4000 TO 4999
+     109        5000 TO 5999
+     115        6000 TO 6999
+     106        7000 TO 7999
+     125        8000 TO 8999
+     155        9000 TO 9999
+     715       10000 TO 14999
+     726       15000 TO 19999
+     677       20000 TO 24999
+    2939       25000 TO 49999
+    1503       50000 TO 9999999: 50000+
+  -------
+    7639
+ 
+Refusal(-1)          148
+Don't Know(-2)      1192
+Invalid Skip(-3)      39
+TOTAL =========>    9018   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3668
+ 
+Min:              0        Max:         159805        Mean:            34321.35
+ 
+Lead In: R36560.00[Default]
+Default Next Question: R36562.00
+--------------------------------------------------------------------------------
+R40066.00    [TNFI_TRUNC]                                   Survey Year: 1992
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+ORIGINAL QUESTION NAME: *CREATED
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME
+OVERSEAS RESPONDENTS WHOSE DOLLAR INCOME COULD NOT BE DETERMINED ARE CODED -3. 
+ACTUAL DOLLARS
+ NOTE: SEVERAL CASES HAVE BEEN DETECTED WHICH CONTAIN ONE OR MORE EXCEEDINGLY 
+HIGH INCOME VALUES, THAT APPEAR TO BE QUESTIONABLE WHEN COMPARED BOTH TO OTHER 
+1992 INCOME VALUES, AND TO 1991 AND PRELIMINARY 1993 DATA FOR THE SAME CASES, 
+CHRR IS INVESTIGATING THESE DISCREPANCIES. THESE VALUES WERE NOT CHANGED FOR THE
+1979-1992 DATA RELEASE. AS A RESULT, THESE HIGH VALUES WERE INCLUDED IN THE 
+SUBSET OF CASES TO BE TOP-CODED ON ONE OR MORE INCOME VARIABLES IN THIS 1992 
+RELEASE. THE AVERAGED VALUE ASSIGNED TO ALL RESPONDENTS REPORTING OVER A CERTAIN
+LEVEL OF INCOME DOES INCLUDE THE APPARENTLY EXCESSIVE VALUES FOR THESE 
+RESPONDENTS ON AFFECTED VARIABLES WILL BE RELEASED AS SOON AS THEY ARE 
+AVAILABLE. IN THE INTERIM, USERS SHOULD BE AWARE THAT THESE CASES EXIST AND MAY 
+HAVE AFFECTED THE TOP-CODING FOR SOME VARIABLES. THE FOLLOWING 8 CASES HAVE BEEN
+IDENTIFIED: 1620, 2894, 3546, 4226, 4289, 5723, 5940, 8963.  ACTUAL DOLLARS
+ 
+     129           0
+      64           1 TO 999
+      78        1000 TO 1999
+      62        2000 TO 2999
+      55        3000 TO 3999
+      62        4000 TO 4999
+      92        5000 TO 5999
+      96        6000 TO 6999
+     116        7000 TO 7999
+     113        8000 TO 8999
+     121        9000 TO 9999
+     698       10000 TO 14999
+     694       15000 TO 19999
+     679       20000 TO 24999
+    2766       25000 TO 49999
+    1691       50000 TO 9999999: 50000+
+  -------
+    7516
+ 
+Refusal(-1)          147
+Don't Know(-2)      1274
+Invalid Skip(-3)      79
+TOTAL =========>    9016   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3670
+ 
+Min:              0        Max:         839078        Mean:               55642
+ 
+Lead In: R40065.00[Default]
+Default Next Question: R40067.00
+--------------------------------------------------------------------------------
+R44177.00    [TNFI_TRUNC]                                   Survey Year: 1993
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+ORIGINAL QUESTION NAME: TNFI
+ 
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME
+TRUNCATED VALUES ARE EQUAL TO THE AVERAGE VALUE OF ALL RESPONDENTS WHO
+ARE U.S. RESIDENTS AND WHO HAVE VALUES EXCEEDING THE TRADITIONAL
+TRUNCATION LEVEL OF 100,001 FOR THIS ITEM. PERSONS WITH OUT-OF-RANGE
+CODE 999,996 WERE ASSIGNED THIS VALUE AS AN APPROXIMATION. SINCE
+PERSONS WITH OUT-OF-RANGE CODES HAVE VALUES GREATER THAN THIS CODE, OUR
+AVERAGE TOP-CODED RESPONDENTS WILL BE TOO LOW TO THE EXTENT THAT OUT-OF-
+RANGE CODES ARE PRESENT IN THE RAW DATA. OVERSEAS RESPONDENTS WHOSE
+DOLLAR INCOME COULD NOT BE DETERMINED ARE CODED -3.
+ 
+ACTUAL DOLLARS
+ 
+COMMENT: Total Net Family Income in 1992
+ 
+     119           0
+      59           1 TO 999
+      51        1000 TO 1999
+      39        2000 TO 2999
+      46        3000 TO 3999
+      62        4000 TO 4999
+      98        5000 TO 5999
+     108        6000 TO 6999
+      93        7000 TO 7999
+      99        8000 TO 8999
+     114        9000 TO 9999
+     601       10000 TO 14999
+     605       15000 TO 19999
+     635       20000 TO 24999
+    2590       25000 TO 49999
+    1835       50000 TO 9999999: 50000+
+  -------
+    7154
+ 
+Refusal(-1)          183
+Don't Know(-2)      1602
+Invalid Skip(-3)      72
+TOTAL =========>    9011   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3675
+ 
+Min:              0        Max:         160097        Mean:            38192.34
+ 
+Lead In: R44176.00[Default]
+Default Next Question: R44178.00
+--------------------------------------------------------------------------------
+R50807.00    [TNFI_TRUNC]                                   Survey Year: 1994
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+COMMENT: Total Net Family Income in 1993
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME TRUNCATED 
+VALUES ARE EQUAL TO THE AVERAGE VALUE OF ALL RESPONDENTS WHO ARE U.S. RESIDENTS 
+AND WHO HAVE VALUES EXCEEDING THE TRADITIONAL
+TRUNCATION LEVEL OF 100,001 FOR THIS ITEM. PERSONS WITH OUT-OF-RANGE CODE 999,
+996 WERE ASSIGNED THIS VALUE AS AN APPROXIMATION. SINCE PERSONS WITH 
+OUT-OF-RANGE CODES HAVE VALUES GREATER THAN THIS CODE, OUR AVERAGE TOP-CODED 
+RESPONDENTS WILL BE TOO LOW TO THE EXTENT THAT OUT-OF-RANGE CODES ARE PRESENT IN
+THE RAW DATA. OVERSEAS RESPONDENTS WHOSE DOLLAR INCOME COULD NOT BE DETERMINED 
+ARE CODED -3.
+ 
+ACTUAL DOLLARS
+ 
+     120           0
+      41           1 TO 999
+      52        1000 TO 1999
+      49        2000 TO 2999
+      41        3000 TO 3999
+      46        4000 TO 4999
+      93        5000 TO 5999
+      83        6000 TO 6999
+      89        7000 TO 7999
+      92        8000 TO 8999
+      85        9000 TO 9999
+     586       10000 TO 14999
+     589       15000 TO 19999
+     590       20000 TO 24999
+    2541       25000 TO 49999
+    1907       50000 TO 99999999: 50000+
+  -------
+    7004
+ 
+Refusal(-1)          163
+Don't Know(-2)      1667
+Invalid Skip(-3)      57
+TOTAL =========>    8891   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3795
+ 
+Min:              0        Max:         189918        Mean:            40883.12
+ 
+Lead In: R50806.00[Default]
+Default Next Question: R50808.00
+--------------------------------------------------------------------------------
+R51660.00    [TNFI_TRUNC]                                   Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+COMMENT: Total Net Family Income in 1995
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME TRUNCATED 
+VALUES ARE EQUAL TO THE AVERAGE VALUE OF THE TOP 2% OF RESPONDENTS WHO ARE U.S. 
+RESIDENTS.  IF THE NUMBER OF TRUNCATED VALUES EXCEEDS THAT WHICH WOULD HAVE BEEN
+TRUNCATED AT THE TRADITIONAL TRUNCATION LEVEL OF 100,001 FOR THIS ITEM, VALUES 
+OVER THAT TRADITIONAL TRUNCATION LEVEL ARE AVERAGED. PERSONS WITH  OUT-OF-RANGE 
+CODE 999,996 WERE ASSIGNED THIS VALUE AS AN APPROXIMATION. SINCE PERSONS WITH 
+OUT-OF-RANGE CODES HAVE VALUES GREATER THAN THIS CODE, OUR AVERAGE TOP-CODED 
+RESPONDENTS WILL BE TOO LOW TO THE EXTENT THAT OUT-OF-RANGE CODES ARE PRESENT IN
+THE RAW DATA. OVERSEAS RESPONDENTS WHOSE DOLLAR INCOME COULD NOT BE DETERMINED 
+ARE CODED -3.
+ 
+ACTUAL DOLLARS
+ 
+     136           0
+      53           1 TO 999
+      59        1000 TO 1999
+      49        2000 TO 2999
+      37        3000 TO 3999
+      71        4000 TO 4999
+      58        5000 TO 5999
+      64        6000 TO 6999
+      80        7000 TO 7999
+      77        8000 TO 8999
+      79        9000 TO 9999
+     444       10000 TO 14999
+     557       15000 TO 19999
+     535       20000 TO 24999
+    2353       25000 TO 49999
+    2325       50000 TO 99999999: 50000+
+  -------
+    6977
+ 
+Refusal(-1)          162
+Don't Know(-2)      1491
+Invalid Skip(-3)       6
+TOTAL =========>    8636   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4050
+ 
+Min:              0        Max:         974100        Mean:             58481.3
+ 
+Lead In: R51659.00[Default]
+Default Next Question: R51661.00
+--------------------------------------------------------------------------------
+R64787.00    [TNFI_TRUNC]                                   Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+COMMENT: Total Net Family Income in 1997
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME TRUNCATED 
+VALUES ARE EQUAL TO THE AVERAGE VALUE OF THE TOP 2% OF RESPONDENTS WHO ARE U.S. 
+RESIDENTS.  IF THE NUMBER OF TRUNCATED VALUES EXCEEDS THAT WHICH WOULD HAVE BEEN
+TRUNCATED AT THE TRADITIONAL TRUNCATION LEVEL OF 100,001 FOR THIS ITEM, VALUES 
+OVER THAT TRADITIONAL TRUNCATION LEVEL ARE AVERAGED.  OVERSEAS RESPONDENTS WHOSE
+DOLLAR INCOME COULD NOT BE DETERMINED ARE CODED -3.
+ 
+REVISED DATA NOTE: THIS VARIABLE HAS BEEN REVISED SINCE THE NOVEMBER 2004 
+RELEASE.  PLEASE SEE THE NLSY79 ERRATA PAGE FOR DETAILS.
+ 
+ACTUAL DOLLARS
+ 
+     236           0
+      55           1 TO 999
+      48        1000 TO 1999
+      40        2000 TO 2999
+      55        3000 TO 3999
+      46        4000 TO 4999
+      60        5000 TO 5999
+      69        6000 TO 6999
+      66        7000 TO 7999
+      67        8000 TO 8999
+      70        9000 TO 9999
+     389       10000 TO 14999
+     435       15000 TO 19999
+     499       20000 TO 24999
+    2124       25000 TO 49999
+    2605       50000 TO 99999999: 50000+
+  -------
+    6864
+ 
+Refusal(-1)          212
+Don't Know(-2)      1294
+Invalid Skip(-3)      29
+TOTAL =========>    8399   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4287
+ 
+Min:              0        Max:         244343        Mean:            47789.42
+ 
+Lead In: R64786.00[Default]
+Default Next Question: R64788.00
+--------------------------------------------------------------------------------
+R70065.00    [TNFI_TRUNC]                                   Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+COMMENT: Total Net Family Income in 1999
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME TRUNCATED 
+VALUES ARE EQUAL TO THE AVERAGE VALUE OF THE TOP 2% OF RESPONDENTS WHO ARE U.S. 
+RESIDENTS.  IF THE NUMBER OF TRUNCATED VALUES EXCEEDS THAT WHICH WOULD HAVE BEEN
+TRUNCATED AT THE TRADITIONAL TRUNCATION LEVEL OF 100,001 FOR THIS ITEM, VALUES 
+OVER THAT TRADITIONAL TRUNCATION LEVEL ARE AVERAGED.  OVERSEAS RESPONDENTS WHOSE
+DOLLAR INCOME COULD NOT BE DETERMINED ARE CODED -3.
+ 
+ACTUAL DOLLARS
+ 
+     198           0
+      53           1 TO 999
+      31        1000 TO 1999
+      40        2000 TO 2999
+      45        3000 TO 3999
+      38        4000 TO 4999
+      41        5000 TO 5999
+      93        6000 TO 6999
+      50        7000 TO 7999
+      59        8000 TO 8999
+      49        9000 TO 9999
+     366       10000 TO 14999
+     364       15000 TO 19999
+     405       20000 TO 24999
+    1884       25000 TO 49999
+    2830       50000 TO 99999999: 50000+
+  -------
+    6546
+ 
+Refusal(-1)          202
+Don't Know(-2)      1282
+Invalid Skip(-3)       2
+TOTAL =========>    8032   VALID SKIP(-4)       1     NON-INTERVIEW(-5)    4653
+ 
+Min:              0        Max:         332808        Mean:            54420.99
+ 
+Lead In: R70064.00[Default]
+Default Next Question: R70066.00
+--------------------------------------------------------------------------------
+R77037.00    [TNFI_TRUNC]                                   Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+ 
+NOTE: TOTAL NET FAMILY INCOME IN 2001
+ 
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME TRUNCATED 
+VALUES ARE EQUAL TO THE AVERAGE VALUE OF THE TOP 2% OF RESPONDENTS WHO ARE U.S. 
+RESIDENTS.  IF THE NUMBER OF TRUNCATED VALUES EXCEEDS THAT WHICH WOULD HAVE BEEN
+TRUNCATED AT THE TRADITIONAL TRUNCATION LEVEL OF 100,001 FOR THIS ITEM, VALUES 
+OVER THAT TRADITIONAL TRUNCATION LEVEL ARE AVERAGED.  OVERSEAS RESPONDENTS WHOSE
+DOLLAR INCOME COULD NOT BE DETERMINED ARE CODED -3.
+ 
+ACTUAL DOLLARS
+ 
+     188           0
+      50           1 TO 999
+      34        1000 TO 1999
+      31        2000 TO 2999
+      45        3000 TO 3999
+      37        4000 TO 4999
+      39        5000 TO 5999
+      61        6000 TO 6999
+      49        7000 TO 7999
+      60        8000 TO 8999
+      44        9000 TO 9999
+     313       10000 TO 14999
+     310       15000 TO 19999
+     347       20000 TO 24999
+    1746       25000 TO 49999
+    3181       50000 TO 99999999: 50000+
+  -------
+    6535
+ 
+Refusal(-1)          171
+Don't Know(-2)      1015
+Invalid Skip(-3)       3
+TOTAL =========>    7724   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4962
+ 
+Min:              0        Max:         390662        Mean:            61354.54
+ 
+Lead In: R77036.00[Default]
+Default Next Question: R77039.00
+--------------------------------------------------------------------------------
+R84961.00    [TNFI_TRUNC]                                   Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+COMMENT: Total Net Family Income in 2003
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME TRUNCATED 
+VALUES ARE EQUAL TO THE AVERAGE VALUE OF THE TOP 2% OF RESPONDENTS WHO ARE U.S. 
+RESIDENTS.  IF THE NUMBER OF TRUNCATED VALUES EXCEEDS THAT WHICH WOULD HAVE BEEN
+TRUNCATED AT THE TRADITIONAL TRUNCATION LEVEL OF 100,001 FOR THIS ITEM, VALUES 
+OVER THAT TRADITIONAL TRUNCATION LEVEL ARE AVERAGED.  OVERSEAS RESPONDENTS WHOSE
+DOLLAR INCOME COULD NOT BE DETERMINED ARE CODED -3.
+ 
+ACTUAL DOLLARS
+ 
+     192           0
+      31           1 TO 999
+      32        1000 TO 1999
+      32        2000 TO 2999
+      36        3000 TO 3999
+      43        4000 TO 4999
+      50        5000 TO 5999
+      69        6000 TO 6999
+      76        7000 TO 7999
+      81        8000 TO 8999
+      56        9000 TO 9999
+     301       10000 TO 14999
+     292       15000 TO 19999
+     324       20000 TO 24999
+    1644       25000 TO 49999
+    3370       50000 TO 999999999: 50000+
+  -------
+    6629
+ 
+Refusal(-1)          245
+Don't Know(-2)       785
+Invalid Skip(-3)       2
+TOTAL =========>    7661   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5025
+ 
+Min:              0        Max:         408473        Mean:            64697.43
+ 
+Lead In: R84960.00[Default]
+Default Next Question: R84963.00
+--------------------------------------------------------------------------------
+T09878.00    [TNFI_TRUNC]                                   Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+COMMENT: Total Net Family Income in 2005
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME TRUNCATED 
+VALUES ARE EQUAL TO THE AVERAGE VALUE OF THE TOP 2% OF RESPONDENTS WHO ARE U.S. 
+RESIDENTS.  IF THE NUMBER OF TRUNCATED VALUES EXCEEDS THAT WHICH WOULD HAVE BEEN
+TRUNCATED AT THE TRADITIONAL TRUNCATION LEVEL OF 100,001 FOR THIS ITEM, VALUES 
+OVER THAT TRADITIONAL TRUNCATION LEVEL ARE AVERAGED.  OVERSEAS RESPONDENTS WHOSE
+DOLLAR INCOME COULD NOT BE DETERMINED ARE CODED -3.
+ 
+NOTE: WHEREVER POSSIBLE, THIS VARIABLE INCORPORATES THE FOLLOW-UP SELF-REPORTED 
+RANGE AND UNFOLDING BRACKET QUESTIONS PRESENT FOR MANY INCOME AMOUNTS TO 
+ESTIMATE A VALUE FOR NON-RESPONDERS (THOSE RESPONDING DON'T KNOW OR REFUSE TO 
+ACTUAL INCOME AMOUNTS).  THE DECISION RULES FOR FILLING IN INDIVIDUAL MISSING 
+INCOME VALUES WITH ESTIMATES ARE AS FOLLOWS:
+ 
+IF SELF-REPORTED RANGES ARE GIVEN AND (EXAMPLE T09126.00, T09128.00):
+*UPPER/LOWER VALUES ARE IN PROPER ORDER, MIDPOINT IS USED;
+*RANGES ARE GIVEN BACKWARDS, THE VALUES ARE REVERSED AND MIDPOINT IS USED;
+*THE SAME VALUE IS GIVEN FOR UPPER/LOWER SELF-REPORTED RANGE VALUE, THAT SINGLE 
+VALUE IS USED;
+ 
+IF UNFOLDING BRACKETS ARE ANSWERED (LOW BRACKET < ENTRY VALUE < HIGH BRACKET) 
+AND (EXAMPLE T09129.00-T09131.00):
+*R REPORTS LESS THAN ENTRY VALUE AND LESS THAN LOW BRACKET, THEN HALF OF LOW 
+BRACKET VALUE IS USED (MIDPOINT BETWEEN LOW BRACKET AND 0)
+* R REPORTS LESS THAN ENTRY VALUE BUT GREATER THAN LOW BRACKET VALUE, MIDPOINT 
+BETWEEN LOW BRACKET AND ENTRY VALUE IS USED;
+*R REPORTS GREATER THAN ENTRY VALUE BUT LESS THAN HIGH BRACKET VALUE, MIDPOINT 
+BETWEEN ENTRY VALUE AND HIGH BRACKET IS USED;
+*R REPORTS GREATER THAN ENTRY VALUE AND GREATER THAN HIGH BRACKET VALUE, THE 
+MEAN OF VALID RESPONSES ABOVE THE HIGH BRACKET VALUE IS USED.
+ 
+ACTUAL DOLLARS
+ 
+     289           0
+      62           1 TO 999
+      44        1000 TO 1999
+      37        2000 TO 2999
+      37        3000 TO 3999
+      31        4000 TO 4999
+      39        5000 TO 5999
+      45        6000 TO 6999
+      83        7000 TO 7999
+      61        8000 TO 8999
+      62        9000 TO 9999
+     276       10000 TO 14999
+     318       15000 TO 19999
+     329       20000 TO 24999
+    1670       25000 TO 49999
+    3808       50000 TO 99999999: 50000+
+  -------
+    7191
+ 
+Refusal(-1)          179
+Don't Know(-2)       284
+TOTAL =========>    7654   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5032
+ 
+Min:              0        Max:         479983        Mean:            69372.05
+ 
+Lead In: T09876.00[Default]
+Default Next Question: T09879.00
+--------------------------------------------------------------------------------
+T22100.00    [TNFI_TRUNC]                                   Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+COMMENT: Total Net Family Income in 2007
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME TRUNCATED 
+VALUES ARE EQUAL TO THE AVERAGE VALUE OF THE TOP 2% OF RESPONDENTS WHO ARE U.S. 
+RESIDENTS.  IF THE NUMBER OF TRUNCATED VALUES EXCEEDS THAT WHICH WOULD HAVE BEEN
+TRUNCATED AT THE TRADITIONAL TRUNCATION LEVEL OF 100,001 FOR THIS ITEM, VALUES 
+OVER THAT TRADITIONAL TRUNCATION LEVEL ARE AVERAGED.  OVERSEAS RESPONDENTS WHOSE
+DOLLAR INCOME COULD NOT BE DETERMINED ARE CODED -3.
+ 
+ACTUAL DOLLARS
+ 
+     240           0
+      40           1 TO 999
+      58        1000 TO 1999
+      32        2000 TO 2999
+      51        3000 TO 3999
+      35        4000 TO 4999
+      37        5000 TO 5999
+      42        6000 TO 6999
+      85        7000 TO 7999
+      63        8000 TO 8999
+      62        9000 TO 9999
+     299       10000 TO 14999
+     284       15000 TO 19999
+     289       20000 TO 24999
+    1397       25000 TO 49999
+    3713       50000 TO 99999999: 50000+
+  -------
+    6727
+ 
+Refusal(-1)          229
+Don't Know(-2)       801
+TOTAL =========>    7757   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4929
+ 
+Min:              0        Max:         454737        Mean:            73386.12
+ 
+Lead In: T22099.00[Default]
+Default Next Question: T22101.00
+--------------------------------------------------------------------------------
+T31078.00    [TNFI_TRUNC]                                   Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+COMMENT: Total Net Family Income in 2009
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME TRUNCATED 
+VALUES ARE EQUAL TO THE AVERAGE VALUE OF THE TOP 2% OF RESPONDENTS WHO ARE U.S. 
+RESIDENTS.  IF THE NUMBER OF TRUNCATED VALUES EXCEEDS THAT WHICH WOULD HAVE BEEN
+TRUNCATED AT THE TRADITIONAL TRUNCATION LEVEL OF 100,001 FOR THIS ITEM, VALUES 
+OVER THAT TRADITIONAL TRUNCATION LEVEL ARE AVERAGED.  OVERSEAS RESPONDENTS WHOSE
+DOLLAR INCOME COULD NOT BE DETERMINED ARE CODED -3.
+ 
+ACTUAL DOLLARS
+ 
+     195           0
+      45           1 TO 999
+      41        1000 TO 1999
+      62        2000 TO 2999
+      37        3000 TO 3999
+      29        4000 TO 4999
+      34        5000 TO 5999
+      32        6000 TO 6999
+      49        7000 TO 7999
+      86        8000 TO 8999
+      55        9000 TO 9999
+     321       10000 TO 14999
+     276       15000 TO 19999
+     324       20000 TO 24999
+    1361       25000 TO 49999
+    3452       50000 TO 99999999: 50000+
+  -------
+    6399
+ 
+Refusal(-1)          236
+Don't Know(-2)       929
+Invalid Skip(-3)       1
+TOTAL =========>    7565   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5121
+ 
+Min:              0        Max:         440692        Mean:            72551.23
+ 
+Lead In: T31077.00[Default]
+Default Next Question: T31080.00
+--------------------------------------------------------------------------------
+T41123.00    [TNFI_TRUNC]                                   Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+COMMENT: Total Net Family Income in 2011
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME TRUNCATED 
+VALUES ARE EQUAL TO THE AVERAGE VALUE OF THE TOP 2% OF RESPONDENTS WHO ARE U.S. 
+RESIDENTS.  IF THE NUMBER OF TRUNCATED VALUES EXCEEDS THAT WHICH WOULD HAVE BEEN
+TRUNCATED AT THE TRADITIONAL TRUNCATION LEVEL OF 100,001 FOR THIS ITEM, VALUES 
+OVER THAT TRADITIONAL TRUNCATION LEVEL ARE AVERAGED.  OVERSEAS RESPONDENTS WHOSE
+DOLLAR INCOME COULD NOT BE DETERMINED ARE CODED -3.
+ 
+ACTUAL DOLLARS
+ 
+     200           0
+      35           1 TO 999
+      43        1000 TO 1999
+      81        2000 TO 2999
+      30        3000 TO 3999
+      28        4000 TO 4999
+      34        5000 TO 5999
+      23        6000 TO 6999
+      42        7000 TO 7999
+      81        8000 TO 8999
+      77        9000 TO 9999
+     353       10000 TO 14999
+     282       15000 TO 19999
+     301       20000 TO 24999
+    1291       25000 TO 49999
+    3406       50000 TO 99999999: 50000+
+  -------
+    6307
+ 
+Refusal(-1)          215
+Don't Know(-2)       779
+TOTAL =========>    7301   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5385
+ 
+Min:              0        Max:         497763        Mean:            75695.05
+ 
+Lead In: T41122.00[Default]
+Default Next Question: T41125.00
+--------------------------------------------------------------------------------
+T50226.00    [TNFI_TRUNC]                                   Survey Year: 2014
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+COMMENT: Total Net Family Income in previous calendar year
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME TRUNCATED 
+VALUES ARE EQUAL TO THE AVERAGE VALUE OF THE TOP 2% OF RESPONDENTS WHO ARE U.S. 
+RESIDENTS.  IF THE NUMBER OF TRUNCATED VALUES EXCEEDS THAT WHICH WOULD HAVE BEEN
+TRUNCATED AT THE TRADITIONAL TRUNCATION LEVEL OF 100,001 FOR THIS ITEM, VALUES 
+OVER THAT TRADITIONAL TRUNCATION LEVEL ARE AVERAGED.  OVERSEAS RESPONDENTS WHOSE
+DOLLAR INCOME COULD NOT BE DETERMINED ARE CODED -3.
+ 
+ACTUAL DOLLARS
+ 
+     261           0
+      57           1 TO 999
+      49        1000 TO 1999
+      91        2000 TO 2999
+      33        3000 TO 3999
+      29        4000 TO 4999
+      30        5000 TO 5999
+      29        6000 TO 6999
+      38        7000 TO 7999
+      72        8000 TO 8999
+      77        9000 TO 9999
+     396       10000 TO 14999
+     268       15000 TO 19999
+     297       20000 TO 24999
+    1183       25000 TO 49999
+    3238       50000 TO 99999999: 50000+
+  -------
+    6148
+ 
+Refusal(-1)          247
+Don't Know(-2)       675
+Invalid Skip(-3)       1
+TOTAL =========>    7071   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5615
+ 
+Min:              0        Max:         595986        Mean:            77266.42
+ 
+Lead In: T50225.00[Default]
+Default Next Question: T50228.00
