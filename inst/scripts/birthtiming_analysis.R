@@ -29,6 +29,9 @@ diff_model_naive_out <- lavaan::sem(model=diff_model_naive, data=birthtiming_dif
 naive_tidy <- lavaan::parameterEstimates(diff_model_naive_out, standardized = T)
 lavaanPlot(name="Naive", model=diff_model_full_out, coefs=TRUE, covs=TRUE, sig=1.00)
 
+
+
+
 #---------------------
 # LOW/HIGH INC SUBSAMPLES
 birthtiming_difficulty_poverty <- birthtiming_difficulty %>% filter(poverty_1==1)

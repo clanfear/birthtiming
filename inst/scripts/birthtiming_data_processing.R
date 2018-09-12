@@ -51,7 +51,7 @@ birthtiming_difficulty <- birthtiming_long_data %>%
   ungroup() %>%
   group_by(mother_id) %>%
   filter(n() > 1) %>% # Only want mother's with > 1 child
-  slice(1:2) %>% # grabbing first two children... for now
+  slice(1:3) %>% # grabbing first two children... for now
   mutate(child_n = row_number()) %>%
   select(mother_id, child_n, birth_order, sex, m_age_at_birth, difficulty, gestation_wks,
          birthweight_oz, breastfeeding, childcare_binary_yr1, drinking,
