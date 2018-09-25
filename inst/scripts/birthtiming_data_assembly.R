@@ -12,7 +12,8 @@ load("./inst/data/raw_data/spanking.RData")
 load("./inst/data/raw_data/poverty.RData")
 load("./inst/data/raw_data/child_health.RData")
 load("./inst/data/raw_data/survey_age.RData")
-
+# Add spouse/partner
+# Add fertility intentions
 
 birthtiming_long_data <- birth_and_childcare %>%
   left_join(smoke_drink, by=c("child_id", "mother_id")) %>%

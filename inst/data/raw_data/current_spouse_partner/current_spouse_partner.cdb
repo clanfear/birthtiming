@@ -1,0 +1,669 @@
+R00001.00    [CASEID]                                       Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             IDENTIFICATION CODE
+ 
+ORIGINAL QUESTION NAME: CASEID
+ 
+NOTE: THIS NUMBER WAS ASSIGNED ACCORDING TO THE RECORD NUMBER OF EACH RESPONDENT
+ON THE TAPE. THE FIRST RESPONDENT WAS ASSIGNED ID#1, THE SECOND WAS ASSIGNED 
+ID#2, ETC.
+ 
+ACTUAL NUMBER
+ 
+UNIVERSE: All
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:          12686        Mean:              6343.5
+ 
+Lead In: None.
+Default Next Question: R00001.49
+--------------------------------------------------------------------------------
+R02180.04    [RELSPPTR79]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 1979
+ 
+COMMENT: Relationship code of current spouse/partner, 1979
+ 
+   11174        -999: Never reported spouse/partner
+       1           0: No current spouse/partner
+    1340           1: Spouse
+     119          33: Partner
+      52          36: Other
+  -------
+   12686
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:             -879.37
+ 
+Lead In: R02180.03[Default]
+Default Next Question: R04076.03
+--------------------------------------------------------------------------------
+R04076.04    [RELSPPTR80]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 1980
+ 
+COMMENT: Relationship code of current spouse/partner, 1980
+ 
+    9957        -999: Never reported spouse/partner
+     161           0: No current spouse/partner
+    1752           1: Spouse
+     174          33: Partner
+      97          36: Other
+  -------
+   12141
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12141   VALID SKIP(-4)     545     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:             -818.39
+ 
+Lead In: R04076.03[Default]
+Default Next Question: R06471.04
+--------------------------------------------------------------------------------
+R06471.05    [RELSPPTR81]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 1981
+ 
+COMMENT: Relationship code of current spouse/partner, 1981
+ 
+    9113        -999: Never reported spouse/partner
+     296           0: No current spouse/partner
+    2388           1: Spouse
+     239          33: Partner
+     159          36: Other
+  -------
+   12195
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12195   VALID SKIP(-4)     491     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:             -745.21
+ 
+Lead In: R06471.04[Default]
+Default Next Question: R08988.55
+--------------------------------------------------------------------------------
+R08988.56    [RELSPPTR82]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 1982
+ 
+COMMENT: Relationship code of current spouse/partner, 1982
+ 
+    8103        -999: Never reported spouse/partner
+     490           0: No current spouse/partner
+    2967           1: Spouse
+     535          33: Partner
+      28          36: Other
+  -------
+   12123
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12123   VALID SKIP(-4)     563     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:             -665.95
+ 
+Lead In: R08988.55[Default]
+Default Next Question: R11468.47
+--------------------------------------------------------------------------------
+R11468.48    [RELSPPTR83]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 1983
+ 
+COMMENT: Relationship code of current spouse/partner, 1983
+ 
+    7189        -999: Never reported spouse/partner
+     666           0: No current spouse/partner
+    3615           1: Spouse
+     724          33: Partner
+      27          36: Other
+  -------
+   12221
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12221   VALID SKIP(-4)     465     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:             -585.33
+ 
+Lead In: R11468.47[Default]
+Default Next Question: R15220.63
+--------------------------------------------------------------------------------
+R15220.64    [RELSPPTR84]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 1984
+ 
+COMMENT: Relationship code of current spouse/partner, 1984
+ 
+    6282        -999: Never reported spouse/partner
+     905           0: No current spouse/partner
+    4029           1: Spouse
+     828          33: Partner
+      25          36: Other
+  -------
+   12069
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12069   VALID SKIP(-4)     617     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:             -517.31
+ 
+Lead In: R15220.63[Default]
+Default Next Question: R18927.65
+--------------------------------------------------------------------------------
+R18927.66    [RELSPPTR85]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 1985
+ 
+COMMENT: Relationship code of current spouse/partner, 1985
+ 
+    5209        -999: Never reported spouse/partner
+     982           0: No current spouse/partner
+    3854           1: Spouse
+     826          33: Partner
+      23          36: Other
+  -------
+   10894
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10894   VALID SKIP(-4)    1792     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:             -474.74
+ 
+Lead In: R18927.65[Default]
+Default Next Question: R22598.65
+--------------------------------------------------------------------------------
+R22598.66    [RELSPPTR86]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 1986
+ 
+COMMENT: Relationship code of current spouse/partner, 1986
+ 
+    4377        -999: Never reported spouse/partner
+    1143           0: No current spouse/partner
+    4280           1: Spouse
+     841          33: Partner
+      14          36: Other
+  -------
+   10655
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10655   VALID SKIP(-4)    2031     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:             -407.33
+ 
+Lead In: R22598.65[Default]
+Default Next Question: R24480.58
+--------------------------------------------------------------------------------
+R24480.59    [RELSPPTR87]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 1987
+ 
+COMMENT: Relationship code of current spouse/partner, 1987
+ 
+    3700        -999: Never reported spouse/partner
+    1350           0: No current spouse/partner
+    4604           1: Spouse
+     818          33: Partner
+      13          36: Other
+  -------
+   10485
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10485   VALID SKIP(-4)    2201     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:             -349.47
+ 
+Lead In: R24480.58[Default]
+Default Next Question: R28812.00
+--------------------------------------------------------------------------------
+R28813.00    [RELSPPTR88]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 1988
+ 
+COMMENT: Relationship code of current spouse/partner, 1988
+ 
+    3115        -999: Never reported spouse/partner
+    1483           0: No current spouse/partner
+    4985           1: Spouse
+     866          33: Partner
+      16          36: Other
+  -------
+   10465
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10465   VALID SKIP(-4)    2221     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:              -294.1
+ 
+Lead In: R28812.00[Default]
+Default Next Question: R30768.73
+--------------------------------------------------------------------------------
+R30768.74    [RELSPPTR89]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 1989
+ 
+COMMENT: Relationship code of current spouse/partner, 1989
+ 
+    2739        -999: Never reported spouse/partner
+    1609           0: No current spouse/partner
+    5288           1: Spouse
+     943          33: Partner
+      26          36: Other
+  -------
+   10605
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10605   VALID SKIP(-4)    2081     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:             -254.49
+ 
+Lead In: R30768.73[Default]
+Default Next Question: R34112.30
+--------------------------------------------------------------------------------
+R34112.40    [RELSPPTR90]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 1990
+ 
+COMMENT: Relationship code of current spouse/partner, 1990
+ 
+    2395        -999: Never reported spouse/partner
+    1684           0: No current spouse/partner
+    5397           1: Spouse
+     942          33: Partner
+      18          36: Other
+  -------
+   10436
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10436   VALID SKIP(-4)    2250     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:             -225.71
+ 
+Lead In: R34112.30[Default]
+Default Next Question: R36590.80
+--------------------------------------------------------------------------------
+R36590.81    [RELSPPTR91]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 1991
+ 
+COMMENT: Relationship code of current spouse/partner, 1991
+ 
+    1982        -999: Never reported spouse/partner
+    1509           0: No current spouse/partner
+    4706           1: Spouse
+     809          33: Partner
+      12          36: Other
+  -------
+    9018
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9018   VALID SKIP(-4)    3668     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:             -216.03
+ 
+Lead In: R36590.80[Default]
+Default Next Question: R40094.87
+--------------------------------------------------------------------------------
+R40094.88    [RELSPPTR92]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 1992
+ 
+COMMENT: Relationship code of current spouse/partner, 1992
+ 
+    1799        -999: Never reported spouse/partner
+    1619           0: No current spouse/partner
+    4806           1: Spouse
+     780          33: Partner
+      12          36: Other
+  -------
+    9016
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9016   VALID SKIP(-4)    3670     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:              -195.9
+ 
+Lead In: R40094.87[Default]
+Default Next Question: R44470.00
+--------------------------------------------------------------------------------
+R44471.00    [RELSPPTR93]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 1993
+ 
+COMMENT: Relationship code of current spouse/partner, 1993
+ 
+    1670        -999: Never reported spouse/partner
+    1677           0: No current spouse/partner
+    4884           1: Spouse
+     750          33: Partner
+      30          36: Other
+  -------
+    9011
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9011   VALID SKIP(-4)    3675     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:             -181.74
+ 
+Lead In: R44470.00[Default]
+Default Next Question: R50904.01
+--------------------------------------------------------------------------------
+R50904.02    [RELSPPTR94]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 1994
+ 
+COMMENT: Relationship code of current spouse/partner, 1994
+ 
+    1524        -999: Never reported spouse/partner
+    1734           0: No current spouse/partner
+    4855           1: Spouse
+     767          33: Partner
+      11          36: Other
+  -------
+    8891
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8891   VALID SKIP(-4)    3795     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:              -167.8
+ 
+Lead In: R50904.01[Default]
+Default Next Question: R51762.01
+--------------------------------------------------------------------------------
+R51762.02    [RELSPPTR96]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 1996
+ 
+COMMENT: Relationship code of current spouse/partner, 1996
+ 
+    1322        -999: Never reported spouse/partner
+    1821           0: No current spouse/partner
+    4783           1: Spouse
+     703          33: Partner
+       7          36: Other
+  -------
+    8636
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8636   VALID SKIP(-4)    4050     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:             -149.66
+ 
+Lead In: R51762.01[Default]
+Default Next Question: R64894.01
+--------------------------------------------------------------------------------
+R64894.02    [RELSPPTR98]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 1998
+ 
+COMMENT: Relationship code of current spouse/partner, 1998
+ 
+    1154        -999: Never reported spouse/partner
+    1865           0: No current spouse/partner
+    4762           1: Spouse
+     599          33: Partner
+      19          36: Other
+  -------
+    8399
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8399   VALID SKIP(-4)    4287     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:             -134.26
+ 
+Lead In: R64894.01[Default]
+Default Next Question: R70172.01
+--------------------------------------------------------------------------------
+R70172.02    [RELSPPTR00]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 2000
+ 
+COMMENT: Relationship code of current spouse/partner, 2000
+ 
+    1013        -999: Never reported spouse/partner
+    1800           0: No current spouse/partner
+    4688           1: Spouse
+     521          33: Partner
+      10          36: Other
+  -------
+    8032
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8032   VALID SKIP(-4)    4654     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:             -123.23
+ 
+Lead In: R70172.01[Default]
+Default Next Question: R77147.01
+--------------------------------------------------------------------------------
+R77147.02    [RELSPPTR02]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 2002
+ 
+COMMENT: Relationship code of current spouse/partner, 2002
+ 
+     917        -999: Never reported spouse/partner
+    1744           0: No current spouse/partner
+    4544           1: Spouse
+     508          33: Partner
+      11          36: Other
+  -------
+    7724
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7724   VALID SKIP(-4)    4962     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:             -115.79
+ 
+Lead In: R77147.01[Default]
+Default Next Question: R85230.01
+--------------------------------------------------------------------------------
+R85230.02    [RELSPPTR04]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 2004
+ 
+COMMENT: Relationship code of current spouse/partner, 2004
+ 
+     846        -999: Never reported spouse/partner
+    1892           0: No current spouse/partner
+    4371           1: Spouse
+     543          33: Partner
+       9          36: Other
+  -------
+    7661
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7661   VALID SKIP(-4)    5025     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             36        Mean:             -107.37
+ 
+Lead In: R85230.01[Default]
+Default Next Question: T10267.01
+--------------------------------------------------------------------------------
+R99108.00    [RELSPPTR08]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 2008
+ 
+COMMENT: Relationship code of current spouse/partner, 2008
+ 
+     807        -999: Never reported spouse/partner
+    2181           0: No current spouse/partner
+    4259           1: Spouse
+     510          33: Partner
+  -------
+    7757
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7757   VALID SKIP(-4)    4929     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             33        Mean:             -101.21
+ 
+Lead In: R99107.00[Default]
+Default Next Question: R99109.00
+--------------------------------------------------------------------------------
+R99110.00    [RELSPPTR10]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 2010
+ 
+COMMENT: Relationship code of current spouse/partner, 2010
+ 
+     769        -999: Never reported spouse/partner
+    2196           0: No current spouse/partner
+    4122           1: Spouse
+     478          33: Partner
+  -------
+    7565
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7565   VALID SKIP(-4)    5121     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             33        Mean:              -98.92
+ 
+Lead In: R99109.00[Default]
+Default Next Question: R99113.00
+--------------------------------------------------------------------------------
+R99114.00    [RELSPPTR12]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 2012
+ 
+COMMENT: Relationship code of current spouse/partner, 2012
+ 
+     726        -999: Never reported spouse/partner
+    2240           0: No current spouse/partner
+    3899           1: Spouse
+     436          33: Partner
+  -------
+    7301
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7301   VALID SKIP(-4)    5385     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             33        Mean:              -96.83
+ 
+Lead In: R99113.00[Default]
+Default Next Question: R99115.00
+--------------------------------------------------------------------------------
+R99116.00    [RELSPPTR14]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 2014
+ 
+COMMENT: Relationship code of current spouse/partner, 2014
+ 
+    1846        -999: Never reported spouse/partner
+    6716           0: No current spouse/partner
+    3728           1: Spouse
+     396          33: Partner
+  -------
+   12686
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             33        Mean:             -144.05
+ 
+Lead In: R99115.00[Default]
+Default Next Question: H00002.00
+--------------------------------------------------------------------------------
+T10267.02    [RELSPPTR06]                                   Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP CODE OF CURRENT SPOUSE/PARTNER, 2006
+ 
+COMMENT: Relationship code of current spouse/partner, 2006
+ 
+     831        -999: Never reported spouse/partner
+    2032           0: No current spouse/partner
+    4295           1: Spouse
+     496          33: Partner
+  -------
+    7654
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7654   VALID SKIP(-4)    5032     NON-INTERVIEW(-5)       0
+ 
+Min:           -999        Max:             33        Mean:             -105.76
+ 
+Lead In: T10267.01[Default]
+Default Next Question: R99107.00

@@ -72,59 +72,6 @@ lavaan::parameterEstimates(diff_model_3child, standardized = T)
 lavaanPlot(name="Naive", model=diff_model_3child, coefs=TRUE, covs=TRUE, node_options = list(shape = "box", fontname = "Helvetica"), edge_options = list(color = "grey"))
 semPaths(diff_model_3child_ml)
 
-#-----------------------------------------------------------------------------------
-# No 3rd child observations
-n_group_1 <- birthtiming_difficulty  %>% filter(is.na(difficulty_3)) %>% nrow()
-bt_means_2ch <- birthtiming_difficulty  %>% filter(is.na(difficulty_3)) %>% select(difficulty_1, difficulty_2, m_age_at_birth_1, m_age_at_birth_2) %>% colMeans()
-
-mean_vec_2ch <- c(bt_means_2ch, 0, 0)
-
-bt_covs_2ch <- birthtiming_difficulty %>% filter(is.na(difficulty_3)) %>% select(difficulty_1, difficulty_2, m_age_at_birth_1, m_age_at_birth_2)  %>% cov()
-
-cov_mat_2ch <- matrix(NA, nrow=6, ncol=6)
-cov_mat_2ch[1:4, 1:4] <- bt_covs_2ch
-cov_mat_2ch[5:6,] <- 0; cov_mat_2ch[,5:6] <- 0
-cov_mat_2ch[5,5] <-1; cov_mat_2ch[6,6] <- 1
-
-names(mean_vec_2ch) <- rownames(cov_mat_2ch) <- colnames(cov_mat_2ch) <- c("difficulty_1", "difficulty_2", "m_age_at_birth_1", "m_age_at_birth_2", "difficulty_3", "m_age_at_birth_3")
-
-# Only 3rd child observations
-n_group_2 <- birthtiming_difficulty  %>% filter(!is.na(difficulty_3)) %>% nrow()
-mean_vec_3ch <- birthtiming_difficulty  %>% filter(!is.na(difficulty_3)) %>% select(difficulty_1, difficulty_2, m_age_at_birth_1, m_age_at_birth_2, difficulty_3, m_age_at_birth_3) %>% colMeans()
-cov_mat_3ch <- birthtiming_difficulty %>% filter(!is.na(difficulty_3)) %>% select(difficulty_1, difficulty_2, m_age_at_birth_1, m_age_at_birth_2, difficulty_3, m_age_at_birth_3)  %>% cov()
-
-#
-diff_model_3child_formula_groups <-
-  '
-f1 =~ c(1,1)*difficulty_1 + c(1,1)*difficulty_2 + c(1,0)*difficulty_3
-
-difficulty_1 ~ c(bage, bage)*m_age_at_birth_1
-difficulty_2 ~ c(bage, bage)*m_age_at_birth_2
-difficulty_3 ~ c(bage, 0)*m_age_at_birth_3
-
-difficulty_3 ~~ c(d3, 0)*difficulty_3
-m_age_at_birth_3 ~~ c(ma3, 0)*m_age_at_birth_3
-
-m_age_at_birth_1~~c(a,a)*f1
-m_age_at_birth_2~~c(b,b)*f1
-m_age_at_birth_3~~c(c,0)*f1
-
-m_age_at_birth_1~~c(d, d)*m_age_at_birth_2
-m_age_at_birth_1~~c(e, 0)*m_age_at_birth_3
-m_age_at_birth_2~~c(f, 0)*m_age_at_birth_3
-
-difficulty_1~~c(d1ma, d1ma2)*m_age_at_birth_2
-difficulty_2~~c(d2ma3, 0)*m_age_at_birth_3
-
-
-'
-
-
-diff_model_3child_manual <- sem(diff_model_3child_formula_groups,
-                                sample.cov=list(cov_mat_3ch, cov_mat_2ch),
-                                sample.nobs=list(n_group_2, n_group_1),
-                                sample.mean=list(mean_vec_3ch, mean_vec_2ch))
-summary(diff_model_3child_manual)
 
 #-----------------
 diff_model_3child_ml <- lavaan::sem(model=diff_model_3child_formula, data=birthtiming_difficulty, missing="FIML")

@@ -1,0 +1,3786 @@
+R00001.00    [CASEID]                                       Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             IDENTIFICATION CODE
+ 
+ORIGINAL QUESTION NAME: CASEID
+ 
+NOTE: THIS NUMBER WAS ASSIGNED ACCORDING TO THE RECORD NUMBER OF EACH RESPONDENT
+ON THE TAPE. THE FIRST RESPONDENT WAS ASSIGNED ID#1, THE SECOND WAS ASSIGNED 
+ID#2, ETC.
+ 
+ACTUAL NUMBER
+ 
+UNIVERSE: All
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:          12686        Mean:              6343.5
+ 
+Lead In: None.
+Default Next Question: R00001.49
+--------------------------------------------------------------------------------
+R07695.00    [Q9-81_1]                                      Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 1ST PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: S11D3925
+ 
+JUST BEFORE YOU BECAME PREGNANT THE (FIRST,SECOND,THIRD,ETC.) TIME, DID YOU WANT
+TO BECOME PREGNANT WHEN YOU DID? (IF NO, PROBE: DID YOU WANT A(NOTHER) BABY BUT 
+NOT AT THAT TIME, OR DID YOU
+WANT (NONE/NO MORE) AT ALL?)
+ 
+UNIVERSE: R is female; has been pregnant
+ 
+     192       1 YES
+      69       2 DIDN'T MATTER
+    1058       3 NO, NOT AT THAT TIME
+     340       4 NO, NONE AT ALL
+  -------
+    1659
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      45
+TOTAL =========>    1704   VALID SKIP(-4)   10419     NON-INTERVIEW(-5)     563
+ 
+Lead In: R07694.00[Default]
+Default Next Question: R07696.00
+--------------------------------------------------------------------------------
+R07696.00    [Q9-82_1]                                      Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 1ST PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: S11D3926
+ 
+AND WHAT ABOUT YOUR HUSBAND OR PARTNER WHEN YOU BECAME PREGNANT THE (FIRST,
+SECOND,THIRD,ETC.) TIME, DID HE WANT YOU TO BECOME PREGNANT WHEN YOU DID? (IF 
+NO, PROBE: DID HE WANT YOU TO HAVE A(NOTHER) BABY BUT NOT AT THAT TIME, OR DID 
+HE WANT YOU TO HAVE (NONE/NO MORE) AT ALL?)
+ 
+UNIVERSE: R is female; has been pregnant
+ 
+    1103       1 YES
+     130       2 DIDN'T MATTER
+     718       3 NO, NOT AT THAT TIME
+     420       4 NO, NONE AT ALL
+  -------
+    2371
+ 
+Refusal(-1)            3
+Don't Know(-2)       110
+Invalid Skip(-3)      49
+TOTAL =========>    2533   VALID SKIP(-4)    9590     NON-INTERVIEW(-5)     563
+ 
+Lead In: R07695.00[Default]
+Default Next Question: R07697.00
+--------------------------------------------------------------------------------
+R07701.00    [Q9-81_2]                                      Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 2ND PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: S11D3931
+ 
+SEE R(7695.)
+ 
+UNIVERSE: R is female; has had two pregnancies; stopped/was not using 
+contraception when second pregnancy began
+ 
+      98       1 YES
+      41       2 DIDN'T MATTER
+     372       3 NO, NOT AT THAT TIME
+     121       4 NO, NONE AT ALL
+  -------
+     632
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      46
+TOTAL =========>     678   VALID SKIP(-4)   11445     NON-INTERVIEW(-5)     563
+ 
+Lead In: R07700.00[Default]
+Default Next Question: R07702.00
+--------------------------------------------------------------------------------
+R07702.00    [Q9-82_2]                                      Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 2ND PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: S11D3932
+ 
+SEE R(7696.)
+ 
+UNIVERSE: R is female; has had two pregnancies
+ 
+     615       1 YES
+      80       2 DIDN'T MATTER
+     281       3 NO, NOT AT THAT TIME
+     120       4 NO, NONE AT ALL
+  -------
+    1096
+ 
+Refusal(-1)            3
+Don't Know(-2)        35
+Invalid Skip(-3)      43
+TOTAL =========>    1177   VALID SKIP(-4)   10946     NON-INTERVIEW(-5)     563
+ 
+Lead In: R07701.00[Default]
+Default Next Question: R07703.00
+--------------------------------------------------------------------------------
+R07707.00    [Q9-81_3]                                      Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 3RD PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: S11D3937
+ 
+SEE R(7695.)
+ 
+UNIVERSE: R is female; has had three pregnancies; was not using contraception at
+the time of third pregnancy
+ 
+      39       1 YES
+      23       2 DIDN'T MATTER
+     125       3 NO, NOT AT THAT TIME
+      69       4 NO, NONE AT ALL
+  -------
+     256
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      26
+TOTAL =========>     282   VALID SKIP(-4)   11841     NON-INTERVIEW(-5)     563
+ 
+Lead In: R07706.00[Default]
+Default Next Question: R07708.00
+--------------------------------------------------------------------------------
+R07708.00    [Q9-82_3]                                      Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 3RD PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: S11D3938
+ 
+SEE R(7696.)
+ 
+UNIVERSE: R is female; has had three pregnancies;
+ 
+     187       1 YES
+      34       2 DIDN'T MATTER
+     104       3 NO, NOT AT THAT TIME
+      55       4 NO, NONE AT ALL
+  -------
+     380
+ 
+Refusal(-1)            0
+Don't Know(-2)        18
+Invalid Skip(-3)      29
+TOTAL =========>     427   VALID SKIP(-4)   11696     NON-INTERVIEW(-5)     563
+ 
+Lead In: R07707.00[Default]
+Default Next Question: R07709.00
+--------------------------------------------------------------------------------
+R07713.00    [Q9-81_4]                                      Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 4TH PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: S11D3943
+ 
+SEE R(7695.)
+ 
+UNIVERSE: R is female; has had four pregnancies; was not using contraception at 
+time of fourth pregnancy
+ 
+       7       1 YES
+       7       2 DIDN'T MATTER
+      37       3 NO, NOT AT THAT TIME
+      20       4 NO, NONE AT ALL
+  -------
+      71
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      15
+TOTAL =========>      86   VALID SKIP(-4)   12037     NON-INTERVIEW(-5)     563
+ 
+Lead In: R07712.00[Default]
+Default Next Question: R07714.00
+--------------------------------------------------------------------------------
+R07714.00    [Q9-82_4]                                      Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 4TH PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: S11D3944
+ 
+SEE R(7696.)
+ 
+UNIVERSE: R is female; has had four pregnancies
+ 
+      58       1 YES
+      12       2 DIDN'T MATTER
+      33       3 NO, NOT AT THAT TIME
+      14       4 NO, NONE AT ALL
+  -------
+     117
+ 
+Refusal(-1)            0
+Don't Know(-2)         3
+Invalid Skip(-3)      14
+TOTAL =========>     134   VALID SKIP(-4)   11989     NON-INTERVIEW(-5)     563
+ 
+Lead In: R07713.00[Default]
+Default Next Question: R07715.00
+--------------------------------------------------------------------------------
+R07719.00    [Q9-81_5]                                      Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 5TH PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: S11D3949
+ 
+SEE R(7695.)
+ 
+UNIVERSE: R is female; has had five pregnancies
+ 
+       1       1 YES
+       0       2 DIDN'T MATTER
+      15       3 NO, NOT AT THAT TIME
+      11       4 NO, NONE AT ALL
+  -------
+      27
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       8
+TOTAL =========>      35   VALID SKIP(-4)   12088     NON-INTERVIEW(-5)     563
+ 
+Lead In: R07718.00[Default]
+Default Next Question: R07720.00
+--------------------------------------------------------------------------------
+R07720.00    [Q9-82_5]                                      Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 5TH PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: S11D3950
+ 
+SEE R(7696.)
+ 
+UNIVERSE: R is female; has had five pregnancies
+ 
+      16       1 YES
+       5       2 DIDN'T MATTER
+      10       3 NO, NOT AT THAT TIME
+       5       4 NO, NONE AT ALL
+  -------
+      36
+ 
+Refusal(-1)            0
+Don't Know(-2)         3
+Invalid Skip(-3)       7
+TOTAL =========>      46   VALID SKIP(-4)   12077     NON-INTERVIEW(-5)     563
+ 
+Lead In: R07719.00[Default]
+Default Next Question: R07721.00
+--------------------------------------------------------------------------------
+R07725.00    [Q9-81_6]                                      Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 6TH PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: S11D3955
+ 
+SEE R(7695.)
+ 
+UNIVERSE: R is female; has had six pregnancies
+ 
+       0       1 YES
+       1       2 DIDN'T MATTER
+       2       3 NO, NOT AT THAT TIME
+       3       4 NO, NONE AT ALL
+  -------
+       6
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       7   VALID SKIP(-4)   12116     NON-INTERVIEW(-5)     563
+ 
+Lead In: R07724.00[Default]
+Default Next Question: R07726.00
+--------------------------------------------------------------------------------
+R07726.00    [Q9-82_6]                                      Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 6TH PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: S11D3956
+ 
+SEE R(7696.)
+ 
+UNIVERSE: R is female; has had six pregnancies
+ 
+       3       1 YES
+       2       2 DIDN'T MATTER
+       2       3 NO, NOT AT THAT TIME
+       3       4 NO, NONE AT ALL
+  -------
+      10
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>      11   VALID SKIP(-4)   12112     NON-INTERVIEW(-5)     563
+ 
+Lead In: R07725.00[Default]
+Default Next Question: R07727.00
+--------------------------------------------------------------------------------
+R07731.00    [Q9-81_7]                                      Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 7TH PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: S11D3961
+ 
+SEE R(7695.)
+ 
+UNIVERSE: R is female; has had seven pregnancies
+ 
+       0       1 YES
+       0       2 DIDN'T MATTER
+       0       3 NO, NOT AT THAT TIME
+       2       4 NO, NONE AT ALL
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       2   VALID SKIP(-4)   12121     NON-INTERVIEW(-5)     563
+ 
+Lead In: R07730.00[Default]
+Default Next Question: R07732.00
+--------------------------------------------------------------------------------
+R07732.00    [Q9-82_7]                                      Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 7TH PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: S11D3962
+ 
+SEE R(7696.)
+ 
+UNIVERSE: R is female; has had seven pregnancies
+ 
+       2       1 YES
+       0       2 DIDN'T MATTER
+       0       3 NO, NOT AT THAT TIME
+       2       4 NO, NONE AT ALL
+  -------
+       4
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       4   VALID SKIP(-4)   12119     NON-INTERVIEW(-5)     563
+ 
+Lead In: R07731.00[Default]
+Default Next Question: R07733.00
+--------------------------------------------------------------------------------
+R10175.00    [Q9-81_1]                                      Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 1ST PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3713
+ 
+JUST BEFORE YOU BECAME PREGNANT THE (FIRST, SECOND, THIRD, ETC.) TIME, DID YOU 
+WANT TO BECOME PREGNANT WHEN YOU DID? IF "NO," PROBE: DID YOU WANT A(NOTHER) 
+BABY BUT NOT AT THAT TIME, OR DID YOU WANT (NONE/NO MORE) AT ALL?
+ 
+UNIVERSE: R is female; pregnant at OR since DLI; stopped/was not using 
+contraception before pregnancy; reason not using contraception was not because 
+wanted to get pregnant
+ 
+      55       1 YES
+      33       2 DIDN'T MATTER
+     247       3 NO, NOT AT THAT TIME
+      80       4 NO, NONE AT ALL
+  -------
+     415
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      56
+TOTAL =========>     471   VALID SKIP(-4)   11750     NON-INTERVIEW(-5)     465
+ 
+Lead In: R10174.00[Default]
+Default Next Question: R10176.00
+--------------------------------------------------------------------------------
+R10176.00    [Q9-82_1]                                      Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 1ST PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3714
+ 
+AND WHAT ABOUT YOUR HUSBAND OR PARTNER WHEN YOU BECAME PREGNANT THE (FIRST, 
+SECOND, THIRD, ETC.) TIME, DID HE WANT YOU TO BECOME PREGNANT WHEN YOU DID? IF 
+"NO," PROBE: DID HE WANT YOU TO HAVE A(NOTHER) BABY BUT NOT AT THAT TIME, OR DID
+HE WANT YOU TO HAVE (NONE/NO MORE) AT ALL?
+ 
+UNIVERSE: R is female; pregnant at OR since DLI
+ 
+     400       1 YES
+      53       2 DIDN'T MATTER
+     168       3 NO, NOT AT THAT TIME
+      82       4 NO, NONE AT ALL
+  -------
+     703
+ 
+Refusal(-1)            0
+Don't Know(-2)        29
+Invalid Skip(-3)      58
+TOTAL =========>     790   VALID SKIP(-4)   11431     NON-INTERVIEW(-5)     465
+ 
+Lead In: R10175.00[Default]
+Default Next Question: R10177.00
+--------------------------------------------------------------------------------
+R10181.00    [Q9-81_2]                                      Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 2ND PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3719
+ 
+SEE R(10175.)
+ 
+UNIVERSE: R is female; pregnant at OR since DLI; had another pregnancy since 
+DLI; stopped/was not using contraception before second pregnancy since DLI; 
+reason not using contraception before second pregnancy since DLI was not because
+wanted pregnancy
+ 
+       0       1 YES
+       4       2 DIDN'T MATTER
+      22       3 NO, NOT AT THAT TIME
+      12       4 NO, NONE AT ALL
+  -------
+      38
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       6
+TOTAL =========>      44   VALID SKIP(-4)   12177     NON-INTERVIEW(-5)     465
+ 
+Lead In: R10180.00[Default]
+Default Next Question: R10182.00
+--------------------------------------------------------------------------------
+R10182.00    [Q9-82_2]                                      Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 2ND PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3720
+ 
+SEE R(10176.)
+ 
+UNIVERSE: R is female; pregnant at OR since DLI; had another pregnancy since DLI
+ 
+      35       1 YES
+       3       2 DIDN'T MATTER
+      15       3 NO, NOT AT THAT TIME
+      12       4 NO, NONE AT ALL
+  -------
+      65
+ 
+Refusal(-1)            0
+Don't Know(-2)         4
+Invalid Skip(-3)       6
+TOTAL =========>      75   VALID SKIP(-4)   12146     NON-INTERVIEW(-5)     465
+ 
+Lead In: R10181.00[Default]
+Default Next Question: R10183.00
+--------------------------------------------------------------------------------
+R10187.00    [Q9-81_3]                                      Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 3RD PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3725
+ 
+SEE R(10175.)
+ 
+UNIVERSE: R is female; pregnant at OR since DLI; had at least two more 
+pregnancies since DLI; stopped/was not using contraception before third 
+pregnancy since DLI; reason not using contraception before third pregnancy since
+DLI not because wanted to get pregnant
+ 
+       0       1 YES
+       1       2 DIDN'T MATTER
+       6       3 NO, NOT AT THAT TIME
+       2       4 NO, NONE AT ALL
+  -------
+       9
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>      10   VALID SKIP(-4)   12211     NON-INTERVIEW(-5)     465
+ 
+Lead In: R10186.00[Default]
+Default Next Question: R10188.00
+--------------------------------------------------------------------------------
+R10188.00    [Q9-82_3]                                      Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 3RD PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3726
+ 
+SEE R(10176.)
+ 
+UNIVERSE: R is female; pregnant at OR since DLI; had at least two more 
+pregnancies since DLI
+ 
+       8       1 YES
+       1       2 DIDN'T MATTER
+       3       3 NO, NOT AT THAT TIME
+       1       4 NO, NONE AT ALL
+  -------
+      13
+ 
+Refusal(-1)            0
+Don't Know(-2)         3
+Invalid Skip(-3)       1
+TOTAL =========>      17   VALID SKIP(-4)   12204     NON-INTERVIEW(-5)     465
+ 
+Lead In: R10187.00[Default]
+Default Next Question: R10189.00
+--------------------------------------------------------------------------------
+R10192.00    [Q9-81_4]                                      Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 4TH PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3731
+ 
+SEE R(10175.)
+ 
+UNIVERSE: R is female; pregnant at OR since DLI; had at least three more 
+pregnancies since DLI; stopped/was not using birth control before forth 
+pregnancy since DLI
+ 
+       0       1 YES
+       1       2 DIDN'T MATTER
+       1       3 NO, NOT AT THAT TIME
+       1       4 NO, NONE AT ALL
+  -------
+       3
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       3   VALID SKIP(-4)   12218     NON-INTERVIEW(-5)     465
+ 
+Lead In: R10191.00[Default] R10193.00[Default]
+Default Next Question: R10191.00
+--------------------------------------------------------------------------------
+R10193.00    [Q9-82_4]                                      Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 4TH PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3732
+ 
+SEE R(10176.)
+ 
+UNIVERSE: R is female; pregnant at OR since DLI; had at least three more 
+pregnancies since DLI
+ 
+       2       1 YES
+       0       2 DIDN'T MATTER
+       1       3 NO, NOT AT THAT TIME
+       1       4 NO, NONE AT ALL
+  -------
+       4
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+TOTAL =========>       5   VALID SKIP(-4)   12216     NON-INTERVIEW(-5)     465
+ 
+Lead In: R10194.00[Default]
+Default Next Question: R10192.00
+--------------------------------------------------------------------------------
+R10197.00    [Q9-81_5]                                      Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 5TH PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3737
+ 
+SEE R(10175.)
+ 
+UNIVERSE: R is female; pregnant at OR since DLI; had at least four more 
+pregnancies since DLI; stopped/not using contraception before fifth pregnancy 
+since DLI; reason not using contraception was not because wanted pregnancy
+ 
+       0       1 YES
+       1       2 DIDN'T MATTER
+       0       3 NO, NOT AT THAT TIME
+       0       4 NO, NONE AT ALL
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)   12220     NON-INTERVIEW(-5)     465
+ 
+Lead In: R10196.00[Default]
+Default Next Question: R10198.00
+--------------------------------------------------------------------------------
+R10198.00    [Q9-82_5]                                      Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 5TH PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3738
+ 
+SEE R(10176.)
+ 
+UNIVERSE: R is female; pregnant at OR since DLI; had at least four more 
+pregnancies since DLI
+ 
+       1       1 YES
+       0       2 DIDN'T MATTER
+       0       3 NO, NOT AT THAT TIME
+       0       4 NO, NONE AT ALL
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+TOTAL =========>       2   VALID SKIP(-4)   12219     NON-INTERVIEW(-5)     465
+ 
+Lead In: R10197.00[Default]
+Default Next Question: R10199.00
+--------------------------------------------------------------------------------
+R13254.00    [Q9-81_1]                                      Survey Year: 1984
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 1ST PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3633
+ 
+JUST BEFORE YOU BECAME PREGNANT THE (FIRST, SECOND, THIRD, ETC.)
+TIME, DID YOU WANT TO BECOME PREGNANT WHEN YOU DID? IF 'NO', PROBE: DID YOU WANT
+A(NOTHER) BABY BUT NOT AT THAT TIME, OR DID YOU WANT (NONE/NO MORE) AT ALL?
+ 
+UNIVERSE: R is female; has been pregnant since DLI
+ 
+      42       1 YES
+      25       2 DIDN'T MATTER
+     240       3 NO, NOT AT THAT TIME
+      74       4 NO, NONE AT ALL
+  -------
+     381
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      20
+TOTAL =========>     401   VALID SKIP(-4)   11668     NON-INTERVIEW(-5)     617
+ 
+Lead In: R13253.00[Default]
+Default Next Question: R13255.00
+--------------------------------------------------------------------------------
+R13255.00    [Q9-82_1]                                      Survey Year: 1984
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 1ST PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3634
+ 
+AND WHAT ABOUT YOUR HUSBAND OR PARTNER WHEN YOU BECAME PREGNANT THE (FIRST, 
+SECOND, THIRD, ETC.) TIME, DID HE WANT YOU TO BECOME PREGNANT WHEN YOU DID? IF 
+'NO,' PROBE: DID HE WANT YOU TO HAVE A(NOTHER) BABY BUT NOT AT THAT TIME, OF DID
+HE WANT YOU TO HAVE (NONE/NO MORE) AT ALL?
+ 
+UNIVERSE: R is female; has been pregnant since DLI
+ 
+     400       1 YES
+      44       2 DIDN'T MATTER
+     172       3 NO, NOT AT THAT TIME
+      70       4 NO, NONE AT ALL
+  -------
+     686
+ 
+Refusal(-1)            0
+Don't Know(-2)        20
+Invalid Skip(-3)      19
+TOTAL =========>     725   VALID SKIP(-4)   11344     NON-INTERVIEW(-5)     617
+ 
+Lead In: R13254.00[Default]
+Default Next Question: R13256.00
+--------------------------------------------------------------------------------
+R13260.00    [Q9-81_2]                                      Survey Year: 1984
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 2ND PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3639
+ 
+SEE R(13254.)
+ 
+UNIVERSE: R is female; has been pregnant more than once since DLI
+ 
+       2       1 YES
+       1       2 DIDN'T MATTER
+      10       3 NO, NOT AT THAT TIME
+       6       4 NO, NONE AT ALL
+  -------
+      19
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>      20   VALID SKIP(-4)   12049     NON-INTERVIEW(-5)     617
+ 
+Lead In: R13259.00[Default]
+Default Next Question: R13261.00
+--------------------------------------------------------------------------------
+R13261.00    [Q9-82_2]                                      Survey Year: 1984
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 2ND PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3640
+ 
+SEE R(13255.)
+ 
+UNIVERSE: R is female; has been pregnant more than once since DLI
+ 
+      21       1 YES
+       4       2 DIDN'T MATTER
+       6       3 NO, NOT AT THAT TIME
+       2       4 NO, NONE AT ALL
+  -------
+      33
+ 
+Refusal(-1)            0
+Don't Know(-2)         2
+Invalid Skip(-3)       1
+TOTAL =========>      36   VALID SKIP(-4)   12033     NON-INTERVIEW(-5)     617
+ 
+Lead In: R13260.00[Default]
+Default Next Question: R13262.00
+--------------------------------------------------------------------------------
+R13267.00    [Q9-82_3]                                      Survey Year: 1984
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 3RD PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3646
+ 
+SEE R(13255.)
+ 
+UNIVERSE: R is female; has been pregnant more than twice since DLI
+ 
+       1       1 YES
+       0       2 DIDN'T MATTER
+       0       3 NO, NOT AT THAT TIME
+       0       4 NO, NONE AT ALL
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)   12068     NON-INTERVIEW(-5)     617
+ 
+Lead In: None.
+Default Next Question: R13268.00
+--------------------------------------------------------------------------------
+R13272.00    [Q9-81_4]                                      Survey Year: 1984
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 4TH PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3651
+ 
+SEE R(13254.)
+ 
+UNIVERSE: R is female; has been pregnant more than three times since DLI
+ 
+       0       1 YES
+       0       2 DIDN'T MATTER
+       0       3 NO, NOT AT THAT TIME
+       1       4 NO, NONE AT ALL
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)   12068     NON-INTERVIEW(-5)     617
+ 
+Lead In: None.
+Default Next Question: R13273.00
+--------------------------------------------------------------------------------
+R13273.00    [Q9-82_4]                                      Survey Year: 1984
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 4TH PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3652
+ 
+SEE R(13255.)
+ 
+UNIVERSE: R is female; has been pregnant more than three times since DLI
+ 
+       0       1 YES
+       0       2 DIDN'T MATTER
+       0       3 NO, NOT AT THAT TIME
+       1       4 NO, NONE AT ALL
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)   12068     NON-INTERVIEW(-5)     617
+ 
+Lead In: R13272.00[Default]
+Default Next Question: R13274.00
+--------------------------------------------------------------------------------
+R17028.00    [Q9-81_1]                                      Survey Year: 1985
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 1ST PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3040
+ 
+JUST BEFORE YOU BECAME PREGNANT THE (FIRST, SECOND, THIRD, ETC.) TIME, DID YOU 
+WANT TO BECOME PREGNANT WHEN YOU DID? IF 'NO', PROBE: DID YOU WANT A(NOTHER) 
+BABY BUT NOT AT THAT TIME, OR DID YOU WANT (NONE/NO MORE) AT ALL?
+ 
+UNIVERSE: R is female; has had pregnancy since DLI
+ 
+      53       1 YES
+      28       2 DIDN'T MATTER
+     217       3 NO, NOT AT THAT TIME
+      83       4 NO, NONE AT ALL
+  -------
+     381
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      26
+TOTAL =========>     407   VALID SKIP(-4)   10487     NON-INTERVIEW(-5)    1792
+ 
+Lead In: R17027.00[Default]
+Default Next Question: R17029.00
+--------------------------------------------------------------------------------
+R17029.00    [Q9-82_1]                                      Survey Year: 1985
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 1ST PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3041
+ 
+AND WHAT ABOUT YOUR HUSBAND OR PARTNER WHEN YOU BECAME PREGNANT THE (FIRST, 
+SECOND, THIRD, ETC.) TIME, DID HE WANT YOU TO BECOME PREGNANT WHEN YOU DID? IF 
+'NO', PROBE: DID HE WANT YOU TO HAVE (A/ANOTHER) BABY BUT NOT AT THAT TIME, OR 
+DID HE WANT YOU TO HAVE (NONE/NO MORE) AT ALL?
+ 
+UNIVERSE: R is female; has had pregnancy since DLI
+ 
+     414       1 YES
+      50       2 DIDN'T MATTER
+     175       3 NO, NOT AT THAT TIME
+      76       4 NO, NONE AT ALL
+  -------
+     715
+ 
+Refusal(-1)            1
+Don't Know(-2)        15
+Invalid Skip(-3)      26
+TOTAL =========>     757   VALID SKIP(-4)   10137     NON-INTERVIEW(-5)    1792
+ 
+Lead In: R17028.00[Default]
+Default Next Question: R17030.00
+--------------------------------------------------------------------------------
+R17034.00    [Q9-81_2]                                      Survey Year: 1985
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 2ND PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3046
+ 
+SEE R(17028.)
+ 
+UNIVERSE: R is female; has had more than one pregnancy since DLI
+ 
+       2       1 YES
+       2       2 DIDN'T MATTER
+       7       3 NO, NOT AT THAT TIME
+       4       4 NO, NONE AT ALL
+  -------
+      15
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       3
+TOTAL =========>      18   VALID SKIP(-4)   10876     NON-INTERVIEW(-5)    1792
+ 
+Lead In: R17033.00[Default]
+Default Next Question: R17035.00
+--------------------------------------------------------------------------------
+R17035.00    [Q9-82_2]                                      Survey Year: 1985
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 2ND PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3047
+ 
+SEE R(17029.)
+ 
+UNIVERSE: R is female; has had more than one pregnancy since DLI
+ 
+      15       1 YES
+       1       2 DIDN'T MATTER
+       9       3 NO, NOT AT THAT TIME
+       2       4 NO, NONE AT ALL
+  -------
+      27
+ 
+Refusal(-1)            0
+Don't Know(-2)         2
+Invalid Skip(-3)       3
+TOTAL =========>      32   VALID SKIP(-4)   10862     NON-INTERVIEW(-5)    1792
+ 
+Lead In: R17034.00[Default]
+Default Next Question: R17036.00
+--------------------------------------------------------------------------------
+R17040.00    [Q9-81_3]                                      Survey Year: 1985
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 3RD PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3052
+ 
+SEE R(17028.)
+ 
+UNIVERSE: R is female; has had more than two pregnancies since DLI
+ 
+       0       1 YES
+       0       2 DIDN'T MATTER
+       1       3 NO, NOT AT THAT TIME
+       0       4 NO, NONE AT ALL
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       2   VALID SKIP(-4)   10892     NON-INTERVIEW(-5)    1792
+ 
+Lead In: R17038.00[Default]
+Default Next Question: R17041.00
+--------------------------------------------------------------------------------
+R17041.00    [Q9-82_3]                                      Survey Year: 1985
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 3RD PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3053
+ 
+SEE R(17029.)
+ 
+UNIVERSE: R is female; has had more than two pregnancies since DLI
+ 
+       0       1 YES
+       0       2 DIDN'T MATTER
+       1       3 NO, NOT AT THAT TIME
+       0       4 NO, NONE AT ALL
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       2   VALID SKIP(-4)   10892     NON-INTERVIEW(-5)    1792
+ 
+Lead In: R17040.00[Default]
+Default Next Question: R17042.00
+--------------------------------------------------------------------------------
+R20029.00    [Q9-81_1]                                      Survey Year: 1986
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 1ST PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3133
+ 
+JUST BEFORE YOU BECAME PREGNANT THE (FIRST, SECOND, THIRD, ETC.)
+TIME, DID YOU WANT TO BECOME PREGNANT WHEN YOU DID? IF 'NO,' PROBE: DID YOU WANT
+(A/ANOTHER) BABY BUT NOT AT THAT TIME, OR DID YOU WANT (NONE/NO MORE) AT ALL?
+ 
+UNIVERSE: R is female; has been pregnant since DLI; was not using contraception 
+when pregnancy began; reason not using contraception was not because R wanted a 
+child
+ 
+      33       1 YES
+      28       2 DIDN'T MATTER
+     229       3 NO, NOT AT THAT TIME
+      80       4 NO, NONE AT ALL
+  -------
+     370
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      29
+TOTAL =========>     399   VALID SKIP(-4)   10256     NON-INTERVIEW(-5)    2031
+ 
+Lead In: R20028.00[Default]
+Default Next Question: R20030.00
+--------------------------------------------------------------------------------
+R20030.00    [Q9-82_1]                                      Survey Year: 1986
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 1ST PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3134
+ 
+AND WHAT ABOUT YOUR HUSBAND OR PARTNER WHEN YOU BECAME PREGNANT THE (FIRST, 
+SECOND, THIRD, ETC.) TIME, DID HE WANT YOU TO BECOME PREGNANT WHEN YOU DID? IF 
+'NO', PROBE: DID HE WANT YOU TO HAVE (A/ANOTHER) BABY BUT NOT AT THAT TIME, OR 
+DID HE WANT YOU TO HAVE (NONE/NO MORE) AT ALL?
+ 
+UNIVERSE: R is female; has been pregnant since DLI; was not using contraception 
+when pregnancy began
+ 
+     412       1 YES
+      41       2 DIDN'T MATTER
+     178       3 NO, NOT AT THAT TIME
+      78       4 NO, NONE AT ALL
+  -------
+     709
+ 
+Refusal(-1)            2
+Don't Know(-2)        13
+Invalid Skip(-3)      29
+TOTAL =========>     753   VALID SKIP(-4)    9902     NON-INTERVIEW(-5)    2031
+ 
+Lead In: R20029.00[Default]
+Default Next Question: R20031.00
+--------------------------------------------------------------------------------
+R20035.00    [Q9-81_2]                                      Survey Year: 1986
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 2ND PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3139
+ 
+SEE R(20029.)
+ 
+UNIVERSE: R is female; has been pregnant more than once since DLI; not using 
+contraception when second pregnancy since DLI began
+ 
+       3       1 YES
+       1       2 DIDN'T MATTER
+       6       3 NO, NOT AT THAT TIME
+       3       4 NO, NONE AT ALL
+  -------
+      13
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      13   VALID SKIP(-4)   10642     NON-INTERVIEW(-5)    2031
+ 
+Lead In: R20034.00[Default]
+Default Next Question: R20036.00
+--------------------------------------------------------------------------------
+R20036.00    [Q9-82_2]                                      Survey Year: 1986
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 2ND PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3140
+ 
+SEE R(20030.)
+ 
+UNIVERSE: R is female; has been pregnant more than once since DLI
+ 
+      14       1 YES
+       2       2 DIDN'T MATTER
+       4       3 NO, NOT AT THAT TIME
+       4       4 NO, NONE AT ALL
+  -------
+      24
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      24   VALID SKIP(-4)   10631     NON-INTERVIEW(-5)    2031
+ 
+Lead In: R20035.00[Default]
+Default Next Question: R20037.00
+--------------------------------------------------------------------------------
+R25792.00    [Q9-81_1]                                      Survey Year: 1988
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 1ST PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q9.29
+ 
+JUST BEFORE YOU BECAME PREGNANT THAT TIME, DID YOU WANT TO BECOME
+PREGNANT WHEN YOU DID? (IF NO, PROBE:) DID YOU WANT (A/ANOTHER)
+BABY BUT NOT AT THAT TIME, OR DID YOU WANT (NONE/NO MORE) AT ALL?
+ 
+UNIVERSE: R is female; has been pregnant since DLI
+ 
+      62       1 YES
+      56       2 DIDN'T MATTER
+     333       3 NO, NOT AT THAT TIME
+     107       4 NO, NONE AT ALL
+  -------
+     558
+ 
+Refusal(-1)            1
+Don't Know(-2)         0
+Invalid Skip(-3)      22
+TOTAL =========>     581   VALID SKIP(-4)    9884     NON-INTERVIEW(-5)    2221
+ 
+Lead In: R25791.00[Default]
+Default Next Question: R25793.00
+--------------------------------------------------------------------------------
+R25793.00    [Q9-82_1]                                      Survey Year: 1988
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 1ST PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q9.30
+ 
+AND WHAT ABOUT YOUR HUSBAND OR PARTNER WHEN YOU BECAME PREGNANT
+THAT TIME--DID HE WANT YOU TO HAVE (A/ANOTHER) BABY? (IF NO PROBE:)
+DID HE WANT YOU TO HAVE (A/ANOTHER) BABY BUT NOT AT THAT TIME, OR
+DID HE WANT YOU TO HAVE (NONE/NO MORE) AT ALL?
+ 
+UNIVERSE: R is female; has been pregnant since DLI
+ 
+     842       1 YES
+      95       2 DIDN'T MATTER
+     225       3 NO, NOT AT THAT TIME
+      97       4 NO, NONE AT ALL
+  -------
+    1259
+ 
+Refusal(-1)            2
+Don't Know(-2)        23
+Invalid Skip(-3)      23
+TOTAL =========>    1307   VALID SKIP(-4)    9158     NON-INTERVIEW(-5)    2221
+ 
+Lead In: R25792.00[Default]
+Default Next Question: R25794.00
+--------------------------------------------------------------------------------
+R25813.00    [Q9-81_2]                                      Survey Year: 1988
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 2ND PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q9.40
+ 
+JUST BEFORE YOU BECAME PREGNANT THAT TIME, DID YOU WANT TO BECOME
+PREGNANT WHEN YOU DID? (IF NO, PROBE:) DID YOU WANT (A/ANOTHER)
+BABY BUT NOT AT THAT TIME, OR DID YOU WANT (NONE/NO MORE) AT ALL?
+ 
+UNIVERSE: R is female; has had more than one pregnancy since DLI
+ 
+      12       1 YES
+       8       2 DIDN'T MATTER
+      79       3 NO, NOT AT THAT TIME
+      32       4 NO, NONE AT ALL
+  -------
+     131
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       6
+TOTAL =========>     137   VALID SKIP(-4)   10328     NON-INTERVIEW(-5)    2221
+ 
+Lead In: R25812.00[Default]
+Default Next Question: R25814.00
+--------------------------------------------------------------------------------
+R25814.00    [Q9-82_2]                                      Survey Year: 1988
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 2ND PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q9.41
+ 
+AND WHAT ABOUT YOUR HUSBAND OR PARTNER WHEN YOU BECAME PREGNANT THAT
+TIME--DID HE WANT YOU TO HAVE (A/ANOTHER) BABY? (IF NO, PROBE:) DID
+HE WANT YOU TO HAVE (A/ANOTHER) BABY BUT NOT AT THAT TIME, OR DID HE
+WANT YOU TO HAVE (NONE/NO MORE) AT ALL?
+ 
+UNIVERSE: R is female; has had more than one pregnancy since DLI
+ 
+     159       1 YES
+      22       2 DIDN'T MATTER
+      56       3 NO, NOT AT THAT TIME
+      25       4 NO, NONE AT ALL
+  -------
+     262
+ 
+Refusal(-1)            0
+Don't Know(-2)         5
+Invalid Skip(-3)       9
+TOTAL =========>     276   VALID SKIP(-4)   10189     NON-INTERVIEW(-5)    2221
+ 
+Lead In: R25813.00[Default]
+Default Next Question: R25815.00
+--------------------------------------------------------------------------------
+R25834.00    [Q9-81_3]                                      Survey Year: 1988
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 3RD PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q9.51
+ 
+JUST BEFORE YOU BECAME PREGNANT THAT TIME, DID YOU WANT TO BECOME
+PREGNANT WHEN YOU DID? (IF NO, PROBE:) DID YOU WANT (A/ANOTHER) BABY
+BUT NOT AT THAT TIME, OR DID YOU WANT (NONE/NO MORE) AT ALL?
+ 
+UNIVERSE: R is female; has had more than two pregnancies since DLI
+ 
+       2       1 YES
+       0       2 DIDN'T MATTER
+       5       3 NO, NOT AT THAT TIME
+       1       4 NO, NONE AT ALL
+  -------
+       8
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       9   VALID SKIP(-4)   10456     NON-INTERVIEW(-5)    2221
+ 
+Lead In: R25833.00[Default]
+Default Next Question: R25835.00
+--------------------------------------------------------------------------------
+R25835.00    [Q9-82_3]                                      Survey Year: 1988
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 3RD PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q9.52
+ 
+AND WHAT ABOUT YOUR HUSBAND OR PARTNER WHEN YOU BECAME PREGNANT THAT
+TIME--DID HE WANT YOU TO HAVE (A/ANOTHER) BABY? (IF NO, PROBE:) DID
+HE WANT YOU TO HAVE (A/ANOTHER) BABY BUT NOT AT THAT TIME, OR DID HE
+WANT YOU TO HAVE (NONE/NO MORE) AT ALL?
+ 
+UNIVERSE: R is female; has had more than two pregnancies since DLI
+ 
+      14       1 YES
+       1       2 DIDN'T MATTER
+       1       3 NO, NOT AT THAT TIME
+       2       4 NO, NONE AT ALL
+  -------
+      18
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>      19   VALID SKIP(-4)   10446     NON-INTERVIEW(-5)    2221
+ 
+Lead In: R25834.00[Default]
+Default Next Question: R25836.00
+--------------------------------------------------------------------------------
+R31889.00    [Q9-81_1]                                      Survey Year: 1990
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 1ST PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3169
+ 
+JUST BEFORE YOU BECAME PREGNANT THAT TIME, DID YOU WANT TO BECOME PREGNANT WHEN 
+YOU DID? (IF NO, PROBE:) DID YOU WANT (A/ANOTHER) BABY BUT NOT AT THAT TIME, OR 
+DID YOU WANT (NONE/NO MORE) AT ALL?
+ 
+UNIVERSE: R is female; not pregnant at DLI; has been pregnant since DLI AND/OR 
+currently pregnant; was not using method of contraception before first pregnancy
+since DLI; reason for not using method of contraception was not because wanted 
+to become pregnant
+ 
+      43       1 YES
+      47       2 DIDN'T MATTER
+     219       3 NO, NOT AT THAT TIME
+      90       4 NO, NONE AT ALL
+  -------
+     399
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     148
+TOTAL =========>     547   VALID SKIP(-4)    9889     NON-INTERVIEW(-5)    2250
+ 
+Lead In: R31888.00[Default]
+Default Next Question: R31890.00
+--------------------------------------------------------------------------------
+R31890.00    [Q9-82_1]                                      Survey Year: 1990
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 1ST PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3171
+ 
+AND WHAT ABOUT YOUR HUSBAND OR PARTNER WHEN YOU BECAME PREGNANT THAT TIME--DID 
+HE WANT YOU TO HAVE (A/ANOTHER) BABY? (IF NO PROBE:) DID HE WANT YOU TO HAVE 
+(A/ANOTHER) BABY BUT NOT AT THAT TIME, OR DID HE WANT YOU TO HAVE (NONE/NO MORE)
+AT ALL?
+ 
+UNIVERSE: R is female; not pregnant at DLI; has been pregnant since DLI AND/OR 
+currently pregnant; was not using method of contraception before first pregnancy
+since DLI
+ 
+     636       1 YES
+      98       2 DIDN'T MATTER
+     134       3 NO, NOT AT THAT TIME
+      70       4 NO, NONE AT ALL
+  -------
+     938
+ 
+Refusal(-1)            0
+Don't Know(-2)        23
+Invalid Skip(-3)     150
+TOTAL =========>    1111   VALID SKIP(-4)    9325     NON-INTERVIEW(-5)    2250
+ 
+Lead In: R31889.00[Default]
+Default Next Question: R31891.00
+--------------------------------------------------------------------------------
+R31904.00    [Q9-81_2]                                      Survey Year: 1990
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 2ND PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3235
+ 
+JUST BEFORE YOU BECAME PREGNANT THAT TIME, DID YOU WANT TO BECOME PREGNANT WHEN 
+YOU DID? (IF NO, PROBE:) DID YOU WANT (A/ANOTHER) BABY BUT NOT AT THAT TIME, OR 
+DID YOU WANT (NONE/NO MORE) AT ALL?
+ 
+UNIVERSE: R is female; has been pregnant more than once since DLI
+ 
+      11       1 YES
+      15       2 DIDN'T MATTER
+      44       3 NO, NOT AT THAT TIME
+      13       4 NO, NONE AT ALL
+  -------
+      83
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      12
+TOTAL =========>      95   VALID SKIP(-4)   10341     NON-INTERVIEW(-5)    2250
+ 
+Lead In: R31903.00[Default]
+Default Next Question: R31905.00
+--------------------------------------------------------------------------------
+R31905.00    [Q9-82_2]                                      Survey Year: 1990
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 2ND PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3237
+ 
+AND WHAT ABOUT YOUR HUSBAND OR PARTNER WHEN YOU BECAME PREGNANT THAT TIME--DID 
+HE WANT YOU TO HAVE (A/ANOTHER) BABY? (IF NO PROBE:) DID HE WANT YOU TO HAVE 
+(A/ANOTHER) BABY BUT NOT AT THAT TIME, OR DID HE WANT YOU TO HAVE (NONE/NO MORE)
+AT ALL?
+ 
+UNIVERSE: R is female; has been pregnant more than once since DLI
+ 
+     115       1 YES
+      16       2 DIDN'T MATTER
+      31       3 NO, NOT AT THAT TIME
+       7       4 NO, NONE AT ALL
+  -------
+     169
+ 
+Refusal(-1)            0
+Don't Know(-2)         3
+Invalid Skip(-3)      12
+TOTAL =========>     184   VALID SKIP(-4)   10252     NON-INTERVIEW(-5)    2250
+ 
+Lead In: R31904.00[Default]
+Default Next Question: R31906.00
+--------------------------------------------------------------------------------
+R31919.00    [Q9-81_3]                                      Survey Year: 1990
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 3RD PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3265
+ 
+JUST BEFORE YOU BECAME PREGNANT THAT TIME, DID YOU WANT TO BECOME PREGNANT WHEN 
+YOU DID? (IF NO, PROBE:) DID YOU WANT (A/ANOTHER) BABY BUT NOT AT THAT TIME, OR 
+DID YOU WANT (NONE/NO MORE) AT ALL?
+ 
+UNIVERSE: R is female; has been pregnant more than twice since DLI
+ 
+       0       1 YES
+       1       2 DIDN'T MATTER
+       6       3 NO, NOT AT THAT TIME
+       4       4 NO, NONE AT ALL
+  -------
+      11
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       4
+TOTAL =========>      15   VALID SKIP(-4)   10421     NON-INTERVIEW(-5)    2250
+ 
+Lead In: R31918.00[Default]
+Default Next Question: R31920.00
+--------------------------------------------------------------------------------
+R31920.00    [Q9-82_3]                                      Survey Year: 1990
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 3RD PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3267
+ 
+AND WHAT ABOUT YOUR HUSBAND OR PARTNER WHEN YOU BECAME PREGNANT THAT TIME--DID 
+HE WANT YOU TO HAVE (A/ANOTHER) BABY? (IF NO PROBE:) DID HE WANT YOU TO HAVE 
+(A/ANOTHER) BABY BUT NOT AT THAT TIME, OR DID HE WANT YOU TO HAVE (NONE/NO MORE)
+AT ALL?
+ 
+UNIVERSE: R is female; has been pregnant more than twice since DLI
+ 
+      15       1 YES
+       4       2 DIDN'T MATTER
+       3       3 NO, NOT AT THAT TIME
+       1       4 NO, NONE AT ALL
+  -------
+      23
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       3
+TOTAL =========>      26   VALID SKIP(-4)   10410     NON-INTERVIEW(-5)    2250
+ 
+Lead In: R31919.00[Default]
+Default Next Question: R31921.00
+--------------------------------------------------------------------------------
+R37925.00    [Q9-81_1]                                      Survey Year: 1992
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 1ST PREGNANCY (LIVE 
+             BIRTH)?
+ 
+ORIGINAL QUESTION NAME: Q3237
+ 
+JUST BEFORE YOU BECAME PREGNANT THAT TIME, DID YOU WANT TO BECOME
+PREGNANT WHEN YOU DID? (IF NO, PROBE:) DID YOU WANT (A/ANOTHER)
+BABY BUT NOT AT THAT TIME, OR DID YOU WANT (NONE/NO MORE) AT ALL?
+ 
+      25       1 YES
+      47       2 DIDN'T MATTER
+     151       3 NO, NOT AT THAT TIME
+      83       4 NO, NONE AT ALL
+  -------
+     306
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+Invalid Skip(-3)       7
+TOTAL =========>     314   VALID SKIP(-4)    8702     NON-INTERVIEW(-5)    3670
+ 
+Lead In: R37924.00[Default]
+Default Next Question: R37926.00
+--------------------------------------------------------------------------------
+R37926.00    [Q9-82_1]                                      Survey Year: 1992
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 1ST PREGNANCY (LIVE BIRTH)?
+ 
+ORIGINAL QUESTION NAME: Q3239
+ 
+AND WHAT ABOUT YOUR HUSBAND OR PARTNER WHEN YOU BECAME PREGNANT
+THAT TIME--DID HE WANT YOU TO HAVE (A/ANOTHER) BABY? (IF NO PROBE:)
+DID HE WANT YOU TO HAVE (A/ANOTHER) BABY BUT NOT AT THAT TIME, OR
+DID HE WANT YOU TO HAVE (NONE/NO MORE) AT ALL?
+ 
+     507       1 YES
+      69       2 DIDN'T MATTER
+     113       3 NO, NOT AT THAT TIME
+      59       4 NO, NONE AT ALL
+  -------
+     748
+ 
+Refusal(-1)            2
+Don't Know(-2)         7
+Invalid Skip(-3)       8
+TOTAL =========>     765   VALID SKIP(-4)    8251     NON-INTERVIEW(-5)    3670
+ 
+Lead In: R37925.00[Default]
+Default Next Question: R37927.00
+--------------------------------------------------------------------------------
+R38064.00    [Q9-81_2]                                      Survey Year: 1992
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 2ND LIVE BIRTH PREGNANCY?
+ 
+ORIGINAL QUESTION NAME: Q3245
+ 
+SEE R(37925.)
+ 
+       1       1 YES
+       6       2 DIDN'T MATTER
+      12       3 NO, NOT AT THAT TIME
+       8       4 NO, NONE AT ALL
+  -------
+      27
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      27   VALID SKIP(-4)    8989     NON-INTERVIEW(-5)    3670
+ 
+Lead In: R38063.00[Default]
+Default Next Question: R38065.00
+--------------------------------------------------------------------------------
+R38065.00    [Q9-82_2]                                      Survey Year: 1992
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 2ND PREGNANCY ENDING IN LIVE BIRTH?
+ 
+ORIGINAL QUESTION NAME: Q3247
+ 
+SEE R(37926.)
+ 
+      35       1 YES
+       4       2 DIDN'T MATTER
+       8       3 NO, NOT AT THAT TIME
+       7       4 NO, NONE AT ALL
+  -------
+      54
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+TOTAL =========>      55   VALID SKIP(-4)    8961     NON-INTERVIEW(-5)    3670
+ 
+Lead In: R38064.00[Default]
+Default Next Question: R38066.00
+--------------------------------------------------------------------------------
+R48554.00    [Q9-81.1]                                      Survey Year: 1994
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 1ST PREGNANCY (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant
+when you did?  (IF NO, PROBE:)  Did you want (a/another) baby but not at
+that time, or did you want (none/no more) at all?
+ 
+      26       1 Yes
+      46       2 Didn't matter
+     135       3 No--not at that time
+      77       4 No--(none/no more) at all
+  -------
+     284
+ 
+Refusal(-1)            4
+Don't Know(-2)        10
+TOTAL =========>     298   VALID SKIP(-4)    8593     NON-INTERVIEW(-5)    3795
+ 
+Lead In: R48552.00[Default] R48553.00[Default]
+Default Next Question: R48555.00
+--------------------------------------------------------------------------------
+R48555.00    [Q9-82.1]                                      Survey Year: 1994
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 1ST PREGNANCY (LIVE BIRTH)?
+ 
+And what about [Text fill for husband or opposite sex partner of female 
+respondent] when you became pregnant that time --
+did [s/he] want you to have (a/another) baby?  (IF NO, PROBE:) Did
+[s/he] want you to have (a/another) baby but not at that time, or did
+[s/he] want you to have (none/no more) at all?
+ 
+     473       1 Yes
+      76       2 Didn't matter
+      98       3 No--not at that time
+      65       4 No--(none/no more) at all
+  -------
+     712
+ 
+Refusal(-1)            4
+Don't Know(-2)        14
+TOTAL =========>     730   VALID SKIP(-4)    8161     NON-INTERVIEW(-5)    3795
+ 
+Lead In: R48554.00[Default]  R48553.00[1:1]
+Default Next Question: R48556.00
+--------------------------------------------------------------------------------
+R48731.00    [Q9-81.2]                                      Survey Year: 1994
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 2ND LIVE BIRTH PREGNANCY?
+ 
+Just before you became pregnant that time, did you want to become pregnant
+when you did?  (IF NO, PROBE:)  Did you want (a/another) baby but not at
+that time, or did you want (none/no more) at all?
+ 
+       2       1 Yes
+       2       2 Didn't matter
+       9       3 No--not at that time
+       2       4 No--(none/no more) at all
+  -------
+      15
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      15   VALID SKIP(-4)    8876     NON-INTERVIEW(-5)    3795
+ 
+Lead In: R48729.00[Default] R48730.00[Default]
+Default Next Question: R48732.00
+--------------------------------------------------------------------------------
+R48732.00    [Q9-82.2]                                      Survey Year: 1994
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 2ND PREGNANCY ENDING IN LIVE BIRTH?
+ 
+And what about [Text fill for husband or opposite sex partner of female 
+respondent] when you became pregnant that time --
+did [s/he] want you to have (a/another) baby?  (IF NO, PROBE:) Did
+[s/he] want you to have (a/another) baby but not at that time, or did
+[s/he] want you to have (none/no more) at all?
+ 
+      19       1 Yes
+       4       2 Didn't matter
+       4       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+      27
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+TOTAL =========>      28   VALID SKIP(-4)    8863     NON-INTERVIEW(-5)    3795
+ 
+Lead In: R48731.00[Default]  R48730.00[1:1]
+Default Next Question: R48733.00
+--------------------------------------------------------------------------------
+R55255.00    [Q9-81.01]                                     Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 1ST LIVE BIRTH PREGNANCY?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?  (IF NO, PROBE:)  Did you want (a/another) baby but not at that time, 
+or did you want (none/no more) at all?
+ 
+      21       1 Yes
+      27       2 Didn't matter
+      71       3 No--not at that time
+      40       4 No--(none/no more) at all
+  -------
+     159
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     159   VALID SKIP(-4)    8477     NON-INTERVIEW(-5)    4050
+ 
+Lead In: R55253.00[Default] R55254.00[Default]
+Default Next Question: R55256.00
+--------------------------------------------------------------------------------
+R55256.00    [Q9-82.01]                                     Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 1ST PREGNANCY (LIVE BIRTH)?
+ 
+And what about [Text fill for husband or opposite sex partner of female 
+respondent] when you became pregnant that time -- did [s/he] want you to have 
+(a/another) baby? (IF NO, PROBE:) Did [s/he] want you to have (a/another) baby 
+but not at that time, or did [s/he] want you to have (none/no more) at all?
+ 
+     307       1 Yes
+      44       2 Didn't matter
+      58       3 No--not at that time
+      32       4 No--(none/no more) at all
+  -------
+     441
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     441   VALID SKIP(-4)    8195     NON-INTERVIEW(-5)    4050
+ 
+Lead In: R55255.00[Default]  R55254.00[1:1]
+Default Next Question: R55257.00
+--------------------------------------------------------------------------------
+R55365.00    [Q9-81.02]                                     Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE 2ND LIVE BIRTH PREGNANCY?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?  (IF NO, PROBE:)  Did you want (a/another) baby but not at that time, 
+or did you want (none/no more) at all?
+ 
+       1       1 Yes
+       2       2 Didn't matter
+       2       3 No--not at that time
+       1       4 No--(none/no more) at all
+  -------
+       6
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       6   VALID SKIP(-4)    8630     NON-INTERVIEW(-5)    4050
+ 
+Lead In: R55363.00[Default] R55364.00[Default]
+Default Next Question: R55366.00
+--------------------------------------------------------------------------------
+R55366.00    [Q9-82.02]                                     Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED 2ND PREGNANCY ENDING IN LIVE BIRTH?
+ 
+And what about [Text fill for husband or opposite sex partner of female 
+respondent] when you became pregnant that time -- did [s/he] want you to have 
+(a/another) baby?  (IF NO, PROBE:) Did [s/he] want you to have (a/another) baby 
+but not at that time, or did [s/he] want you to have (none/no more) at all?
+ 
+       7       1 Yes
+       3       2 Didn't matter
+       3       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+      13
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      13   VALID SKIP(-4)    8623     NON-INTERVIEW(-5)    4050
+ 
+Lead In: R55365.00[Default]  R55364.00[1:1]
+Default Next Question: R55367.00
+--------------------------------------------------------------------------------
+R62496.00    [Q9-81.01]                                     Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 01 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:)  Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+      21       1 Yes
+      31       2 Didn't matter
+      60       3 No--not at that time
+      32       4 No--(none/no more) at all
+  -------
+     144
+ 
+Refusal(-1)            1
+Don't Know(-2)         0
+TOTAL =========>     145   VALID SKIP(-4)    8254     NON-INTERVIEW(-5)    4287
+ 
+Lead In: R62489.00[Default] R62493.00[Default]
+Default Next Question: R62500.00
+--------------------------------------------------------------------------------
+R62497.00    [Q9-81.02]                                     Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 02 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:)  Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       1       1 Yes
+       0       2 Didn't matter
+       1       3 No--not at that time
+       2       4 No--(none/no more) at all
+  -------
+       4
+ 
+Refusal(-1)            1
+Don't Know(-2)         0
+TOTAL =========>       5   VALID SKIP(-4)    8394     NON-INTERVIEW(-5)    4287
+ 
+Lead In: R62490.00[Default] R62494.00[Default]
+Default Next Question: R62501.00
+--------------------------------------------------------------------------------
+R62500.00    [Q9-82.01]                                     Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 01 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+     241       1 Yes
+      37       2 Didn't matter
+      32       3 No--not at that time
+      30       4 No--(none/no more) at all
+  -------
+     340
+ 
+Refusal(-1)            2
+Don't Know(-2)         0
+TOTAL =========>     342   VALID SKIP(-4)    8057     NON-INTERVIEW(-5)    4287
+ 
+Lead In: R62496.00[Default]  R62493.00[1:1]
+Default Next Question: R62504.00
+--------------------------------------------------------------------------------
+R62501.00    [Q9-82.02]                                     Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 02 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       9       1 Yes
+       2       2 Didn't matter
+       0       3 No--not at that time
+       1       4 No--(none/no more) at all
+  -------
+      12
+ 
+Refusal(-1)            1
+Don't Know(-2)         0
+TOTAL =========>      13   VALID SKIP(-4)    8386     NON-INTERVIEW(-5)    4287
+ 
+Lead In: R62497.00[Default]  R62494.00[1:1]
+Default Next Question: R62505.00
+--------------------------------------------------------------------------------
+R68015.00    [Q9-81.01]                                     Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 01 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:)  Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+      14       1 Yes
+      14       2 Didn't matter
+      30       3 No--not at that time
+      22       4 No--(none/no more) at all
+  -------
+      80
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      80   VALID SKIP(-4)    7953     NON-INTERVIEW(-5)    4653
+ 
+Lead In: R68011.00[Default] R68013.00[Default]
+Default Next Question: R68017.00
+--------------------------------------------------------------------------------
+R68016.00    [Q9-81.02]                                     Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 02 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:)  Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       2       1 Yes
+       1       2 Didn't matter
+       4       3 No--not at that time
+       3       4 No--(none/no more) at all
+  -------
+      10
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      10   VALID SKIP(-4)    8023     NON-INTERVIEW(-5)    4653
+ 
+Lead In: R68012.00[Default] R68014.00[Default]
+Default Next Question: R68018.00
+--------------------------------------------------------------------------------
+R68017.00    [Q9-82.01]                                     Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 01 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+     144       1 Yes
+      14       2 Didn't matter
+      22       3 No--not at that time
+      22       4 No--(none/no more) at all
+  -------
+     202
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     202   VALID SKIP(-4)    7831     NON-INTERVIEW(-5)    4653
+ 
+Lead In: R68015.00[Default]  R68013.00[1:1]
+Default Next Question: R68019.00
+--------------------------------------------------------------------------------
+R68018.00    [Q9-82.02]                                     Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 02 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       8       1 Yes
+       4       2 Didn't matter
+       2       3 No--not at that time
+       2       4 No--(none/no more) at all
+  -------
+      16
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      16   VALID SKIP(-4)    8017     NON-INTERVIEW(-5)    4653
+ 
+Lead In: R68016.00[Default]  R68014.00[1:1]
+Default Next Question: R68020.00
+--------------------------------------------------------------------------------
+R74490.00    [Q9-81.01]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 01 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       1       1 Yes
+       2       2 Didn't matter
+       4       3 No--not at that time
+       3       4 No--(none/no more) at all
+  -------
+      10
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      10   VALID SKIP(-4)    7714     NON-INTERVIEW(-5)    4962
+ 
+Lead In: R74474.00[Default] R74481.00[Default]
+Default Next Question: R74498.00
+--------------------------------------------------------------------------------
+R74491.00    [Q9-81.02]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 02 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       3       1 Yes
+       1       2 Didn't matter
+       5       3 No--not at that time
+       7       4 No--(none/no more) at all
+  -------
+      16
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      16   VALID SKIP(-4)    7708     NON-INTERVIEW(-5)    4962
+ 
+Lead In: R74475.00[Default] R74482.00[Default]
+Default Next Question: R74499.00
+--------------------------------------------------------------------------------
+R74492.00    [Q9-81.03]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 03 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       4       1 Yes
+       1       2 Didn't matter
+       5       3 No--not at that time
+       2       4 No--(none/no more) at all
+  -------
+      12
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      12   VALID SKIP(-4)    7712     NON-INTERVIEW(-5)    4962
+ 
+Lead In: R74476.00[Default] R74483.00[Default]
+Default Next Question: R74500.00
+--------------------------------------------------------------------------------
+R74493.00    [Q9-81.04]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 04 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       2       1 Yes
+       2       2 Didn't matter
+       5       3 No--not at that time
+       1       4 No--(none/no more) at all
+  -------
+      10
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      10   VALID SKIP(-4)    7714     NON-INTERVIEW(-5)    4962
+ 
+Lead In: R74477.00[Default] R74484.00[Default]
+Default Next Question: R74501.00
+--------------------------------------------------------------------------------
+R74494.00    [Q9-81.05]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 05 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       1       1 Yes
+       1       2 Didn't matter
+       2       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       4
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       4   VALID SKIP(-4)    7720     NON-INTERVIEW(-5)    4962
+ 
+Lead In: R74478.00[Default] R74485.00[Default]
+Default Next Question: R74502.00
+--------------------------------------------------------------------------------
+R74495.00    [Q9-81.06]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 06 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       1       1 Yes
+       1       2 Didn't matter
+       3       3 No--not at that time
+       2       4 No--(none/no more) at all
+  -------
+       7
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       7   VALID SKIP(-4)    7717     NON-INTERVIEW(-5)    4962
+ 
+Lead In: R74479.00[Default] R74486.00[Default]
+Default Next Question: R74503.00
+--------------------------------------------------------------------------------
+R74496.00    [Q9-81.08]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 08 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       0       1 Yes
+       0       2 Didn't matter
+       2       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       2   VALID SKIP(-4)    7722     NON-INTERVIEW(-5)    4962
+ 
+Lead In: R74480.00[Default] R74488.00[Default]
+Default Next Question: R74505.00
+--------------------------------------------------------------------------------
+R74497.00    [Q9-81.09]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 09 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       0       1 Yes
+       1       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7723     NON-INTERVIEW(-5)    4962
+ 
+Lead In: R74473.00[Default] R74489.00[Default]
+Default Next Question: R74506.00
+--------------------------------------------------------------------------------
+R74498.00    [Q9-82.01]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 01 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+      15       1 Yes
+       3       2 Didn't matter
+       3       3 No--not at that time
+       4       4 No--(none/no more) at all
+  -------
+      25
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      25   VALID SKIP(-4)    7699     NON-INTERVIEW(-5)    4962
+ 
+Lead In: R74490.00[Default]  R74481.00[1:1]
+Default Next Question: R74507.00
+--------------------------------------------------------------------------------
+R74499.00    [Q9-82.02]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 02 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+      33       1 Yes
+       5       2 Didn't matter
+       3       3 No--not at that time
+       4       4 No--(none/no more) at all
+  -------
+      45
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      45   VALID SKIP(-4)    7679     NON-INTERVIEW(-5)    4962
+ 
+Lead In: R74491.00[Default]  R74482.00[1:1]
+Default Next Question: R74508.00
+--------------------------------------------------------------------------------
+R74500.00    [Q9-82.03]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 03 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+      16       1 Yes
+       3       2 Didn't matter
+       4       3 No--not at that time
+       3       4 No--(none/no more) at all
+  -------
+      26
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      26   VALID SKIP(-4)    7698     NON-INTERVIEW(-5)    4962
+ 
+Lead In: R74492.00[Default]  R74483.00[1:1]
+Default Next Question: R74509.00
+--------------------------------------------------------------------------------
+R74501.00    [Q9-82.04]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 04 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       7       1 Yes
+       1       2 Didn't matter
+       4       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+      12
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      12   VALID SKIP(-4)    7712     NON-INTERVIEW(-5)    4962
+ 
+Lead In: R74493.00[Default]  R74484.00[1:1]
+Default Next Question: R74510.00
+--------------------------------------------------------------------------------
+R74502.00    [Q9-82.05]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 05 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       4       1 Yes
+       1       2 Didn't matter
+       2       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       7
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       7   VALID SKIP(-4)    7717     NON-INTERVIEW(-5)    4962
+ 
+Lead In: R74494.00[Default]  R74485.00[1:1]
+Default Next Question: R74511.00
+--------------------------------------------------------------------------------
+R74503.00    [Q9-82.06]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 06 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       2       1 Yes
+       0       2 Didn't matter
+       4       3 No--not at that time
+       2       4 No--(none/no more) at all
+  -------
+       8
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       8   VALID SKIP(-4)    7716     NON-INTERVIEW(-5)    4962
+ 
+Lead In: R74495.00[Default]  R74486.00[1:1]
+Default Next Question: R74512.00
+--------------------------------------------------------------------------------
+R74504.00    [Q9-82.07]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 07 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       1       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7723     NON-INTERVIEW(-5)    4962
+ 
+Lead In: R74471.00[Default] R74487.00[Default]  R74487.00[1:1]
+Default Next Question: R74513.00
+--------------------------------------------------------------------------------
+R74505.00    [Q9-82.08]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 08 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       0       1 Yes
+       0       2 Didn't matter
+       2       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       2   VALID SKIP(-4)    7722     NON-INTERVIEW(-5)    4962
+ 
+Lead In: R74496.00[Default]  R74488.00[1:1]
+Default Next Question: R74514.00
+--------------------------------------------------------------------------------
+R74506.00    [Q9-82.09]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 09 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       0       1 Yes
+       1       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7723     NON-INTERVIEW(-5)    4962
+ 
+Lead In: R74497.00[Default]  R74489.00[1:1]
+Default Next Question: R74515.00
+--------------------------------------------------------------------------------
+R81593.00    [Q9-81.01]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 01 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       2       1 Yes
+       1       2 Didn't matter
+       2       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       5
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       5   VALID SKIP(-4)    7656     NON-INTERVIEW(-5)    5025
+ 
+Lead In: R81582.00[Default] R81586.00[Default]
+Default Next Question: R81598.00
+--------------------------------------------------------------------------------
+R81594.00    [Q9-81.02]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 02 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       1       1 Yes
+       0       2 Didn't matter
+       3       3 No--not at that time
+       3       4 No--(none/no more) at all
+  -------
+       7
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       7   VALID SKIP(-4)    7654     NON-INTERVIEW(-5)    5025
+ 
+Lead In: R81583.00[Default] R81587.00[Default]
+Default Next Question: R81599.00
+--------------------------------------------------------------------------------
+R81595.00    [Q9-81.03]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 03 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       1       1 Yes
+       1       2 Didn't matter
+       3       3 No--not at that time
+       3       4 No--(none/no more) at all
+  -------
+       8
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       8   VALID SKIP(-4)    7653     NON-INTERVIEW(-5)    5025
+ 
+Lead In: R81584.00[Default] R81588.00[Default]
+Default Next Question: R81600.00
+--------------------------------------------------------------------------------
+R81596.00    [Q9-81.04]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 04 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       1       1 Yes
+       0       2 Didn't matter
+       3       3 No--not at that time
+       4       4 No--(none/no more) at all
+  -------
+       8
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       8   VALID SKIP(-4)    7653     NON-INTERVIEW(-5)    5025
+ 
+Lead In: R81585.00[Default] R81589.00[Default]
+Default Next Question: R81601.00
+--------------------------------------------------------------------------------
+R81597.00    [Q9-81.10]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 10 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       0       1 Yes
+       1       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7660     NON-INTERVIEW(-5)    5025
+ 
+Lead In: R81581.00[Default] R81592.00[Default]
+Default Next Question: R81604.00
+--------------------------------------------------------------------------------
+R81598.00    [Q9-82.01]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 01 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+      16       1 Yes
+       1       2 Didn't matter
+       2       3 No--not at that time
+       1       4 No--(none/no more) at all
+  -------
+      20
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      20   VALID SKIP(-4)    7641     NON-INTERVIEW(-5)    5025
+ 
+Lead In: R81593.00[Default]  R81586.00[1:1]
+Default Next Question: R81605.00
+--------------------------------------------------------------------------------
+R81599.00    [Q9-82.02]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 02 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+      16       1 Yes
+       1       2 Didn't matter
+       2       3 No--not at that time
+       2       4 No--(none/no more) at all
+  -------
+      21
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      21   VALID SKIP(-4)    7640     NON-INTERVIEW(-5)    5025
+ 
+Lead In: R81594.00[Default]  R81587.00[1:1]
+Default Next Question: R81606.00
+--------------------------------------------------------------------------------
+R81600.00    [Q9-82.03]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 03 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+      15       1 Yes
+       2       2 Didn't matter
+       1       3 No--not at that time
+       5       4 No--(none/no more) at all
+  -------
+      23
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      23   VALID SKIP(-4)    7638     NON-INTERVIEW(-5)    5025
+ 
+Lead In: R81595.00[Default]  R81588.00[1:1]
+Default Next Question: R81607.00
+--------------------------------------------------------------------------------
+R81601.00    [Q9-82.04]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 04 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       8       1 Yes
+       1       2 Didn't matter
+       0       3 No--not at that time
+       2       4 No--(none/no more) at all
+  -------
+      11
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+TOTAL =========>      12   VALID SKIP(-4)    7649     NON-INTERVIEW(-5)    5025
+ 
+Lead In: R81596.00[Default]  R81589.00[1:1]
+Default Next Question: R81608.00
+--------------------------------------------------------------------------------
+R81602.00    [Q9-82.05]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 05 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       2       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       2   VALID SKIP(-4)    7659     NON-INTERVIEW(-5)    5025
+ 
+Lead In: R81579.00[Default] R81590.00[Default]  R81590.00[1:1]
+Default Next Question: R81609.00
+--------------------------------------------------------------------------------
+R81603.00    [Q9-82.06]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 06 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       2       1 Yes
+       1       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       3
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       3   VALID SKIP(-4)    7658     NON-INTERVIEW(-5)    5025
+ 
+Lead In: R81580.00[Default] R81591.00[Default]  R81591.00[1:1]
+Default Next Question: R81610.00
+--------------------------------------------------------------------------------
+R81604.00    [Q9-82.10]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 10 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       0       1 Yes
+       1       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7660     NON-INTERVIEW(-5)    5025
+ 
+Lead In: R81597.00[Default]  R81592.00[1:1]
+Default Next Question: R81611.00
+--------------------------------------------------------------------------------
+T03693.00    [Q9-81.01]                                     Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 01 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       1       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       1
+ 
+Refusal(-1)            1
+Don't Know(-2)         0
+TOTAL =========>       2   VALID SKIP(-4)    7652     NON-INTERVIEW(-5)    5032
+ 
+Lead In: T03681.00[Default] T03688.00[Default]
+Default Next Question: T03698.00
+--------------------------------------------------------------------------------
+T03694.00    [Q9-81.02]                                     Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 02 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       1       1 Yes
+       1       2 Didn't matter
+       3       3 No--not at that time
+       1       4 No--(none/no more) at all
+  -------
+       6
+ 
+Refusal(-1)            1
+Don't Know(-2)         0
+TOTAL =========>       7   VALID SKIP(-4)    7647     NON-INTERVIEW(-5)    5032
+ 
+Lead In: T03686.00[Default] T03689.00[Default]
+Default Next Question: T03699.00
+--------------------------------------------------------------------------------
+T03695.00    [Q9-81.03]                                     Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 03 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       0       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       4       4 No--(none/no more) at all
+  -------
+       4
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       4   VALID SKIP(-4)    7650     NON-INTERVIEW(-5)    5032
+ 
+Lead In: T03687.00[Default] T03690.00[Default]
+Default Next Question: T03700.00
+--------------------------------------------------------------------------------
+T03696.00    [Q9-81.04]                                     Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 04 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       0       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       2       4 No--(none/no more) at all
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       2   VALID SKIP(-4)    7652     NON-INTERVIEW(-5)    5032
+ 
+Lead In: T03684.00[Default] T03691.00[Default]
+Default Next Question: T03701.00
+--------------------------------------------------------------------------------
+T03697.00    [Q9-81.05]                                     Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 05 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       0       1 Yes
+       0       2 Didn't matter
+       1       3 No--not at that time
+       1       4 No--(none/no more) at all
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       2   VALID SKIP(-4)    7652     NON-INTERVIEW(-5)    5032
+ 
+Lead In: T03685.00[Default] T03692.00[Default]
+Default Next Question: T03702.00
+--------------------------------------------------------------------------------
+T03698.00    [Q9-82.01]                                     Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 01 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+      11       1 Yes
+       1       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+      12
+ 
+Refusal(-1)            1
+Don't Know(-2)         0
+TOTAL =========>      13   VALID SKIP(-4)    7641     NON-INTERVIEW(-5)    5032
+ 
+Lead In: T03693.00[Default]  T03688.00[1:1]
+Default Next Question: T03703.00
+--------------------------------------------------------------------------------
+T03699.00    [Q9-82.02]                                     Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 02 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       5       1 Yes
+       0       2 Didn't matter
+       2       3 No--not at that time
+       1       4 No--(none/no more) at all
+  -------
+       8
+ 
+Refusal(-1)            1
+Don't Know(-2)         0
+TOTAL =========>       9   VALID SKIP(-4)    7645     NON-INTERVIEW(-5)    5032
+ 
+Lead In: T03694.00[Default]  T03689.00[1:1]
+Default Next Question: T03704.00
+--------------------------------------------------------------------------------
+T03700.00    [Q9-82.03]                                     Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 03 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       3       1 Yes
+       2       2 Didn't matter
+       0       3 No--not at that time
+       3       4 No--(none/no more) at all
+  -------
+       8
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       8   VALID SKIP(-4)    7646     NON-INTERVIEW(-5)    5032
+ 
+Lead In: T03695.00[Default]  T03690.00[1:1]
+Default Next Question: T03705.00
+--------------------------------------------------------------------------------
+T03701.00    [Q9-82.04]                                     Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 04 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       4       1 Yes
+       0       2 Didn't matter
+       1       3 No--not at that time
+       1       4 No--(none/no more) at all
+  -------
+       6
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       6   VALID SKIP(-4)    7648     NON-INTERVIEW(-5)    5032
+ 
+Lead In: T03696.00[Default]  T03691.00[1:1]
+Default Next Question: T03706.00
+--------------------------------------------------------------------------------
+T03702.00    [Q9-82.05]                                     Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 05 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       1       1 Yes
+       1       2 Didn't matter
+       0       3 No--not at that time
+       1       4 No--(none/no more) at all
+  -------
+       3
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       3   VALID SKIP(-4)    7651     NON-INTERVIEW(-5)    5032
+ 
+Lead In: T03697.00[Default]  T03692.00[1:1]
+Default Next Question: T03707.00
+--------------------------------------------------------------------------------
+T15217.00    [Q9-81.02]                                     Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 02 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       0       1 Yes
+       0       2 Didn't matter
+       2       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+TOTAL =========>       3   VALID SKIP(-4)    7754     NON-INTERVIEW(-5)    4929
+ 
+Lead In: T15208.00[Default] T15212.00[Default]
+Default Next Question: T15224.00
+--------------------------------------------------------------------------------
+T15218.00    [Q9-81.03]                                     Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 03 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       0       1 Yes
+       1       2 Didn't matter
+       1       3 No--not at that time
+       1       4 No--(none/no more) at all
+  -------
+       3
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       3   VALID SKIP(-4)    7754     NON-INTERVIEW(-5)    4929
+ 
+Lead In: T15209.00[Default] T15213.00[Default]
+Default Next Question: T15225.00
+--------------------------------------------------------------------------------
+T15219.00    [Q9-81.04]                                     Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 04 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       0       1 Yes
+       1       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7756     NON-INTERVIEW(-5)    4929
+ 
+Lead In: T15203.00[Default] T15214.00[Default]
+Default Next Question: T15226.00
+--------------------------------------------------------------------------------
+T15220.00    [Q9-81.05]                                     Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 05 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       0       1 Yes
+       0       2 Didn't matter
+       1       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7756     NON-INTERVIEW(-5)    4929
+ 
+Lead In: T15204.00[Default] T15215.00[Default]
+Default Next Question: T15227.00
+--------------------------------------------------------------------------------
+T15221.00    [Q9-81.06]                                     Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 06 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       0       1 Yes
+       0       2 Didn't matter
+       1       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7756     NON-INTERVIEW(-5)    4929
+ 
+Lead In: T15205.00[Default] T15216.00[Default]
+Default Next Question: T15228.00
+--------------------------------------------------------------------------------
+T15222.00    [Q9-81.09]                                     Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 09 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       0       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       1       4 No--(none/no more) at all
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7756     NON-INTERVIEW(-5)    4929
+ 
+Lead In: T15210.00[Default]  T15206.00[0:0] T15210.00[1:1]
+Default Next Question: T15229.00
+--------------------------------------------------------------------------------
+T15223.00    [Q9-82.01]                                     Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 01 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       5       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       5
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       5   VALID SKIP(-4)    7752     NON-INTERVIEW(-5)    4929
+ 
+Lead In: T15207.00[Default] T15211.00[Default]  T15211.00[1:1]
+Default Next Question: T15230.00
+--------------------------------------------------------------------------------
+T15224.00    [Q9-82.02]                                     Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 02 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       5       1 Yes
+       2       2 Didn't matter
+       0       3 No--not at that time
+       1       4 No--(none/no more) at all
+  -------
+       8
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+TOTAL =========>       9   VALID SKIP(-4)    7748     NON-INTERVIEW(-5)    4929
+ 
+Lead In: T15217.00[Default]  T15212.00[1:1]
+Default Next Question: T15231.00
+--------------------------------------------------------------------------------
+T15225.00    [Q9-82.03]                                     Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 03 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       1       1 Yes
+       3       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       4
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       4   VALID SKIP(-4)    7753     NON-INTERVIEW(-5)    4929
+ 
+Lead In: T15218.00[Default]  T15213.00[1:1]
+Default Next Question: T15232.00
+--------------------------------------------------------------------------------
+T15226.00    [Q9-82.04]                                     Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 04 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       0       1 Yes
+       1       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7756     NON-INTERVIEW(-5)    4929
+ 
+Lead In: T15219.00[Default]  T15214.00[1:1]
+Default Next Question: T15233.00
+--------------------------------------------------------------------------------
+T15227.00    [Q9-82.05]                                     Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 05 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       2       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       2   VALID SKIP(-4)    7755     NON-INTERVIEW(-5)    4929
+ 
+Lead In: T15220.00[Default]  T15215.00[1:1]
+Default Next Question: T15234.00
+--------------------------------------------------------------------------------
+T15228.00    [Q9-82.06]                                     Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 06 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       1       1 Yes
+       1       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       2   VALID SKIP(-4)    7755     NON-INTERVIEW(-5)    4929
+ 
+Lead In: T15221.00[Default]  T15216.00[1:1]
+Default Next Question: T15235.00
+--------------------------------------------------------------------------------
+T15229.00    [Q9-82.09]                                     Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 09 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       1       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7756     NON-INTERVIEW(-5)    4929
+ 
+Lead In: T15222.00[Default]
+Default Next Question: T15236.00
+--------------------------------------------------------------------------------
+T25629.00    [Q9-81.01]                                     Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 01 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       1       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7564     NON-INTERVIEW(-5)    5121
+ 
+Lead In: T25622.00[Default] T25625.00[Default]
+Default Next Question: T25632.00
+--------------------------------------------------------------------------------
+T25630.00    [Q9-81.03]                                     Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 03 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       0       1 Yes
+       1       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7564     NON-INTERVIEW(-5)    5121
+ 
+Lead In: T25624.00[Default] T25627.00[Default]
+Default Next Question: T25634.00
+--------------------------------------------------------------------------------
+T25631.00    [Q9-81.05]                                     Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 05 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       0       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       1       4 No--(none/no more) at all
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7564     NON-INTERVIEW(-5)    5121
+ 
+Lead In: T25621.00[Default] T25628.00[Default]
+Default Next Question: T25635.00
+--------------------------------------------------------------------------------
+T25632.00    [Q9-82.01]                                     Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 01 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       2       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       2   VALID SKIP(-4)    7563     NON-INTERVIEW(-5)    5121
+ 
+Lead In: T25629.00[Default]  T25625.00[1:1]
+Default Next Question: T25636.00
+--------------------------------------------------------------------------------
+T25633.00    [Q9-82.02]                                     Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 02 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       3       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       3
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       3   VALID SKIP(-4)    7562     NON-INTERVIEW(-5)    5121
+ 
+Lead In: T25623.00[Default] T25626.00[Default]  T25626.00[1:1]
+Default Next Question: T25637.00
+--------------------------------------------------------------------------------
+T25634.00    [Q9-82.03]                                     Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 03 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       2       1 Yes
+       1       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       3
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       3   VALID SKIP(-4)    7562     NON-INTERVIEW(-5)    5121
+ 
+Lead In: T25630.00[Default]  T25627.00[1:1]
+Default Next Question: T25638.00
+--------------------------------------------------------------------------------
+T25635.00    [Q9-82.05]                                     Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 05 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       0       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       1       4 No--(none/no more) at all
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7564     NON-INTERVIEW(-5)    5121
+ 
+Lead In: T25631.00[Default]  T25628.00[1:1]
+Default Next Question: T25639.00
+--------------------------------------------------------------------------------
+T35474.00    [Q9-82.01]                                     Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 01 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       0       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       0
+ 
+Refusal(-1)            1
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7300     NON-INTERVIEW(-5)    5385
+ 
+Lead In: T35472.00[Default]
+Default Next Question: T35476.00
+--------------------------------------------------------------------------------
+T35475.00    [Q9-82.02]                                     Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 02 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       1       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7300     NON-INTERVIEW(-5)    5385
+ 
+Lead In: T35473.00[Default]
+Default Next Question: T35477.00
+--------------------------------------------------------------------------------
+T45213.00    [Q9-81.04]                                     Survey Year: 2014
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - WANTED TO BECOME PREGNANT BEFORE PREGNANCY 04 (LIVE 
+             BIRTH)?
+ 
+Just before you became pregnant that time, did you want to become pregnant when 
+you did?
+ 
+(IF NO, PROBE:) Did you want (a/another) baby but not at that time, or did you 
+want (none/no more) at all?
+ 
+       0       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       1       4 No--(none/no more) at all
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7070     NON-INTERVIEW(-5)    5615
+ 
+Lead In: T45212.00[Default]
+Default Next Question: T45217.00
+--------------------------------------------------------------------------------
+T45214.00    [Q9-82.01]                                     Survey Year: 2014
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 01 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       2       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       2   VALID SKIP(-4)    7069     NON-INTERVIEW(-5)    5615
+ 
+Lead In: T45209.00[Default]  T45209.00[1:1]
+Default Next Question: T45218.00
+--------------------------------------------------------------------------------
+T45215.00    [Q9-82.02]                                     Survey Year: 2014
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 02 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       1       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7070     NON-INTERVIEW(-5)    5615
+ 
+Lead In: T45210.00[Default]  T45210.00[1:1]
+Default Next Question: T45219.00
+--------------------------------------------------------------------------------
+T45216.00    [Q9-82.03]                                     Survey Year: 2014
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 03 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       1       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       0       4 No--(none/no more) at all
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7070     NON-INTERVIEW(-5)    5615
+ 
+Lead In: T45211.00[Default]  T45211.00[1:1]
+Default Next Question: T45220.00
+--------------------------------------------------------------------------------
+T45217.00    [Q9-82.04]                                     Survey Year: 2014
+  PRIMARY VARIABLE
+
+ 
+             FEMALE - HUSBAND/PARTNER WANTED PREGNANCY 04 (LIVE BIRTH)?
+ 
+And what about [your wife/husband/spouse/partner] when you became pregnant that 
+time -- did (he/she) want you to have (a/another) baby?
+ 
+(IF NO, PROBE:) Did (he/she) want you to have (a/another) baby but not at that 
+time, or did (he/she) want you to have (none/no more) at all?
+ 
+       1       1 Yes
+       0       2 Didn't matter
+       0       3 No--not at that time
+       1       4 No--(none/no more) at all
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       2   VALID SKIP(-4)    7069     NON-INTERVIEW(-5)    5615
+ 
+Lead In: T45213.00[Default]  T45212.00[1:1]
+Default Next Question: T45221.00
