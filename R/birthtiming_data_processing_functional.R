@@ -7,6 +7,7 @@ library(tidyr)
 library(reshape2)
 
 source("./R/birthtiming_functions.R")
+
 #-----------------------------------------------------------------------------------
 # Redoing everything
 # So, what do we want it to look like?
@@ -18,8 +19,9 @@ source("./R/birthtiming_functions.R")
 
 # MULTIPLE BIRTHS
 
-clean_encode <- function(data){
- input_data <- readRDS("./inst/data/derived_data/birthtiming_difficulty.Rds")
+clean_encode <- function(){
+ load("../data/derived_data/birthtiming_long_data.RData")
+  input_data <- birthtiming_long_data
  recoded_data <- input_data %>%
    left_join(
      input_data %>%

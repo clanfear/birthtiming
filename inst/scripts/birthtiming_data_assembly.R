@@ -31,4 +31,5 @@ birthtiming_long_data <- birth_and_childcare %>%
 
 #---------------------------
 
+save(birthtiming_long_data, file="./inst/data/derived_data/birthtiming_long_data.Rds")
 save(birthtiming_long_data, file="./inst/data/derived_data/birthtiming_long_data.RData")
