@@ -30,6 +30,7 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 
+# birthtiming package currently disabled while in redevelopment
 # library(birthtiming) # Or use devtools::load_all('.', quiet = T) if your code is in script files, rather than as functions in the `/R` diretory
 ```
 
@@ -65,8 +66,9 @@ Note: The below material is pre-existing and does not account for the covariates
 # Methods
 
 ```{r resultsdata, include=FALSE}
-# child_difficulty <- load_and_format_NLSY()
-# naive_tidy <- run_naive_sem()
+child_difficulty <- gen_birthtiming_data(min_children=2, max_children=10) %>%
+                                        filter(!is.na(difficulty_1) & !is.na(difficulty_2)) 
+naive_tidy <- run_naive_sem()
 load("../data/derived_data/naive_tidy.RData")
 load("../data/derived_data/child_difficulty.RData")
 ```
