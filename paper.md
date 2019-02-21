@@ -3,7 +3,7 @@ title: "A Dynamic Intrafamily Model of Child Behavior Problems and Birth Timing"
 author:
   - Charles C. Lanfear
   - Ross L. Matsueda
-date: "17 April, 2018"
+date: "21 February, 2019"
 output: 
     bookdown::html_document2:
       fig_caption: yes
@@ -56,9 +56,9 @@ Note: The below material is pre-existing and does not account for the covariates
 
 
 
-This study uses the National Longitudinal Survey of Youth 1979 (NLYS79), a probability sample of 12,686 Americans between the ages of 14 and 21 during 1979. Beginning in 1986, female respondents who had children responded to interviews about their children and parenting behavior and assessments were conducted on the children resulting in their addition to a child and young adult sample of the NLYS79. As of 2012, the child and young adult sample consists of 11,512 children, which is estimated to be some 95% of expected childbirths for original NLSY79 participants; as nearly all births to this cohort should be accounted for, avoiding issues with selection on birth timing. Because the focus of this work is the relationship between perceived early-childhood behavior problems and birth timing, analyses are limited to a subsample of mothers with two or more children for which data on infant behavior problems were collected. These perceptions of early child behavior problems were collected from mothers of children between ages 0 and 23 months. This subsample contains 1531 out of 4932 (31%) mothers and 5386 of the 11,512 children (47%). The omitted mothers either had only one child (1699) or had only one child after data collection began in 1986 (1702). This sample is further reduced to 1453 mothers due to missingness in responses to components of the outcome variables.
+This study uses the National Longitudinal Survey of Youth 1979 (NLYS79), a probability sample of 12,686 Americans between the ages of 14 and 21 during 1979. Beginning in 1986, female respondents who had children responded to interviews about their children and parenting behavior and assessments were conducted on the children resulting in their addition to a child and young adult sample of the NLYS79. As of 2012, the child and young adult sample consists of 11,512 children, which is estimated to be some 95% of expected childbirths for original NLSY79 participants; as nearly all births to this cohort should be accounted for, avoiding issues with selection on birth timing. Because the focus of this work is the relationship between perceived early-childhood behavior problems and birth timing, analyses are limited to a subsample of mothers with two or more children for which data on infant behavior problems were collected. These perceptions of early child behavior problems were collected from mothers of children between ages 0 and 23 months, beginning in 1986. This subsample contains 1531 out of 4932 (31%) mothers and 5386 of the 11,512 children (47%). The omitted mothers either had only one child (1699) or had only one child after data collection began in 1986 (1702). Note that because child difficulty data collection began in 1986, the first observed child for a given mother may not be the first child of that mother. Consequently, we include an integer measure of parity to account for effects of prior births. This sample is further reduced to 878 mothers due to missingness in responses to components of the outcome variables. 
 
-The outcome variables in this analysis are the Difficulty Composite Raw Scores for both siblings which consists of the sum of ordinal (1 to 5) responses to 11 temperament questions capturing a range of child behaviors, such as “How often do you have trouble soothing or calming your infant when he/she is crying or upset?” and “During the average day, how often does your infant get fussy and irritable?” This scale has an observed range of 11 to 54 (out of possible 11 to 55) for first children and 11 to 52 for second children. The scale is treated as a continuous measure as it is approximately normally distributed, though there is evidence of mild departures from normality for difficulty of the second child (see appendix). The predictors are maternal age at birth for each child. Mothers in the analysis subsample were 19 to 40 years of age at birth of first child and 20 to 42 for the second child
+The outcome variables in this analysis are the Difficulty Composite Raw Scores for both siblings which consists of the sum of ordinal (1 to 5) responses to 11 temperament questions capturing a range of child behaviors, such as “How often do you have trouble soothing or calming your infant when he/she is crying or upset?” and “During the average day, how often does your infant get fussy and irritable?” This scale has an observed range of 11 to 54 (out of possible 11 to 55) for first observed children and 11 to 52 for second observed children. The scale is treated as a continuous measure as it is approximately normally distributed, though there is evidence of mild departures from normality for difficulty of the second child (see appendix). The predictors are maternal age at birth for each child. Mothers in the analysis subsample were 19 to 40 years of age at birth of first child and 21 to 44 for the second child
 <br/><br/>
 
 
@@ -68,13 +68,20 @@ Figure \@ref(fig:diagrammodel) depicts the conceptual model of mother’s age at
 
 # Results
 
-  
+
+
   
 <img src="diagram_estimates.png" title="Model Estimates" alt="Model Estimates" width="80%" />
 
 
 
-Figure \@ref(fig:diagramestimates) depicts maximum likelihood estimates of the specified structural equations obtained with LISREL 9.2. A strong negative relationship is observed between mother’s age at birth of child and perceived difficulty in early childhood. Net of time-invariant mother and family characteristics, each additional year older at childbirth corresponds to almost two points lower on the difficulty composite or an approximately 1:1 relationship in standardized metrics ($B\*$=  -0.9 and -0.94). Additionally, we see a statistically significant (t=-2.275) relationship between the unaccounted for variation in first child difficulty and mother’s age at second birth, though this relationship is unexpectedly negative. Greater difficulty in early childhood, net of that associated with maternal age, appears associated with modestly earlier second births. As the model is just identified, tests of overall model fit cannot be conducted. For comparison the $D_{1}$ error to $T_{2}$ covariance was restricted to zero to provide fit statistics, though this restricted model is clearly misspecified given the significance of the parameter in the full model. In this model, the root mean square error of approximation is 0.0583 which indicates moderately good fit, though this may be inflated by the presence of a single degree of freedom. The restricted model chi-square is 5.731 (p=0.017), indicating worse fit than the full (saturated) model.
+Figure \@ref(fig:diagramestimates) depicts maximum likelihood estimates of the specified structural equations obtained with `lavaan` in R. A strong negative relationship is observed between mother’s age at birth of child and perceived difficulty in early childhood. Net of time-invariant mother and family characteristics, each additional year older at childbirth corresponds to almost two points lower on the difficulty composite or an approximately 1:1 relationship in standardized metrics ($\gamma^{*}$=  -1.46 and -1.59). Additionally, we see a statistically significant (z=-2.75) relationship between the unaccounted for variation in first child difficulty and mother’s age at second birth, though this relationship is unexpectedly negative. Greater difficulty in early childhood, net of that associated with maternal age, appears associated with modestly earlier second births. As the model is just identified, tests of overall model fit cannot be conducted. For comparison the $D_{1}$ error to $T_{2}$ covariance was restricted to zero to provide fit statistics, though this restricted model is clearly misspecified given the significance of the parameter in the full model. In this model, the root mean square error of approximation is 0.0583 which indicates moderately good fit, though this may be inflated by the presence of a single degree of freedom. The restricted model chi-square is 5.731 (p=0.017), indicating worse fit than the full (saturated) model.
+
+Some additional results notes (models not included yet):
+
+1. Parity significantly predicts higher child difficulty (0.161, t=5.54). Inclusion has no effect on mother's age effects.
+2. Early child health problems do not predict child difficulty or impact mother's age effects.
+3. At-birth characteristics (e.g. birth weight, gestation time) do not have substantively strong effects on child behavior or impacts on mother's age effects.
 
 # Discussion
 
@@ -88,71 +95,123 @@ While the sibling fixed effects instrumental variable model purges all effects o
 
 ### Colophon
 
-This report was generated on 2018-04-17 12:45:38 using the following computational environment and dependencies: 
+This report was generated on 2019-02-21 14:18:17 using the following computational environment and dependencies: 
 
 
 ```
+#> - Session info ----------------------------------------------------------
 #>  setting  value                       
-#>  version  R version 3.4.4 (2018-03-15)
+#>  version  R version 3.5.2 (2018-12-20)
+#>  os       Windows >= 8 x64            
 #>  system   x86_64, mingw32             
-#>  ui       RStudio (1.1.442)           
+#>  ui       RStudio                     
 #>  language (EN)                        
 #>  collate  English_United States.1252  
+#>  ctype    English_United States.1252  
 #>  tz       America/Los_Angeles         
-#>  date     2018-04-17                  
+#>  date     2019-02-21                  
 #> 
-#>  package     * version    date       source                               
-#>  assertthat    0.2.0      2017-04-11 CRAN (R 3.4.0)                       
-#>  backports     1.1.2      2017-12-13 CRAN (R 3.4.3)                       
-#>  base        * 3.4.4      2018-03-15 local                                
-#>  bindr         0.1.1      2018-03-13 CRAN (R 3.4.4)                       
-#>  bindrcpp    * 0.2.2      2018-03-29 CRAN (R 3.4.4)                       
-#>  birthtiming * 0.0.0.9000 2018-04-17 Github (clanfear/birthtiming@aaa9238)
-#>  bitops        1.0-6      2013-08-17 CRAN (R 3.4.1)                       
-#>  compiler      3.4.4      2018-03-15 local                                
-#>  curl          3.2        2018-03-28 CRAN (R 3.4.4)                       
-#>  datasets    * 3.4.4      2018-03-15 local                                
-#>  devtools      1.13.5     2018-02-18 CRAN (R 3.4.3)                       
-#>  digest        0.6.15     2018-01-28 CRAN (R 3.4.3)                       
-#>  dplyr       * 0.7.4      2017-09-28 CRAN (R 3.4.2)                       
-#>  evaluate      0.10.1     2017-06-24 CRAN (R 3.4.1)                       
-#>  git2r         0.21.0     2018-01-04 CRAN (R 3.4.3)                       
-#>  glue          1.2.0      2017-10-29 CRAN (R 3.4.2)                       
-#>  graphics    * 3.4.4      2018-03-15 local                                
-#>  grDevices   * 3.4.4      2018-03-15 local                                
-#>  highr         0.6        2016-05-09 CRAN (R 3.4.1)                       
-#>  htmltools     0.3.6      2017-04-28 CRAN (R 3.4.1)                       
-#>  httr          1.3.1      2017-08-20 CRAN (R 3.4.1)                       
-#>  knitr         1.20       2018-02-20 CRAN (R 3.4.4)                       
-#>  lavaan        0.6-1.1213 2018-04-17 Github (yrosseel/lavaan@cfe52d2)     
-#>  magrittr      1.5        2014-11-22 CRAN (R 3.4.1)                       
-#>  MASS          7.3-49     2018-02-23 CRAN (R 3.4.4)                       
-#>  memoise       1.1.0      2017-04-21 CRAN (R 3.4.0)                       
-#>  methods     * 3.4.4      2018-03-15 local                                
-#>  mnormt        1.5-5      2016-10-15 CRAN (R 3.4.1)                       
-#>  pbivnorm      0.6.0      2015-01-23 CRAN (R 3.4.1)                       
-#>  pdftools      1.6        2018-03-27 CRAN (R 3.4.4)                       
-#>  pillar        1.2.1      2018-02-27 CRAN (R 3.4.4)                       
-#>  pkgconfig     2.0.1      2017-03-21 CRAN (R 3.4.1)                       
-#>  plyr          1.8.4      2016-06-08 CRAN (R 3.4.1)                       
-#>  purrr         0.2.4      2017-10-18 CRAN (R 3.4.2)                       
-#>  R6            2.2.2      2017-06-17 CRAN (R 3.4.1)                       
-#>  Rcpp          0.12.16    2018-03-13 CRAN (R 3.4.4)                       
-#>  RCurl         1.95-4.10  2018-01-04 CRAN (R 3.4.3)                       
-#>  reshape2    * 1.4.3      2017-12-11 CRAN (R 3.4.3)                       
-#>  rlang         0.2.0.9001 2018-04-11 Github (r-lib/rlang@70d2d40)         
-#>  rmarkdown     1.9        2018-03-01 CRAN (R 3.4.4)                       
-#>  rprojroot     1.3-2      2018-01-03 CRAN (R 3.4.3)                       
-#>  rrtools       0.1.0      2018-03-31 Github (benmarwick/rrtools@ddf0b72)  
-#>  rstudioapi    0.7        2017-09-07 CRAN (R 3.4.2)                       
-#>  stats       * 3.4.4      2018-03-15 local                                
-#>  stats4        3.4.4      2018-03-15 local                                
-#>  stringi       1.1.7      2018-03-12 CRAN (R 3.4.4)                       
-#>  stringr     * 1.3.0      2018-02-19 CRAN (R 3.4.4)                       
-#>  tibble        1.4.2      2018-01-22 CRAN (R 3.4.3)                       
-#>  tidyr       * 0.8.0      2018-01-29 CRAN (R 3.4.3)                       
-#>  tools         3.4.4      2018-03-15 local                                
-#>  utils       * 3.4.4      2018-03-15 local                                
-#>  withr         2.1.2      2018-04-04 Github (jimhester/withr@79d7b0d)     
-#>  yaml          2.1.18     2018-03-08 CRAN (R 3.4.4)
+#> - Packages --------------------------------------------------------------
+#>  package     * version    date       lib
+#>  assertthat    0.2.0      2017-04-11 [1]
+#>  backports     1.1.3      2018-12-14 [1]
+#>  birthtiming * 0.0.0.9000 2019-02-21 [1]
+#>  callr         3.1.1      2018-12-21 [1]
+#>  cli           1.0.1      2018-09-25 [1]
+#>  crayon        1.3.4      2017-09-16 [1]
+#>  curl          3.3        2019-01-10 [1]
+#>  desc          1.2.0      2018-05-01 [1]
+#>  devtools      2.0.1      2018-10-26 [1]
+#>  digest        0.6.18     2018-10-10 [1]
+#>  dplyr       * 0.8.0.1    2019-02-15 [1]
+#>  evaluate      0.13       2019-02-12 [1]
+#>  fs            1.2.6      2018-08-23 [1]
+#>  glue          1.3.0      2018-07-17 [1]
+#>  highr         0.7        2018-06-09 [1]
+#>  knitr         1.21       2018-12-10 [1]
+#>  lavaan        0.6-3      2018-09-22 [1]
+#>  magrittr      1.5        2014-11-22 [1]
+#>  MASS          7.3-51.1   2018-11-01 [1]
+#>  memoise       1.1.0      2017-04-21 [1]
+#>  mnormt        1.5-5      2016-10-15 [1]
+#>  pbivnorm      0.6.0      2015-01-23 [1]
+#>  pdftools      2.1        2019-01-16 [1]
+#>  pillar        1.3.1      2018-12-15 [1]
+#>  pkgbuild      1.0.2      2018-10-16 [1]
+#>  pkgconfig     2.0.2      2018-08-16 [1]
+#>  pkgload       1.0.2      2018-10-29 [1]
+#>  plyr          1.8.4      2016-06-08 [1]
+#>  prettyunits   1.0.2      2015-07-13 [1]
+#>  processx      3.2.1      2018-12-05 [1]
+#>  ps            1.3.0      2018-12-21 [1]
+#>  purrr         0.3.0      2019-01-27 [1]
+#>  R6            2.4.0      2019-02-14 [1]
+#>  Rcpp          1.0.0      2018-11-07 [1]
+#>  remotes       2.0.2      2018-10-30 [1]
+#>  reshape2    * 1.4.3      2017-12-11 [1]
+#>  rlang         0.3.1      2019-01-08 [1]
+#>  rprojroot     1.3-2      2018-01-03 [1]
+#>  rstudioapi    0.9.0      2019-01-09 [1]
+#>  sessioninfo   1.1.1      2018-11-05 [1]
+#>  stringi       1.3.1      2019-02-13 [1]
+#>  stringr     * 1.4.0      2019-02-10 [1]
+#>  tibble        2.0.1      2019-01-12 [1]
+#>  tidyr       * 0.8.2      2018-10-28 [1]
+#>  tidyselect    0.2.5      2018-10-11 [1]
+#>  usethis       1.4.0      2018-08-14 [1]
+#>  withr         2.1.2      2018-03-15 [1]
+#>  xfun          0.5        2019-02-20 [1]
+#>  yaml          2.2.0      2018-07-25 [1]
+#>  source                               
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  Github (clanfear/birthtiming@3373ba5)
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#>  CRAN (R 3.5.2)                       
+#> 
+#> [1] C:/Users/cclan/OneDrive/Applications/R/R-3.5.2/library
 ```

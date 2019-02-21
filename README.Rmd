@@ -49,8 +49,9 @@ To generate the article from the `birthtiming` library, you may either:
 
 1. Open and knit the `.Rmd` file found at `birthtiming/paper/paper.Rmd/` in your R libraries.
 2. Clone this github repository and load the `.Rproj` file in RStudio, then knit the paper fron in `inst/paper/paper.Rmd`
+3. Run `birthtiming::build_birthtiming()` to knit the paper then open the paper directory with `birthtiming::open_paper_dir()` and open the file.
 
-In both cases, that directory will already contain a compiled version of the article current to the last commit to this repository.
+In all cases, that directory will already contain a compiled version of the article current to the last commit to this repository.
 
 ### Licenses
 
